@@ -1,7 +1,7 @@
 import sys
 from PIL import Image, ImageDraw, ImageFont
 D=sys.argv[1]
-NAVY=(8,29,42); CYAN=(119,214,232); WHITE=(255,255,255); MUTED=(169,189,197)
+NAVY=(91,63,160); CYAN=(255,182,72); WHITE=(255,255,255); MUTED=(255,236,220)
 def icon(sz):
     s=4; S=sz*s
     im=Image.new('RGBA',(S,S),(0,0,0,0)); d=ImageDraw.Draw(im)
@@ -19,17 +19,17 @@ open(f'{D}/favicon.svg','w').write("<svg xmlns='http://www.w3.org/2000/svg' view
 W,H=1200,630
 im=Image.new('RGB',(W,H),NAVY); d=ImageDraw.Draw(im)
 for i in range(H):  # subtle gradient
-    t=i/H; d.line([(0,i),(W,i)],fill=(int(8+10*t),int(29+48*t),int(42+55*t)))
-d.ellipse([760,-120,1360,480],outline=(114,213,227),width=2)
-d.ellipse([840,-40,1280,400],outline=(70,150,170),width=1)
+    t=i/H; s=[(43,31,107),(91,63,160),(168,65,143),(214,64,124),(240,138,93)]; k=min(int(t*4),3); f=t*4-k; a,b=s[k],s[k+1]; d.line([(0,i),(W,i)],fill=tuple(int(a[j]+(b[j]-a[j])*f) for j in range(3)))
+d.ellipse([1010,400,1290,680],fill=(255,214,140))
+
 ser=lambda s:ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf',s)
 san=lambda s:ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',s)
 reg=lambda s:ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',s)
 im.paste(icon(96),(80,80),icon(96))
-d.text((80,215),'FREE MEDICAL EDUCATION',font=san(24),fill=CYAN)
-d.text((80,258),'Every medical question',font=ser(64),fill=WHITE)
-d.text((80,336),'deserves a clear answer.',font=ser(64),fill=WHITE)
+d.text((80,215),'DOWNEY / CULVER CITY / TELEMEDICINE',font=san(24),fill=CYAN)
+d.text((80,258),'Your cancer and blood',font=ser(64),fill=WHITE)
+d.text((80,336),'doctor in Los Angeles.',font=ser(64),fill=WHITE)
 d.text((80,470),'Alex Ehsan, MD, PhD',font=san(36),fill=WHITE)
-d.text((80,520),'Cancer · Blood disorders · Genetics · Athletes · English & Español',font=reg(24),fill=MUTED)
+d.text((80,520),'Oncology, hematology & palliative care. English & Español',font=reg(24),fill=MUTED)
 im.save(f'{D}/share-card.png',optimize=True)
 print('ok')

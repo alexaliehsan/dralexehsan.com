@@ -65,6 +65,25 @@
     });
   });
 
+  /* Latest social posts (social-posts.json is refreshed by the update job). */
+  var postsBox = document.getElementById('posts');
+  if (postsBox && 'IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (en) {
+      if (!en[0].isIntersecting) return; io.disconnect();
+      fetch('social-posts.json').then(function (r) { return r.json(); }).then(function (d) {
+        var list = (d.posts || d).filter(function (p) { return p.text && p.text.length > 60 && p.url; })
+          .sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); }).slice(0, 4);
+        if (!list.length) return;
+        var fmt = function (s) { s = String(s); var dt = new Date(s.slice(0, 4) + '-' + s.slice(4, 6) + '-' + s.slice(6, 8) + 'T12:00:00');
+          return isNaN(dt) ? '' : dt.toLocaleDateString(es ? 'es-US' : 'en-US', { month: 'short', day: 'numeric', year: 'numeric' }); };
+        postsBox.innerHTML = list.map(function (p) {
+          return '<a class="post" href="' + esc(p.url) + '" target="_blank" rel="noopener"><span class="src"><b>' + esc(p.platform) + '</b><span>' + fmt(p.date) + '</span></span><p>' + esc(p.text) + '</p></a>';
+        }).join('') + '<p><a href="social-updates.html">' + esc(postsBox.dataset.all) + '</a></p>';
+      }).catch(function () {});
+    }, { rootMargin: '400px' });
+    io.observe(postsBox);
+  }
+
   /* Old links to sections that moved (e.g. /#mental-health) go to the full resource page. */
   function legacy() {
     var id = decodeURIComponent(location.hash.slice(1));
