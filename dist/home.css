@@ -182,7 +182,7 @@ p{margin:0 0 1em}
 /* about */
 .about{background:#fff;border-top:1px solid var(--line)}
 .about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
-.portrait{aspect-ratio:4/5;border-radius:28px;overflow:hidden;background:linear-gradient(160deg,var(--jac),var(--bou) 65%,var(--gold));display:grid;place-items:end start;padding:28px;color:#fff;position:relative}
+.portrait{aspect-ratio:1/1;border-radius:28px;overflow:hidden;background:linear-gradient(160deg,var(--jac),var(--bou) 65%,var(--gold));display:grid;place-items:end start;padding:28px;color:#fff;position:relative}
 .portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .portrait .mono{font:800 clamp(4rem,10vw,7rem)/.85 var(--display);letter-spacing:-.05em;opacity:.9}
 .portrait .cap{font-size:1rem;margin-top:10px;opacity:.95}
@@ -207,3 +207,13 @@ p{margin:0 0 1em}
 @media (max-width:760px){.foot .cols{grid-template-columns:1fr}}
 
 @media (max-width:520px){.top .wrap{gap:8px}.brand .mark{width:38px;height:38px}.brand b{font-size:1rem}.lang-m{padding:0 10px}.days li{font-size:.68rem;padding:7px 2px}.days li b{font-size:.9rem}.rhythm{padding:20px 16px}.week{padding:14px 12px}}
+
+.portrait .cap-box{position:relative;z-index:1}
+.portrait.has-photo::after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#17153acc)}
+.portrait .cap-name{font:800 1.5rem/1.1 var(--display)}
+.portrait:not(.has-photo) .cap-name{font-size:clamp(2rem,5vw,3rem)}
+.rh-top{display:flex;gap:14px;align-items:center;margin-bottom:16px}
+.rh-top img{width:64px;height:64px;border-radius:50%;object-fit:cover;border:3px solid var(--gold-l);flex:none}
+.rh-top p{margin:0;color:var(--muted);font-size:1rem}
+.rh-top h2{margin-bottom:2px}
+@media (max-width:860px){.portrait{aspect-ratio:1/1;max-width:420px}}

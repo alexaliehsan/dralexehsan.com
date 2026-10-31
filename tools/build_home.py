@@ -114,14 +114,14 @@ S = {
     about_h='About Dr. Ehsan',
     about=['Dr. Alex Ehsan is a medical oncologist, hematologist and internist who cares for adults with cancer and blood disorders across Los Angeles, and supports patients and families through palliative and hospice care.',
            'He started this free website because patients kept asking the same good questions — and deserved clear, written answers they could take home and share.'],
-    creds=['Board certified, Medical Oncology', 'Board certified, Internal Medicine', 'MD, PhD', 'Member, American College of Physicians'],
+    creds=['Board certified, Medical Oncology', 'Board certified, Internal Medicine', 'Top Doctor in Texas', 'Patient’s Choice Award', 'Speaks English, Spanish and Farsi'],
     path_h='Training and practice',
-    path=[('Medical degree', 'Class of 2000'),
+    path=[('Medical degree', 'Universidad Central del Este, 2000'),
           ('Internal medicine residency', 'Scott & White / Texas A&M College of Medicine, Temple, Texas'),
           ('Hematology & medical oncology fellowship', 'Scott & White / Texas A&M College of Medicine, Temple, Texas, completed 2008'),
-          ('Oncology practice in North Texas', 'Community cancer care'),
+          ('North Texas', 'Medical oncologist; Chief of Medicine at Texoma Medical Center; Adjunct Clinical Assistant Professor, UNT Health Science Center at Fort Worth'),
           ('Los Angeles', 'Starling Oncology, Downey and Culver City')],
-    hosp='Hospital affiliations: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center and Henry Mayo Newhall Hospital.',
+    hosp='Member, American College of Physicians. Hospital affiliations: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center and Henry Mayo Newhall Hospital.',
     foot_about='Free medical education in English and Spanish. No advertising.',
     foot_h1='Patients', foot_l1=[('#where', 'Clinics and telemedicine'), ('cancer-visit-guide.html', 'Prepare for your visit'), ('patient-guides.html', 'Patient guide library'), ('all-resources.html#library', 'Search all health topics'), ('es.html', 'En español')],
     foot_h2='More', foot_l2=[('genetics.html', 'Genes and genetic testing'), ('health-guides.html', 'Health explainers'), ('athlete-injury-center.html', 'Athletes and injury prevention'), ('social-updates.html', 'All social media posts'), ('all-resources.html', 'Everything on this site'), ('all-resources.html#editorial', 'Sources and review')],
@@ -175,14 +175,14 @@ S = {
     about_h='Sobre el Dr. Ehsan',
     about=['El Dr. Alex Ehsan es oncólogo médico, hematólogo e internista. Atiende a adultos con cáncer y enfermedades de la sangre en Los Ángeles y acompaña a pacientes y familias con cuidados paliativos y de hospicio.',
            'Creó este sitio gratuito porque sus pacientes hacían las mismas buenas preguntas, y merecían respuestas claras por escrito para llevar a casa y compartir.'],
-    creds=['Certificado en Oncología Médica', 'Certificado en Medicina Interna', 'MD, PhD', 'Miembro del American College of Physicians'],
+    creds=['Certificado en Oncología Médica', 'Certificado en Medicina Interna', 'Top Doctor en Texas', 'Premio Patient’s Choice', 'Habla español, inglés y farsi'],
     path_h='Formación y práctica',
-    path=[('Título de médico', 'Promoción 2000'),
+    path=[('Título de médico', 'Universidad Central del Este, 2000'),
           ('Residencia en medicina interna', 'Scott & White / Texas A&M College of Medicine, Temple, Texas'),
           ('Especialidad en hematología y oncología médica', 'Scott & White / Texas A&M College of Medicine, Temple, Texas, terminada en 2008'),
-          ('Práctica de oncología en el norte de Texas', 'Atención oncológica comunitaria'),
+          ('Norte de Texas', 'Oncólogo médico; Jefe de Medicina en Texoma Medical Center; profesor clínico asistente adjunto, UNT Health Science Center en Fort Worth'),
           ('Los Ángeles', 'Starling Oncology, Downey y Culver City')],
-    hosp='Afiliaciones hospitalarias: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center y Henry Mayo Newhall Hospital.',
+    hosp='Miembro del American College of Physicians. Afiliaciones hospitalarias: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center y Henry Mayo Newhall Hospital.',
     foot_about='Educación médica gratuita en español e inglés. Sin publicidad.',
     foot_h1='Pacientes', foot_l1=[('#where', 'Clínicas y telemedicina'), ('cancer-visit-guide-es.html', 'Prepare su consulta'), ('visit-guides-es.html', 'Guías en español'), ('patient-guides.html', 'Biblioteca de guías'), ('index.html', 'In English')],
     foot_h2='Más', foot_l2=[('cdh1-guide-es.html', 'Genética: CDH1'), ('football-learning-guide-es.html', 'Fútbol americano y lesiones'), ('social-updates.html', 'Publicaciones en redes'), ('all-resources.html', 'Todo el sitio (inglés)')],
@@ -234,9 +234,9 @@ def build(L):
         {'@type': 'WebSite', '@id': SITE + '/#website', 'url': SITE + '/', 'name': 'Dr. Alex Ehsan, MD, PhD', 'inLanguage': ['en', 'es'],
          'publisher': {'@id': SITE + '/#alex-ehsan'},
          'potentialAction': {'@type': 'SearchAction', 'target': SITE + '/all-resources.html?q={search_term_string}#library', 'query-input': 'required name=search_term_string'}},
-        {'@type': 'Physician', '@id': SITE + '/#alex-ehsan', 'name': 'Dr. Alex Ehsan, MD, PhD', 'url': SITE + '/', 'image': SITE + '/share-card.png',
+        {'@type': 'Physician', '@id': SITE + '/#alex-ehsan', 'name': 'Dr. Alex Ehsan, MD, PhD', 'url': SITE + '/', 'image': SITE + '/dr-ehsan.jpg', 'knowsLanguage': ['en', 'es', 'fa'],
          'description': 'Medical oncologist, hematologist and internist in Los Angeles (Downey and Culver City), with telemedicine from Texas.',
-         'medicalSpecialty': ['Oncologic', 'Hematologic', 'PalliativeCare'], 'knowsLanguage': ['en', 'es'], 'sameAs': [u for _, u in SOCIAL],
+         'medicalSpecialty': ['Oncologic', 'Hematologic', 'PalliativeCare'], 'sameAs': [u for _, u in SOCIAL],
          'areaServed': {'@type': 'City', 'name': 'Los Angeles'},
          'location': [{'@type': 'MedicalClinic', 'name': 'Starling Oncology — Downey', 'telephone': '+1-562-869-1201',
                        'address': {'@type': 'PostalAddress', 'streetAddress': '11525 Brookshire Avenue, Suite 202', 'addressLocality': 'Downey', 'addressRegion': 'CA', 'postalCode': '90241', 'addressCountry': 'US'}},
@@ -245,7 +245,7 @@ def build(L):
         {'@type': 'MedicalWebPage', '@id': url + '#webpage', 'url': url, 'name': s['title'], 'description': s['desc'], 'inLanguage': L,
          'isPartOf': {'@id': SITE + '/#website'}, 'about': {'@id': SITE + '/#alex-ehsan'}}]}
     ld = json.dumps(ld, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
-    photo = '<img src="dr-ehsan.jpg" alt="Dr. Alex Ehsan">' if __import__('os').path.exists(f'{D}/dr-ehsan.jpg') else ''
+    photo = '<img src="dr-ehsan.jpg" alt="Dr. Alex Ehsan" width="360" height="360">' if __import__('os').path.exists(f'{D}/dr-ehsan.jpg') else ''
 
     return f'''<!doctype html>
 <html lang="{L}">
@@ -294,7 +294,7 @@ def build(L):
 <div class="chips">{chips}</div>
 </div>
 <aside class="rhythm" aria-labelledby="rh-h">
-<h2 id="rh-h">{s['rh_h']}</h2><p>{s['rh_p']}</p>
+<div class="rh-top"><img src="dr-ehsan.jpg" alt="" width="64" height="64"><div><h2 id="rh-h">{s['rh_h']}</h2><p>{s['rh_p']}</p></div></div>
 <div class="week la"><h3>{svg(I['palm'])}{s['w1']}</h3><ul class="days">{days}</ul>
 <p class="key"><span><i class="d-downey"></i>{s['downey']}</span><span><i class="d-culver"></i>{s['culver']}</span></p></div>
 <div class="week tx"><h3>{svg(I['video'])}{s['w2']}</h3><ul class="days"><li class="d-tele" style="grid-column:1/-1;text-align:left;padding:12px 14px">{s['tele']}</li></ul></div>
@@ -331,7 +331,7 @@ def build(L):
 </div></section>
 
 <section class="sec about" id="about" aria-labelledby="about-h"><div class="wrap about-grid">
-<div class="portrait">{photo}<div style="position:relative"><div class="mono">AE</div><div class="cap">{s['portrait_cap']}</div></div></div>
+<div class="portrait{' has-photo' if photo else ''}">{photo}<div class="cap-box"><div class="cap-name">Dr. Alex Ehsan, MD, PhD</div><div class="cap">{s['portrait_cap']}</div></div></div>
 <div><h2 id="about-h">{s['about_h']}</h2>{''.join(f'<p>{p}</p>' for p in s['about'])}
 <div class="creds">{creds}</div>
 <h3>{s['path_h']}</h3><ol class="path">{path}</ol>
