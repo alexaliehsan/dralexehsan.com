@@ -192,7 +192,7 @@ S = {
 ),
 }
 SOCIAL = [('YouTube', 'https://www.youtube.com/channel/UCebRk_dXqIBByJnKBIfRLXA'), ('Facebook', 'https://www.facebook.com/p/Dr-Alex-Ehsan-MD-PhD-61592314964617/'),
-          ('Instagram', 'https://www.instagram.com/dralexehsan/'), ('TikTok', 'https://www.tiktok.com/@bib55939'),
+          ('Instagram', 'https://www.instagram.com/dralexehsan/'), ('TikTok', 'https://www.tiktok.com/@dralexehsan'),
           ('LinkedIn', 'https://www.linkedin.com/in/alex-ehsan-35426699'), ('X', 'https://x.com/DrAlexEhsan')]
 
 
