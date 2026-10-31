@@ -1,0 +1,1601 @@
+[
+  {
+    "topic": "sports concussion",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "repeat concussion",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-repeat-concussion",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "post-concussion headache",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-post-concussion-headache",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "post-concussion dizziness",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-post-concussion-dizziness",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "concussion and sleep",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-concussion-and-sleep",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "concussion and school",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-concussion-and-school",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "concussion and driving",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-concussion-and-driving",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "facial injury",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-facial-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "jaw injury",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-jaw-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "eye injury in sports",
+    "category": "Concussion and head safety",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-eye-injury-in-sports",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "neck strain",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-neck-strain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "cervical disc injury",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-cervical-disc-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "stinger or burner",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-stinger-or-burner",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "brachial plexus injury",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-brachial-plexus-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "pinched nerve in the neck",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-pinched-nerve-in-the-neck",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "cervical spinal stenosis",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-cervical-spinal-stenosis",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "whiplash in athletes",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-whiplash-in-athletes",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "neck pain after contact",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-neck-pain-after-contact",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "arm weakness after a hit",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-arm-weakness-after-a-hit",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "safe neck strengthening",
+    "category": "Neck and nerve injuries",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-safe-neck-strengthening",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "shoulder dislocation",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-shoulder-dislocation",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "shoulder subluxation",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-shoulder-subluxation",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "labral tear",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-labral-tear",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "rotator cuff strain",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-rotator-cuff-strain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "AC joint sprain",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-ac-joint-sprain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "clavicle fracture",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-clavicle-fracture",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "shoulder impingement",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-shoulder-impingement",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "biceps tendon injury",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-biceps-tendon-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "scapular dyskinesis",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-scapular-dyskinesis",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "multidirectional shoulder instability",
+    "category": "Shoulder",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-multidirectional-shoulder-instability",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "UCL injury",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-ucl-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "tennis elbow",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-tennis-elbow",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "golfer elbow",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-golfer-elbow",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "triceps tendon injury",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-triceps-tendon-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "distal biceps injury",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-distal-biceps-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "elbow dislocation",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-elbow-dislocation",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "olecranon bursitis",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-olecranon-bursitis",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "throwing elbow pain",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-throwing-elbow-pain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "ulnar nerve irritation",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-ulnar-nerve-irritation",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "elbow stiffness after injury",
+    "category": "Elbow",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-elbow-stiffness-after-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "wrist sprain",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-wrist-sprain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "scaphoid fracture",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-scaphoid-fracture",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "TFCC injury",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-tfcc-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "boxer fracture",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-boxer-fracture",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "finger dislocation",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-finger-dislocation",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "thumb UCL injury",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-thumb-ucl-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "mallet finger",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-mallet-finger",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "jammed finger",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-jammed-finger",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "tendon injury in the hand",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-tendon-injury-in-the-hand",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "grip weakness after injury",
+    "category": "Wrist and hand",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-grip-weakness-after-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "lumbar strain",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-lumbar-strain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "lumbar disc herniation",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-lumbar-disc-herniation",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "spondylolysis",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-spondylolysis",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "spondylolisthesis",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-spondylolisthesis",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "thoracic back pain",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-thoracic-back-pain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "sacroiliac joint pain",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-sacroiliac-joint-pain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "core muscle injury",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-core-muscle-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "radicular leg pain",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-radicular-leg-pain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "back pain during lifting",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-back-pain-during-lifting",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "return after a spine injury",
+    "category": "Spine and core",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-return-after-a-spine-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "hip flexor strain",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-hip-flexor-strain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "adductor strain",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-adductor-strain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "athletic pubalgia",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-athletic-pubalgia",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "hip labral tear",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-hip-labral-tear",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "femoroacetabular impingement",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-femoroacetabular-impingement",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "snapping hip",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-snapping-hip",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "greater trochanteric pain",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-greater-trochanteric-pain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "hamstring origin injury",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-hamstring-origin-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "pelvic stress fracture",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-pelvic-stress-fracture",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "hip pain during squats",
+    "category": "Hip and groin",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-hip-pain-during-squats",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "ACL injury",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "acl-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "PCL injury",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "pcl-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "MCL injury",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "mcl-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "LCL injury",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "lcl-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "meniscus tear",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "meniscus-tear",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "patellar dislocation",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "patellar-dislocation",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "patellar tendinopathy",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "patellar-tendinopathy",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "quadriceps tendon injury",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "quadriceps-tendon",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "IT band pain",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "it-band-pain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "knee cartilage injury",
+    "category": "Knee",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "knee-cartilage",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "hamstring strain",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-hamstring-strain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "quadriceps strain",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-quadriceps-strain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "calf strain",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-calf-strain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "shin splints",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-shin-splints",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "tibial stress fracture",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-tibial-stress-fracture",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "fibular stress fracture",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-fibular-stress-fracture",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "Achilles tendinopathy",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-achilles-tendinopathy",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "chronic exertional compartment syndrome",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-chronic-exertional-compartment-syndrome",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "muscle contusion",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-muscle-contusion",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "lower-leg swelling after sport",
+    "category": "Lower leg",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-lower-leg-swelling-after-sport",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "ankle sprain",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-ankle-sprain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "high ankle sprain",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-high-ankle-sprain",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "Achilles rupture",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-achilles-rupture",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "plantar fasciitis",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-plantar-fasciitis",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "turf toe",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-turf-toe",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "Lisfranc injury",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-lisfranc-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "Jones fracture",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-jones-fracture",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "navicular stress fracture",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-navicular-stress-fracture",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "peroneal tendon injury",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-peroneal-tendon-injury",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "ankle instability",
+    "category": "Ankle and foot",
+    "entries": 5,
+    "individual_illustrated_poster": "available",
+    "clinical_review": "Collection review signed off by Alex Ehsan, MD, PhD",
+    "poster_id": "injury-ankle-instability",
+    "review_date": "2026-09-28"
+  },
+  {
+    "topic": "helmet fit",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "shoulder-pad fit",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "heat illness in football",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "hydration for two-a-days",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "contact-practice recovery",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "offensive lineman shoulder health",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "offensive lineman knee health",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "football neck safety",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "football hand injuries",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "return after a football injury",
+    "category": "Football health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "squat technique and injury risk",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "bench press shoulder safety",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "deadlift back safety",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "lifting belt use",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "wrist wraps and wrist health",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "knee sleeves and knee health",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "bracing and breathing",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "training around joint pain",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "powerlifting meet recovery",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "return to heavy lifting",
+    "category": "Powerlifting health",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "runner knee",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "Achilles pain in runners",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "hamstring health for sprinters",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "ankle health in cutting sports",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "change-of-direction mechanics",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "deceleration training",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "jump-landing mechanics",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "running gait evaluation",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "return-to-running progression",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "cleat and surface considerations",
+    "category": "Running and field sports",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "early rehabilitation after injury",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "range-of-motion recovery",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "progressive loading",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "isometric exercise",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "eccentric exercise",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "neuromuscular training",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "balance and proprioception",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "sport-specific rehabilitation",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "home exercise adherence",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "rehabilitation plateau",
+    "category": "Rehabilitation",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "training-load management",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "acute-to-chronic workload",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "strength-program progression",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "speed-training progression",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "plyometric progression",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "mobility versus stability",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "warm-up design",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "cool-down and recovery",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "deload weeks",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "off-season conditioning",
+    "category": "Training and performance",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "sleep for athletic recovery",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "protein for young athletes",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "carbohydrates for training",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "hydration and electrolytes",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "iron deficiency in athletes",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "vitamin D and bone health",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "relative energy deficiency in sport",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "muscle soreness recovery",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "travel and competition recovery",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "supplement safety",
+    "category": "Recovery and fueling",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "sports injury history",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "sports physical examination",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "X-ray for sports injuries",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "MRI for sports injuries",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "ultrasound for tendon injuries",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "CT for complex fractures",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "electrodiagnostic testing",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "gait and movement analysis",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "strength testing after injury",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "functional return-to-sport testing",
+    "category": "Evaluation and imaging",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "physical therapy planning",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "athletic training support",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "sports bracing",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "taping for sports",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "anti-inflammatory medicine safety",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "injection treatment overview",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "orthobiologics evidence",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "fracture immobilization",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "sports surgery consultation",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "rehabilitation after surgery",
+    "category": "Treatments and procedures",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "female athlete knee injury prevention",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "menstrual health and performance",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "bone stress injury risk",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "adaptive sports injury prevention",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "college freshman training transition",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "mental health after injury",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "fear of reinjury",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "body image in athletes",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "sports specialization risk",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "balancing school and rehabilitation",
+    "category": "Athlete-specific considerations",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "preparticipation screening",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "injury-prevention program",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "return-to-play decision",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "return-to-learn decision",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "return-to-lifting decision",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "protective equipment review",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "red flags after sports injury",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "when pain should stop training",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "preventing reinjury",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  },
+  {
+    "topic": "building long-term athletic health",
+    "category": "Prevention and return to sport",
+    "entries": 5,
+    "individual_illustrated_poster": "pending",
+    "clinical_review": "pending"
+  }
+]

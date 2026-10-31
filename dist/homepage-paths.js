@@ -1,0 +1,3 @@
+function revealHash(){if(!location.hash)return;let target;try{target=document.getElementById(decodeURIComponent(location.hash.slice(1)))}catch{return}if(!target)return;for(let e=target;e;e=e.parentElement){if(e.tagName==='DETAILS')e.open=true}if(target.matches('section'))target.querySelector(':scope > .shell > details')?.setAttribute('open','');}window.addEventListener('hashchange',revealHash);revealHash();document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>setTimeout(revealHash,0)));
+// Close the phone menu after choosing a destination; preserve native details behavior.
+document.querySelectorAll('.mobile-menu a').forEach(link=>link.addEventListener('click',()=>{link.closest('details').open=false}));

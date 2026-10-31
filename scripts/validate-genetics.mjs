@@ -1,0 +1,33 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const read=p=>fs.readFileSync(p,'utf8');
+const data=JSON.parse(read('dist/genetics-data.json'));
+const panel={hidden:true,innerHTML:''};
+const context={window:{},document:{getElementById:id=>id==='genetics-matches'?panel:null}};
+vm.createContext(context);
+vm.runInContext(read('dist/genetics-index.js'),context);
+vm.runInContext(read('dist/genetics-search.js'),context);
+const find=context.window.findGeneTopics;
+assert.equal(data.length,1510);assert.equal(new Set(data.map(x=>x.symbol)).size,1510);
+assert.equal(find('')[0].symbol,'CDH1');assert.equal(find('','ranked').length,40);
+for(const sym of ['CDH1','BRCA1','BRCA2','PALB2','CHEK2','CFTR','HBB','EGFR','KRAS','BRAF','MTHFR'])assert.equal(find(sym)[0]?.symbol,sym,sym);
+assert.equal(find('HER2')[0]?.symbol,'ERBB2');
+assert(find('Lynch syndrome').some(x=>x.symbol==='MLH1'));
+assert.equal(find('zzzz-no-such-gene-987').length,0);
+context.window.renderGeneMatches('CDH1');assert.equal(panel.hidden,false);assert(panel.innerHTML.includes('genetics.html?gene=CDH1'));
+context.window.renderGeneMatches('');assert.equal(panel.hidden,true);
+for(const gene of data){assert(gene.summary&&gene.url.startsWith('https://'));assert(!gene.clinical_source?.includes('pancreatic-genetics-pdq'));}
+const page=read('dist/genetics.html'),home=read('dist/index.html')+read('dist/medical-library.js');
+for(const file of ['genetics.css','genetics.js','genetics-index.js','genetics-search.js','genetics-data.json'])assert(fs.existsSync('dist/'+file));
+assert(page.includes('name="term"'));assert(page.includes('variant of uncertain significance'));assert(page.includes('not a complete catalog'));
+assert(home.includes('window.renderGeneMatches?.(q)'));assert(home.includes('id="genetics"'));
+assert(home.indexOf('genetics-search.js')<home.indexOf('function render(){'));
+// Exercise real page renderer using lightweight DOM stubs, including direct gene URLs.
+const els={};for(const id of ['gene-search','gene-view','gene-sort','gene-results','gene-count','gene-more','gene-search-form','gene-clear'])els[id]={value:id==='gene-view'?'all':id==='gene-sort'?'rank':'',hidden:false,innerHTML:'',textContent:'',addEventListener(){},focus(){},scrollIntoView(){}};
+context.document={getElementById:id=>els[id]};context.location={search:'?gene=CDH1',hash:'#gene-cdh1',pathname:'/genetics.html'};context.history={replaceState(){}};context.URLSearchParams=URLSearchParams;context.fetch=async()=>({ok:true,json:async()=>data});
+await vm.runInContext(read('dist/genetics.js'),context);
+assert(els['gene-results'].innerHTML.includes('id="gene-cdh1" open'));
+assert(els['gene-results'].innerHTML.includes('tumor-only CDH1 finding'));
+assert(els['gene-count'].textContent.includes('matching genes'));
+console.log(JSON.stringify({genes:data.length,readingList:40,checks:['exact gene and alias searches','condition matching','empty and no-results states','homepage gene links','direct CDH1 view','variant lookup form','source metadata'],status:'valid'}));

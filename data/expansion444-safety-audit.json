@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-27",
+  "scope": "Bounded source/copy review of medical safety topics across 305 planned briefs (61 each A-E). Not clinical review or endorsement. No images edited or generated.",
+  "groups": {
+    "a": {
+      "briefs": 61
+    },
+    "b": {
+      "briefs": 61
+    },
+    "c": {
+      "briefs": 61
+    },
+    "d": {
+      "briefs": 61
+    },
+    "e": {
+      "briefs": 61
+    }
+  },
+  "findings": [
+    {
+      "ids": [
+        "exp-a-006",
+        "exp-d-010",
+        "exp-d-024",
+        "exp-d-035",
+        "exp-e-043",
+        "exp-e-060"
+      ],
+      "issue": "Concussion return wording omits explicit same-day exclusion.",
+      "requested": "State no same-day return after suspected concussion and healthcare clearance before return; cite CDC response.",
+      "evidence": "https://www.cdc.gov/heads-up/response/index.html"
+    },
+    {
+      "ids": [
+        "exp-a-022",
+        "exp-d-045"
+      ],
+      "issue": "Traumatic neck pain/weakness or suspected neck injury needs direct emergency response, not conditional serious-injury wording.",
+      "requested": "Keep still and call emergency services; add AAOS cervical fracture source.",
+      "evidence": "https://www.orthoinfo.org/diseases--conditions/cervical-fracture-broken-neck/"
+    },
+    {
+      "ids": [
+        "exp-a-021",
+        "exp-a-042",
+        "exp-a-059",
+        "exp-c-038",
+        "exp-e-044",
+        "exp-e-054"
+      ],
+      "issue": "Heat confusion/collapse footer activates emergency services but omits time-critical cooling.",
+      "requested": "Add start cooling alongside emergency call.",
+      "evidence": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html"
+    },
+    {
+      "ids": [
+        "exp-d-061"
+      ],
+      "issue": "Treatment-specific source needed for cold-water immersion.",
+      "requested": "Add NATA exertional heat illnesses position statement.",
+      "evidence": "https://www.nata.org/sites/default/files/2025-08/exertional_heat_illnesses.pdf"
+    },
+    {
+      "ids": [
+        "exp-a-001"
+      ],
+      "issue": "Add focused source supporting inability to bear weight.",
+      "requested": "Add AAOS Sprained Ankle.",
+      "evidence": "https://www.orthoinfo.org/diseases--conditions/sprained-ankle/"
+    },
+    {
+      "ids": [
+        "exp-a-035"
+      ],
+      "issue": "Soft-tissue source does not substantiate concussion removal.",
+      "requested": "Add CDC concussion response source.",
+      "evidence": "https://www.cdc.gov/heads-up/response/index.html"
+    },
+    {
+      "ids": [
+        "exp-e-061"
+      ],
+      "issue": "Original NIAID patient PDF returned 403 during audit; accessible primary panel report supports copy.",
+      "requested": "Add accessible NIAID-sponsored report.",
+      "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4249938/"
+    }
+  ],
+  "universal_review": [
+    {
+      "id": "exp-a-061",
+      "result": "Emergency action plan activation/AED location language has no material unsafe instruction."
+    },
+    {
+      "id": "exp-b-061",
+      "result": "Unresponsiveness plus abnormal breathing, emergency call, AED and CPR align with AHA.",
+      "evidence": "https://www.heart.org/en/health-topics/cardiac-arrest/emergency-treatment-of-cardiac-arrest"
+    },
+    {
+      "id": "exp-c-061",
+      "result": "Immediate emergency call, avoiding unnecessary movement and dispatcher instruction align with AAOS spine response.",
+      "evidence": "https://www.orthoinfo.org/diseases--conditions/cervical-fracture-broken-neck/"
+    },
+    {
+      "id": "exp-d-061",
+      "result": "Emergency call and rapid cooling by trained responders with airway protection are appropriate; treatment-specific source requested.",
+      "evidence": "https://www.nata.org/sites/default/files/2025-08/exertional_heat_illnesses.pdf"
+    },
+    {
+      "id": "exp-e-061",
+      "result": "Prompt prescribed epinephrine and immediate emergency activation supported; no dose instructions invented.",
+      "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4249938/"
+    }
+  ],
+  "other_checks": {
+    "infection": "C-001/002/003/028 align with CDC early care, wound covering, hygiene and shared-water restrictions.",
+    "evidence": "https://www.cdc.gov/mrsa/prevention/athletes.html",
+    "urgent_injury": "Inability to bear weight, deformity/numbness and worsening head symptoms routed to medical care; no advice to play through symptoms."
+  },
+  "notifications": "Findings sent to parent and relevant generation agents. E confirmed concussion updates; C confirmed cooling update. A/D updates require parent integration confirmation.",
+  "resolution": {
+    "status": "All flagged corrections reported resolved in final selected images and manifests; checked by production agents. Individual clinician review remains pending.",
+    "records": "data/expansion444-production/",
+    "date": "2026-09-27"
+  }
+}

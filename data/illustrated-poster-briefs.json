@@ -1,0 +1,331 @@
+[
+  {
+    "id": "neck",
+    "category": "Neck and nerve injuries",
+    "title": "PROTECT YOUR NECK",
+    "anatomy": "Side and rear anatomical view of cervical vertebrae, spinal cord and nerves traveling to the shoulder. No injury depicted, no labels.",
+    "copy": [
+      "BURNING. TINGLING. WEAKNESS. STOP.",
+      "Report symptoms after a hit.",
+      "Do not return until medically cleared.",
+      "Severe neck pain or weakness after impact? Keep still and call 911.",
+      "Speak up. Protect your next season."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/diseases--conditions/burners-and-stingers",
+    "additional_sources": [
+      "https://www.orthoinfo.org/diseases--conditions/cervical-fracture-broken-neck/"
+    ],
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "shoulder",
+    "category": "Shoulder",
+    "title": "RESPECT YOUR SHOULDER",
+    "anatomy": "Large anatomical shoulder with humeral head, scapula and rotator cuff tendons in normal alignment, lateral perspective, no labels.",
+    "copy": [
+      "PAIN. WEAKNESS. INSTABILITY.",
+      "Stop painful throwing or lifting.",
+      "Tell your athletic trainer. Get evaluated.",
+      "A shoulder that looks out of place needs urgent care. Do not force it back.",
+      "Strong seasons start with healthy shoulders."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://preview.orthoinfo.org/diseases--conditions/common-shoulder-injuries/",
+    "additional_sources": [
+      "https://www.orthoinfo.org/diseases--conditions/dislocated-shoulder/"
+    ],
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "elbow",
+    "category": "Elbow",
+    "title": "PROTECT YOUR THROWING ARM",
+    "anatomy": "Anatomical medial elbow with humerus ulna radius and normal ligament anatomy. No injury or labels.",
+    "copy": [
+      "ELBOW PAIN IS A SIGNAL.",
+      "Stop throwing through pain.",
+      "Report tingling, weakness or lost motion.",
+      "Follow pitch limits and scheduled rest.",
+      "Keep your arm in the game for the long run."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/elbow-injuries-in-the-throwing-athlete/",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "wrist",
+    "category": "Wrist and hand",
+    "title": "PROTECT YOUR GRIP",
+    "anatomy": "Large correct anatomical hand and wrist, five digits, normal bones tendons, no labels.",
+    "copy": [
+      "A FALL CAN CAUSE MORE THAN A SPRAIN.",
+      "Report pain, swelling or weak grip.",
+      "Persistent wrist pain needs evaluation.",
+      "Deformity, numbness or cold fingers? Seek urgent care.",
+      "Do not tape over an injury and hope."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/diseases--conditions/wrist-sprains",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "spine",
+    "category": "Spine and core",
+    "title": "TRAIN SMART. PROTECT YOUR BACK.",
+    "anatomy": "Lumbar spine and pelvis anatomical rear three quarter view, correct normal vertebrae and surrounding core muscles, no labels.",
+    "copy": [
+      "PAIN IS NOT A LIFTING GOAL.",
+      "Stop lifts that cause back pain.",
+      "Report pain traveling into a leg.",
+      "New bladder trouble, groin numbness or leg weakness? Get emergency care.",
+      "Your strongest lift is the one you can repeat safely."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/diseases--conditions/cauda-equina-syndrome",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "hip",
+    "category": "Hip and groin",
+    "title": "MOVE STRONG. PROTECT YOUR HIPS.",
+    "anatomy": "Anatomical pelvis and proximal femurs with hip flexor and adductor muscle groups, modest clinical crop without external genitalia, no labels.",
+    "copy": [
+      "GROIN PAIN DESERVES ATTENTION.",
+      "Stop movements that reproduce pain.",
+      "Report limping or persistent hip pain.",
+      "Severe pain or inability to walk after injury? Seek urgent care.",
+      "Build your comeback one controlled step at a time."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://preview.orthoinfo.org/diseases--conditions/hip-strains/",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "knee",
+    "category": "Knee",
+    "title": "PROTECT YOUR KNEES",
+    "anatomy": "Large medical anatomical knee joint with femur tibia fibula menisci and cruciate ligaments, no labels or tear claims.",
+    "copy": [
+      "A POP. SWELLING. GIVING WAY.",
+      "Stop play and tell your athletic trainer.",
+      "A locked or unstable knee needs evaluation.",
+      "Rebuild strength and control before returning.",
+      "Your comeback needs a plan, not a deadline."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/diseases--conditions/common-knee-injuries/",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "lower-leg",
+    "category": "Lower leg",
+    "title": "LISTEN TO YOUR LEGS",
+    "anatomy": "Anatomical lower legs showing tibia fibula calf muscles and Achilles tendons in normal proportion, no labels.",
+    "copy": [
+      "SHIN OR CALF PAIN IS NOT ALWAYS SORENESS.",
+      "Stop impact activity that causes pain.",
+      "Persistent or pinpoint bone pain needs evaluation.",
+      "Build training back gradually with guidance.",
+      "Protect the legs that carry your goals."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://preview.orthoinfo.org/diseases--conditions/shin-splints/",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "ankle",
+    "category": "Ankle and foot",
+    "title": "BUILD A STABLE BASE",
+    "anatomy": "Large normal ankle and foot anatomy with lateral ligaments and bones, five toes, no labels.",
+    "copy": [
+      "AN ANKLE INJURY NEEDS MORE THAN TAPE.",
+      "Stop play when pain changes your movement.",
+      "Cannot bear weight? Get evaluated for a fracture.",
+      "Rebuild balance and strength before cutting and jumping.",
+      "A strong return starts from the ground up."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/diseases--conditions/sprained-ankle",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "football",
+    "category": "Football health",
+    "title": "HEAT IS NOT A TOUGHNESS TEST",
+    "anatomy": "Fully clothed teen Black football athlete holding helmet, with subtle anatomical heart and circulation inset, not diagnostic or thermometer data. No doctor.",
+    "copy": [
+      "TAKE WATER, SHADE AND REST BREAKS.",
+      "Build up to hot conditions gradually.",
+      "Tell someone if you feel dizzy, weak or sick.",
+      "Confusion or collapse in the heat? Call 911 and begin rapid cooling.",
+      "Protect your teammate. Speak up early."
+    ],
+    "source": "American Academy of Pediatrics",
+    "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Exercise-Related-Heat-Illness.aspx",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "powerlifting",
+    "category": "Powerlifting health",
+    "title": "EARN THE NEXT REP",
+    "anatomy": "Fully clothed late teen female student athlete at supervised gym rack standing beside barbell, tasteful normal lumbar spine and shoulder anatomy inset. No maximal exertion, no doctor.",
+    "copy": [
+      "TECHNIQUE BEFORE LOAD.",
+      "Learn with qualified supervision.",
+      "Increase resistance gradually.",
+      "Stop when pain or fatigue breaks your technique.",
+      "Consistency beats one risky personal record."
+    ],
+    "source": "American Academy of Pediatrics",
+    "url": "https://www.healthychildren.org/English/healthy-living/sports/Pages/Strength-Training.aspx",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "running",
+    "category": "Running and field sports",
+    "title": "RUN FOR THE LONG GAME",
+    "anatomy": "Fully clothed Asian teenage track athlete in easy running stride, normal anatomical calf and foot inset, no doctor.",
+    "copy": [
+      "BUILD MILEAGE GRADUALLY.",
+      "Plan recovery between hard sessions.",
+      "Do not run through focal bone pain.",
+      "Persistent pain needs an injury assessment.",
+      "Healthy training keeps your next start line possible."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/diseases--conditions/stress-fractures-of-the-foot-and-ankle",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "rehab",
+    "category": "Rehabilitation",
+    "title": "REHAB IS PART OF TRAINING",
+    "anatomy": "Normal anatomical quadriceps and knee beside a fully clothed young Latino athlete performing gentle supervised rehabilitation balance stance, no doctor pictured.",
+    "copy": [
+      "FOLLOW YOUR INDIVIDUAL PLAN.",
+      "Restore movement, then strength and control.",
+      "Report new pain, swelling or setbacks.",
+      "Practice sport skills when your care team says you are ready.",
+      "Small steps build a real comeback."
+    ],
+    "source": "NIAMS",
+    "url": "https://www.niams.nih.gov/health-topics/sports-injuries/diagnosis-treatment-and-steps-to-take",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "training",
+    "category": "Training and performance",
+    "title": "TRAIN. RECOVER. REPEAT.",
+    "anatomy": "Fully clothed teen athletes warming up on a field, ordinary shirts and shorts. Optional small isolated forearm muscle inset. No full-body anatomical cutaway.",
+    "copy": [
+      "MORE IS NOT ALWAYS BETTER.",
+      "Warm up before intense work.",
+      "Increase training gradually and schedule rest.",
+      "Persistent pain or fatigue? Review your workload.",
+      "Recovery belongs in every training plan."
+    ],
+    "source": "American Academy of Pediatrics",
+    "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Preventing-Overuse-Injuries.aspx",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "fueling",
+    "category": "Recovery and fueling",
+    "title": "FUEL THE ATHLETE. PROTECT THE FUTURE.",
+    "anatomy": "Normal skeletal muscle fibers and bone structure educational inset with diverse fully clothed teen athletes eating ordinary balanced meal and water in small secondary scene. No doctor.",
+    "copy": [
+      "FOOD. FLUIDS. REST.",
+      "Eat enough for growth and training.",
+      "Plan hydration and recovery meals.",
+      "Discuss supplements with your healthcare team.",
+      "Build performance on habits, not shortcuts."
+    ],
+    "source": "American Academy of Pediatrics",
+    "url": "https://www.healthychildren.org/English/healthy-living/sports/Pages/Performance-Enhancing-Substances.aspx",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "evaluation",
+    "category": "Evaluation and imaging",
+    "title": "GET THE RIGHT ANSWER",
+    "anatomy": "Large normal anatomical knee with a small conceptual plain radiograph style bone view, no invented lesion, no diagnosis claim, no clinician.",
+    "copy": [
+      "THE EXAM GUIDES THE TEST.",
+      "Describe how the injury happened.",
+      "Report swelling, locking, weakness or numbness.",
+      "Ask how imaging could change your care.",
+      "A scan alone does not clear you to play."
+    ],
+    "source": "NIAMS",
+    "url": "https://www.niams.nih.gov/health-topics/sports-injuries/diagnosis-treatment-and-steps-to-take",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "treatment",
+    "category": "Treatments and procedures",
+    "title": "CHOOSE A PLAN. NOT A SHORTCUT.",
+    "anatomy": "Anatomical healing bone and normal joint with small brace nearby, no injection scene or doctor, no unproven regeneration imagery.",
+    "copy": [
+      "TREATMENT DEPENDS ON THE INJURY.",
+      "Ask about benefits, risks and alternatives.",
+      "Use medicines only as directed.",
+      "Braces and procedures do not replace rehabilitation.",
+      "Understand the plan before chasing the promise."
+    ],
+    "source": "NIAMS",
+    "url": "https://www.niams.nih.gov/health-topics/sports-injuries/diagnosis-treatment-and-steps-to-take",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "athlete-wellbeing",
+    "category": "Athlete-specific considerations",
+    "title": "YOU ARE MORE THAN YOUR SPORT",
+    "anatomy": "Normal anatomical brain dominant with fully clothed diverse teenage male and female student athletes sitting in supportive team setting, no doctor, no distressed stereotype.",
+    "copy": [
+      "YOUR HEALTH COMES FIRST.",
+      "Talk about stress, exhaustion or loss of enjoyment.",
+      "Make room for sleep, school and recovery.",
+      "Ask a trusted adult or care team for support.",
+      "Your worth is bigger than a roster spot."
+    ],
+    "source": "American Academy of Pediatrics",
+    "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Too-Much-Too-Soon-Overtraining.aspx",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "return-sport",
+    "category": "Prevention and return to sport",
+    "title": "READY IS MORE THAN PAIN FREE",
+    "anatomy": "Normal anatomical lower limb muscles and joints with fully clothed young Middle Eastern athlete preparing to run, no doctor.",
+    "copy": [
+      "RETURN WITH A PLAN.",
+      "Restore movement, strength and control.",
+      "Progress through sport tasks with your care team.",
+      "Report returning symptoms. Do not hide them.",
+      "Protect your next season, not just your next game."
+    ],
+    "source": "NIAMS and CDC HEADS UP",
+    "url": "https://www.niams.nih.gov/health-topics/sports-injuries/diagnosis-treatment-and-steps-to-take",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "review_date": "2026-09-28"
+  }
+]

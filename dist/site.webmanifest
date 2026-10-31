@@ -1,0 +1,20 @@
+{
+ "name": "Alex Ehsan, MD, PhD \u2014 Medical Education",
+ "short_name": "Dr. Ehsan",
+ "start_url": "/",
+ "display": "browser",
+ "background_color": "#f5f8f7",
+ "theme_color": "#081d2a",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

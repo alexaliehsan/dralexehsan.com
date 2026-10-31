@@ -1,0 +1,48 @@
+{
+  "count": 61,
+  "dimensions": "1024x1536",
+  "mode": "Built-in image_gen",
+  "review": "All 61 selected assets visually inspected for readable complete advice, material anatomy and safety issues. Educational illustrations, not precise diagnostic diagrams.",
+  "counts": {
+    "cheerleading": 15,
+    "lacrosse": 15,
+    "ice-hockey": 15,
+    "golf": 15,
+    "general-safety": 1
+  },
+  "corrections": [
+    {
+      "id": "exp-d-010",
+      "file": "assets/exp-d-010-v2.png",
+      "reason": "Explicit no same-day return and healthcare clearance added."
+    },
+    {
+      "id": "exp-d-023",
+      "file": "assets/exp-d-023-v2.png",
+      "reason": "Missing topic headline restored."
+    },
+    {
+      "id": "exp-d-035",
+      "file": "assets/exp-d-035-v2.png",
+      "reason": "Missing topic headline restored; explicit concussion restriction retained."
+    },
+    {
+      "id": "exp-d-043",
+      "file": "assets/exp-d-043-v2.png",
+      "reason": "Missing third practical point restored."
+    }
+  ],
+  "safety_updates": [
+    {
+      "id": "exp-d-045",
+      "note": "Primary NATA cervical-spine consensus source; explicit 911, trained responders, immediate-safety movement exception."
+    },
+    {
+      "id": "exp-d-061",
+      "note": "NATA exertional heat illness treatment source added; emergency activation and immediate cooling with airway protection."
+    }
+  ],
+  "selected_manifest": "manifest.json",
+  "contact_sheets": "contact-sheets/sheet-01.jpg through sheet-07.jpg",
+  "unresolved_material_issues": []
+}

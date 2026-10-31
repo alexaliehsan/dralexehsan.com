@@ -1,0 +1,411 @@
+[
+  {
+    "id": "sport-basketball",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "title": "PREPARE FOR EVERY PLAY",
+    "copy": [
+      "Warm up before every practice.",
+      "Wear supportive, non-slip shoes.",
+      "Check the court for hazards.",
+      "Report pain to your coach or athletic trainer.",
+      "Stay ready. Keep your game strong."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "image": "posters/sport-basketball.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-american-football",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "title": "GEAR UP. BUILD UP.",
+    "copy": [
+      "Check helmet and pad fit.",
+      "Warm up hips, knees and calves.",
+      "Build training gradually.",
+      "Report pain to your coach or athletic trainer.",
+      "Prepare well. Play with confidence."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "image": "posters/sport-american-football.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-track-and-field",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "title": "BUILD UP. STAY STRONG.",
+    "copy": [
+      "Increase training gradually.",
+      "Replace worn-out shoes.",
+      "Mix in lower-impact training.",
+      "Report pain to your coach or athletic trainer.",
+      "Consistency builds your next best."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures-of-the-foot-and-ankle/",
+    "image": "posters/sport-track-and-field.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-soccer",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "title": "READY YOUR LEGS",
+    "copy": [
+      "Warm up before kickoff.",
+      "Wear well-fitting shin guards.",
+      "Check the field for holes.",
+      "Report pain to your coach or athletic trainer.",
+      "Prepare together. Play stronger."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/soccer-injury-prevention/",
+    "image": "posters/sport-soccer.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-baseball",
+    "sport_slug": "baseball",
+    "category": "Baseball",
+    "title": "PROTECT YOUR THROWING ARM",
+    "copy": [
+      "Follow age-based pitch limits.",
+      "Take required rest days.",
+      "Stop pitching when fatigued.",
+      "Report pain to your coach or athletic trainer.",
+      "A healthy arm keeps you in the game."
+    ],
+    "source": "MLB / USA Baseball Pitch Smart",
+    "url": "https://www.mlb.com/pitch-smart/pitching-guidelines",
+    "image": "posters/sport-baseball.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "sport_slug": "volleyball",
+    "category": "Volleyball",
+    "title": "CALL IT. CONTROL IT.",
+    "copy": [
+      "Warm up before the first serve.",
+      "Wear supportive court shoes.",
+      "Call for the ball to avoid collisions.",
+      "Report pain to your coach or athletic trainer.",
+      "Stay ready for the next rally."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/staying-healthy/volleyball-injury-prevention",
+    "id": "sport-volleyball",
+    "image": "posters/sport-volleyball.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "sport_slug": "softball",
+    "category": "Softball",
+    "title": "PREPARE. PROTECT. PLAY.",
+    "copy": [
+      "Warm up before throwing.",
+      "Wear a helmet for batting and base running.",
+      "Practice sliding with your coach.",
+      "Report pain to your coach or athletic trainer.",
+      "Build a stronger season."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/staying-healthy/baseball-injury-prevention/",
+    "id": "sport-softball",
+    "image": "posters/sport-softball.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "sport_slug": "wrestling",
+    "category": "Wrestling",
+    "title": "PROTECT YOUR EDGE.",
+    "copy": [
+      "Wear fitted headgear and knee pads.",
+      "Practice technique under supervision.",
+      "Shower and wear clean practice gear.",
+      "Report pain to your coach or athletic trainer.",
+      "Respect your body. Own the mat."
+    ],
+    "source": "AOSSM",
+    "url": "https://www.sportsmed.org/wrestling-injuries",
+    "id": "sport-wrestling",
+    "image": "posters/sport-wrestling.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "sport_slug": "swimming-and-diving",
+    "category": "Swimming and diving",
+    "title": "TRAIN SMART. STAY SAFE.",
+    "copy": [
+      "Never swim alone.",
+      "Dive only with supervision at a verified safe depth.",
+      "Skip breath-holding challenges.",
+      "Report pain to your coach or athletic trainer.",
+      "Make every session count."
+    ],
+    "source": "CDC; USA Diving",
+    "url": "https://wwwnc.cdc.gov/travel/page/safe-swimming-diving",
+    "id": "sport-swimming-and-diving",
+    "image": "posters/sport-swimming-and-diving.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "additional_sources": [
+      "https://www.cdc.gov/drowning/prevention/index.html",
+      "https://teamusa-org-migration.s3.amazonaws.com/USA%20Diving/Migration/Documents/USDiving%20Safety%20Training%20Manual-REVISED.pdf"
+    ],
+    "review_date": "2026-09-28"
+  },
+  {
+    "sport_slug": "tennis",
+    "category": "Tennis",
+    "title": "PREPARE FOR EVERY POINT.",
+    "copy": [
+      "Warm up before the first rally.",
+      "Wear supportive tennis shoes.",
+      "Avoid excessive back arch on serves.",
+      "Report pain to your coach or athletic trainer.",
+      "Keep your game moving."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/staying-healthy/tennis-injury-prevention/",
+    "id": "sport-tennis",
+    "image": "posters/sport-tennis.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-cross-country",
+    "sport_slug": "cross-country",
+    "category": "Cross country",
+    "title": "BUILD YOUR MILES WISELY",
+    "copy": [
+      "Warm up before every run.",
+      "Build training gradually.",
+      "Wear well-fitting running shoes.",
+      "Report pain to your coach or athletic trainer.",
+      "Train smart. Go the distance."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/staying-healthy/tips-for-a-safe-running-program",
+    "image": "posters/sport-cross-country.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-gymnastics",
+    "sport_slug": "gymnastics",
+    "category": "Gymnastics",
+    "title": "BUILD SKILLS. PROTECT JOINTS.",
+    "copy": [
+      "Warm up wrists and shoulders.",
+      "Check mats and equipment.",
+      "Learn new skills with your coach.",
+      "Report pain to your coach or athletic trainer.",
+      "Strong basics. Confident progress."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/staying-healthy/gymnastics-injury-prevention/",
+    "image": "posters/sport-gymnastics.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-cheerleading",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "title": "MASTER THE BASICS FIRST",
+    "copy": [
+      "Follow skill progressions.",
+      "Use trained spotters and mats.",
+      "Stay within your skill level.",
+      "Report pain to your coach or athletic trainer.",
+      "Strong foundations. Strong team."
+    ],
+    "source": "USA Cheer",
+    "url": "https://usacheer.org/safety/national-cheer-safety-month",
+    "image": "posters/sport-cheerleading.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-lacrosse",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "title": "GEAR UP. PLAY SMART.",
+    "copy": [
+      "Use a dynamic warm-up.",
+      "Wear required protective gear.",
+      "Follow the rules of your game.",
+      "Report pain to your coach or athletic trainer.",
+      "Prepare well. Play with confidence."
+    ],
+    "source": "USA Lacrosse",
+    "url": "https://www.usalacrosse.com/game/center-sports-science",
+    "image": "posters/sport-lacrosse.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-ice-hockey",
+    "sport_slug": "ice-hockey",
+    "category": "Ice hockey",
+    "title": "PREPARE FOR EVERY SHIFT",
+    "copy": [
+      "Check protective gear fit.",
+      "Warm up before hard skating.",
+      "Respect the rules. Avoid reckless contact.",
+      "Report pain to your coach or athletic trainer.",
+      "Smart preparation. Strong shifts."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/staying-healthy/hockey-injury-prevention/",
+    "image": "posters/sport-ice-hockey.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-golf",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "title": "SWING SMART. PLAY LONG.",
+    "copy": [
+      "Warm up before your first swing.",
+      "Build core and forearm strength.",
+      "Practice a smooth, controlled swing.",
+      "Report pain to your coach or athletic trainer.",
+      "Make your next round your best."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/staying-healthy/golf-injury-prevention",
+    "image": "posters/sport-golf.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-powerlifting-and-weight-training",
+    "sport_slug": "powerlifting-and-weight-training",
+    "category": "Powerlifting & Weight Training",
+    "title": "OWN YOUR FORM.",
+    "copy": [
+      "Learn technique with a qualified coach.",
+      "Add load gradually, with control.",
+      "Use safeties and a spotter when needed.",
+      "Report pain to your coach or athletic trainer.",
+      "Strong habits. Stronger you."
+    ],
+    "source": "NSCA",
+    "url": "https://www.nsca.com/education/articles/why-youth-strength-and-conditioning-matters/",
+    "image": "posters/sport-powerlifting-and-weight-training.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-martial-arts-and-boxing",
+    "sport_slug": "martial-arts-and-boxing",
+    "category": "Martial Arts & Boxing",
+    "title": "PROTECT YOUR FUTURE.",
+    "copy": [
+      "Use safe technique and appropriate protective equipment.",
+      "Headgear does not make head impacts safe.",
+      "Suspect a concussion? Stop immediately. No same-day return.",
+      "Get healthcare-professional clearance before a graduated return."
+    ],
+    "source": "CDC HEADS UP",
+    "url": "https://www.cdc.gov/heads-up/prevention/index.html",
+    "image": "posters/sport-martial-arts-and-boxing.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-28",
+    "review_date": "2026-09-28",
+    "revision_date": "2026-09-28",
+    "additional_sources": [
+      "https://www.cdc.gov/heads-up/response/index.html"
+    ],
+    "visual_qa": "Visually inspected full output. Approved title and all four body statements rendered accurately, readable and unclipped; original sport/anatomy composition and branding retained. No generic physician imagery.",
+    "asset_sha256": "f609c8119878830fddf68f0128b83f645b5e874254fadaaf5498b6dbf606ddcb"
+  },
+  {
+    "id": "sport-cycling",
+    "sport_slug": "cycling",
+    "category": "Cycling",
+    "title": "GEAR UP. RIDE SMART.",
+    "copy": [
+      "Buckle a properly fitted helmet.",
+      "Check brakes, tires and bike fit.",
+      "Stay alert and follow road rules.",
+      "Report pain to your coach or athletic trainer.",
+      "Keep your next ride in sight."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://www.orthoinfo.org/staying-healthy/bicycle-safety",
+    "image": "posters/sport-cycling.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  },
+  {
+    "id": "sport-pickleball",
+    "sport_slug": "pickleball",
+    "category": "Pickleball",
+    "title": "WARM UP. RALLY ON.",
+    "copy": [
+      "Warm up with easy hitting drills.",
+      "Wear supportive court shoes.",
+      "Learn sound swing and footwork.",
+      "Report pain to your coach or athletic trainer.",
+      "Build habits that keep you playing."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/globalassets/pdfs/pickleball-injury-prevention-tips.pdf",
+    "image": "posters/sport-pickleball.webp",
+    "scope": "Sport-specific safety education. Not an individual treatment or return-to-play plan.",
+    "review": "Collection review and approved revisions signed off by Alex Ehsan, MD, PhD",
+    "source_checked": "2026-09-27",
+    "review_date": "2026-09-28"
+  }
+]

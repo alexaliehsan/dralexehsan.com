@@ -1,0 +1,13 @@
+{
+  "count": 61,
+  "image_dimensions": "1024x1536",
+  "all_visually_inspected": true,
+  "material_corrections": [
+    "019 double base color alignment",
+    "038 safe standing beside net",
+    "052 dry sideline while court wet",
+    "061 emergency activation scene instead of inaccurate CPR hand placement"
+  ],
+  "generation_mode": "built-in imagegen",
+  "contact_sheets": 7
+}

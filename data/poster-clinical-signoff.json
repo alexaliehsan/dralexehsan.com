@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-28",
+  "timezone": "America/Chicago",
+  "approved_by": "Alex Ehsan, MD, PhD",
+  "authorization": "User explicitly approved the review updates, supplied physician sign-off, and instructed publication.",
+  "scope": "444-poster collection review and 19 approved poster revisions. This does not extend to unrelated medical guides or personalized return-to-play clearance.",
+  "review_method": "All 444 text records reviewed and images visually screened on contact sheets; selected images inspected full size. AI-assisted content review followed by user sign-off. Not exhaustive structure-by-structure anatomical validation.",
+  "revision_count": 19,
+  "poster_ids": [
+    "exp-a-016",
+    "exp-e-030",
+    "exp-c-024",
+    "exp-c-044",
+    "exp-e-018",
+    "exp-a-035",
+    "injury-jones-fracture",
+    "exp-a-061",
+    "exp-a-056",
+    "exp-c-011",
+    "exp-e-027",
+    "exp-c-030",
+    "exp-d-051",
+    "injury-lumbar-disc-herniation",
+    "injury-radicular-leg-pain",
+    "injury-return-after-a-spine-injury",
+    "injury-muscle-contusion",
+    "exp-c-002",
+    "sport-martial-arts-and-boxing"
+  ],
+  "implementation_status": "Applied and image/text verification completed before publication",
+  "image_generation": "Built-in image_gen edits; approved text and preservation instructions in poster-approved-revisions.json."
+}

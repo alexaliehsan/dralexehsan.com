@@ -1,0 +1,1108 @@
+[
+  {
+    "id": "exp-d-001",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Jump landing mechanics",
+    "title": "LAND WITH CONTROL",
+    "copy": [
+      "Practice low jumps before complex skills",
+      "Land with hips and knees bending",
+      "Keep landing space clear",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "Black female cheerleader in modest practice uniform doing a low two-foot landing on gymnastics mat; knees aligned"
+  },
+  {
+    "id": "exp-d-002",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Wrist loading warning",
+    "title": "WRIST PAIN IS A SIGNAL",
+    "copy": [
+      "Stop tumbling when wrists hurt",
+      "Report swelling or lost motion",
+      "Resume loading with professional guidance",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "Asian male cheerleader sitting beside mat, indicating wrist; cyan wrist regional anatomy"
+  },
+  {
+    "id": "exp-d-003",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Fatigue and stunt safety",
+    "title": "RESET BEFORE THE NEXT STUNT",
+    "copy": [
+      "Tell your coach when fatigue builds",
+      "Pause before technique breaks down",
+      "Rehearse again only when ready",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Cheer",
+    "url": "https://usacheer.org/safety/national-cheer-safety-month",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "Latina cheerleader seated resting with grounded teammates; no elevated stunts"
+  },
+  {
+    "id": "exp-d-004",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Mat surface safety",
+    "title": "CHECK THE MAT FIRST",
+    "copy": [
+      "Inspect seams and damaged padding",
+      "Clear bags from practice space",
+      "Report unsafe surfaces before starting",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Cheer",
+    "url": "https://usacheer.org/safety/national-cheer-safety-month",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "two cheerleaders inspecting seam of flat fitted practice mat"
+  },
+  {
+    "id": "exp-d-005",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Spotter preparation",
+    "title": "SPOTTERS NEED A PLAN",
+    "copy": [
+      "Use trained, attentive spotters",
+      "Review roles before each skill",
+      "Practice under qualified supervision",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Cheer",
+    "url": "https://usacheer.org/safety/national-cheer-safety-month",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "grounded cheer team and adult coach briefing on mat, no lift"
+  },
+  {
+    "id": "exp-d-006",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Acute ankle injury",
+    "title": "ANKLE SWELLING? STEP OUT",
+    "copy": [
+      "Stop jumps after an ankle injury",
+      "Report swelling or trouble walking",
+      "Get assessed before more impact",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprained-ankle/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "female cheerleader seated with ankle highlighted, feet safely grounded"
+  },
+  {
+    "id": "exp-d-007",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Ankle rehabilitation",
+    "title": "REBUILD ANKLE CONFIDENCE",
+    "copy": [
+      "Follow your prescribed rehabilitation plan",
+      "Restore balance before harder skills",
+      "Report repeated giving way",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprained-ankle/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "male cheerleader supervised low balance drill near support; cyan ankle"
+  },
+  {
+    "id": "exp-d-008",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Back extension pain",
+    "title": "BACK PAIN NEEDS ATTENTION",
+    "copy": [
+      "Stop painful backbends and tumbling",
+      "Tell your athletic trainer promptly",
+      "Avoid forcing flexibility through pain",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "cheerleader upright indicating low back beside mat, no backbend"
+  },
+  {
+    "id": "exp-d-009",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Base shoulder overload",
+    "title": "SHOULDER PAIN WHILE BASING?",
+    "copy": [
+      "Report pain when lifting teammates",
+      "Avoid painful overhead loading",
+      "Rebuild strength with professional guidance",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/common-shoulder-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "male base in cheer uniform pointing to shoulder while standing, cyan shoulder"
+  },
+  {
+    "id": "exp-d-010",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Cheer concussion recognition",
+    "title": "HEAD HIT? SPEAK UP",
+    "copy": [
+      "Headache or dizziness can signal concussion",
+      "Stop cheer after suspected concussion",
+      "Get assessed by a healthcare professional",
+      "No same-day return; healthcare clearance required."
+    ],
+    "source": "CDC HEADS UP",
+    "url": "https://www.cdc.gov/heads-up/signs-symptoms/index.html",
+    "additional_sources": [
+      "https://www.cdc.gov/heads-up/response/index.html"
+    ],
+    "image_path": "",
+    "scene": "female cheerleader seated safely after practice talking to coach; cyan head silhouette"
+  },
+  {
+    "id": "exp-d-011",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Stress injury warning",
+    "title": "BONE PAIN IS NOT ROUTINE",
+    "copy": [
+      "Report localized foot or shin pain",
+      "Stop repeated painful landings",
+      "Avoid sudden increases in impact",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "cheerleader on bench indicating shin, jump rope lying unused"
+  },
+  {
+    "id": "exp-d-012",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Training load management",
+    "title": "BUILD STUNT LOAD GRADUALLY",
+    "copy": [
+      "Increase practice demands gradually",
+      "Include recovery between hard sessions",
+      "Report pain that keeps returning",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "cheerleader with practice log seated next to mat"
+  },
+  {
+    "id": "exp-d-013",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Safe flexibility practice",
+    "title": "FLEXIBILITY WITHOUT FORCE",
+    "copy": [
+      "Warm up before flexibility work",
+      "Use controlled comfortable movements",
+      "Never force a painful stretch",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "cheerleader doing gentle standing calf stretch, neutral posture"
+  },
+  {
+    "id": "exp-d-014",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Knee symptom reporting",
+    "title": "KNEE PAIN AFTER JUMPS?",
+    "copy": [
+      "Report pain that changes your landing",
+      "Reduce painful jumping",
+      "Get guidance before harder routines",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "cheerleader sitting holding knee with subtle regional cyan anatomy"
+  },
+  {
+    "id": "exp-d-015",
+    "sport_slug": "cheerleading",
+    "category": "Cheerleading",
+    "topic": "Post-injury return to cheer",
+    "title": "RETURN BY READINESS",
+    "copy": [
+      "Follow your clinician's return plan",
+      "Rebuild basic skills before complex routines",
+      "Report symptoms during progression",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "recovering cheerleader practicing grounded simple arm motions beside coach"
+  },
+  {
+    "id": "exp-d-016",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Goalkeeper chest protection",
+    "title": "PROTECT THE GOALIE'S CHEST",
+    "copy": [
+      "Wear current compliant chest protection",
+      "Check fit before taking shots",
+      "Replace damaged protective gear",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Lacrosse",
+    "url": "https://www.usalacrosse.com/game/equipment",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "male lacrosse goalie fully equipped helmet throat guard chest protector gloves holding goalie stick"
+  },
+  {
+    "id": "exp-d-017",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Women's lacrosse eye safety",
+    "title": "EYE PROTECTION EVERY PRACTICE",
+    "copy": [
+      "Wear required certified protective eyewear",
+      "Check straps and lenses for damage",
+      "Use equipment for your game",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Lacrosse",
+    "url": "https://www.usalacrosse.com/game/equipment",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "female lacrosse player wearing proper protective goggles holding stick, eye region subtle glow"
+  },
+  {
+    "id": "exp-d-018",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse dental protection",
+    "title": "MOUTHGUARD BEFORE THE WHISTLE",
+    "copy": [
+      "Wear your required mouthguard",
+      "Check fit before drills begin",
+      "Replace damaged mouthguards",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Lacrosse",
+    "url": "https://www.usalacrosse.com/game/equipment",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "lacrosse athlete holding mouthguard near smile with helmet safely on bench"
+  },
+  {
+    "id": "exp-d-019",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Men's lacrosse helmet fit",
+    "title": "HELMET FIT IS PERSONAL",
+    "copy": [
+      "Use a properly fitted certified helmet",
+      "Fasten the chin strap correctly",
+      "Report loose or damaged parts",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Lacrosse",
+    "url": "https://www.usalacrosse.com/game/equipment",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "male teen lacrosse player in helmet with facemask checking chin strap"
+  },
+  {
+    "id": "exp-d-020",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse change of direction",
+    "title": "CUT WITH CONTROL",
+    "copy": [
+      "Practice controlled deceleration",
+      "Build cutting speed gradually",
+      "Keep knees aligned during landing",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "female lacrosse athlete in goggles and mouthguard doing low-speed cone cut"
+  },
+  {
+    "id": "exp-d-021",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse shoulder overload",
+    "title": "SHOULDER SORE FROM SHOOTING?",
+    "copy": [
+      "Report pain during passing or shooting",
+      "Reduce painful repetitions",
+      "Build strength with qualified guidance",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/common-shoulder-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "female lacrosse player goggles resting stick beside shoulder anatomical glow"
+  },
+  {
+    "id": "exp-d-022",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse hand injury",
+    "title": "THUMB HIT? REPORT IT",
+    "copy": [
+      "Stop play after painful hand impact",
+      "Report swelling or lost grip",
+      "Get assessed before returning",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "gloved lacrosse athlete inspecting hand at sideline without graphic injury"
+  },
+  {
+    "id": "exp-d-023",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse ankle sprain",
+    "title": "ANKLE ROLLED ON A CUT?",
+    "copy": [
+      "Stop if walking or cutting hurts",
+      "Report swelling and instability",
+      "Seek evaluation before more play",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprained-ankle/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "lacrosse player seated on bench ankle subtle cyan glow stick resting"
+  },
+  {
+    "id": "exp-d-024",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse concussion symptoms",
+    "title": "WATCH FOR CONCUSSION",
+    "copy": [
+      "Report headache, dizziness or confusion",
+      "Leave play after suspected concussion",
+      "Get assessed by a healthcare professional",
+      "No same-day return; healthcare clearance required."
+    ],
+    "source": "CDC HEADS UP",
+    "url": "https://www.cdc.gov/heads-up/signs-symptoms/index.html",
+    "additional_sources": [
+      "https://www.cdc.gov/heads-up/response/index.html"
+    ],
+    "image_path": "",
+    "scene": "lacrosse athlete seated with coach listening helmet nearby"
+  },
+  {
+    "id": "exp-d-025",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Goalkeeper equipment readiness",
+    "title": "CLEAR THE CREASE SAFELY",
+    "copy": [
+      "Use a helmet and throat protector",
+      "Wear padded gloves and required protection",
+      "Check gear before every session",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Lacrosse",
+    "url": "https://www.usalacrosse.com/game/equipment",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "female lacrosse goalkeeper with correct helmet throat protector chest protection gloves"
+  },
+  {
+    "id": "exp-d-026",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse surface inspection",
+    "title": "CHECK THE FIELD BEFORE CUTTING",
+    "copy": [
+      "Look for holes and loose debris",
+      "Report slick or uneven areas",
+      "Keep sidelines clear of equipment",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprained-ankle/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "lacrosse team inspecting turf with one small hazard flagged"
+  },
+  {
+    "id": "exp-d-027",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse contact safety",
+    "title": "RESPECT YOUR GAME'S CONTACT RULES",
+    "copy": [
+      "Know rules for your competition",
+      "Avoid dangerous stick contact",
+      "Report unsafe play to officials",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Lacrosse",
+    "url": "https://www.usalacrosse.com/game/equipment",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "two lacrosse players standing apart sticks lowered, referee background"
+  },
+  {
+    "id": "exp-d-028",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse stress injury prevention",
+    "title": "BUILD RUNNING LOAD STEADILY",
+    "copy": [
+      "Increase conditioning gradually",
+      "Mix demanding days with recovery",
+      "Report focal shin or foot pain",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "lacrosse runner at track sideline with shin cyan anatomy"
+  },
+  {
+    "id": "exp-d-029",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse groin strain",
+    "title": "GROIN PAIN DURING DODGES?",
+    "copy": [
+      "Stop painful cutting and sprinting",
+      "Report groin pain early",
+      "Avoid forcing a painful stretch",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "lacrosse athlete standing relaxed in training kit regional hip glow"
+  },
+  {
+    "id": "exp-d-030",
+    "sport_slug": "lacrosse",
+    "category": "Lacrosse",
+    "topic": "Lacrosse return to play",
+    "title": "REHAB BEFORE FULL CONTACT",
+    "copy": [
+      "Follow your clinician's progression",
+      "Restore strength and sport skills",
+      "Report symptoms during practice",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "lacrosse athlete supervised individual stick control away from contact"
+  },
+  {
+    "id": "exp-d-031",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey neck laceration protection",
+    "title": "NECK PROTECTION ON THE ICE",
+    "copy": [
+      "Wear required neck laceration protection",
+      "Check coverage and secure fit",
+      "Replace damaged protective gear",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "USA Hockey",
+    "url": "https://www.usahockey.com/news_article/show/1314371",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "youth hockey player helmet full cage visible approved-style neck guard"
+  },
+  {
+    "id": "exp-d-032",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey board collision prevention",
+    "title": "KEEP YOUR HEAD UP",
+    "copy": [
+      "Stay aware near the boards",
+      "Never check from behind",
+      "Follow contact rules for your level",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/hockey-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "helmeted full-cage hockey player skating parallel to boards upright head looking ahead no collision"
+  },
+  {
+    "id": "exp-d-033",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey groin strain",
+    "title": "GROIN STRAIN? STOP SKATING",
+    "copy": [
+      "Report pain during push-off",
+      "Stop painful skating drills",
+      "Rebuild gradually with professional guidance",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "hockey player on bench fully equipped regional hip anatomy glow"
+  },
+  {
+    "id": "exp-d-034",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey skate pressure safety",
+    "title": "SKATE FIT MATTERS",
+    "copy": [
+      "Choose skates that fit correctly",
+      "Check for painful pressure spots",
+      "Report numbness or persistent foot pain",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/hockey-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "hockey athlete seated properly lacing skates close-up feet"
+  },
+  {
+    "id": "exp-d-035",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey concussion reporting",
+    "title": "DO NOT HIDE A HEAD HIT",
+    "copy": [
+      "Report dizziness after contact",
+      "Leave play if concussion is suspected",
+      "Get assessed before returning",
+      "No same-day return; healthcare clearance required."
+    ],
+    "source": "USA Hockey",
+    "url": "https://www.usahockey.com/safety-concussions",
+    "additional_sources": [
+      "https://www.cdc.gov/heads-up/response/index.html"
+    ],
+    "image_path": "",
+    "scene": "full-cage hockey athlete safely seated bench speaking with coach"
+  },
+  {
+    "id": "exp-d-036",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey facial protection",
+    "title": "FACE PROTECTION STAYS ON",
+    "copy": [
+      "Use required helmet and face protection",
+      "Fasten straps before stepping on ice",
+      "Replace cracked or damaged components",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/hockey-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "female hockey athlete full cage helmet properly fitted chin strap"
+  },
+  {
+    "id": "exp-d-037",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey shoulder injury",
+    "title": "SHOULDER PAIN AFTER CONTACT?",
+    "copy": [
+      "Stop after a painful shoulder impact",
+      "Report weakness or changed shoulder shape",
+      "Do not force the shoulder back",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/common-shoulder-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "male hockey athlete standing beside bench arm supported comfortably no dislocation shown"
+  },
+  {
+    "id": "exp-d-038",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey overuse prevention",
+    "title": "SKATING NEEDS RECOVERY",
+    "copy": [
+      "Build skating volume gradually",
+      "Plan rest between demanding sessions",
+      "Report pain that keeps returning",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "female hockey player writing session log beside skates"
+  },
+  {
+    "id": "exp-d-039",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey knee injury warning",
+    "title": "KNEE TWIST? STEP OFF",
+    "copy": [
+      "Stop after a painful knee twist",
+      "Report swelling or giving way",
+      "Get assessed before another shift",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "hockey athlete seated at bench knee highlighted subtle anatomy"
+  },
+  {
+    "id": "exp-d-040",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey glove safety",
+    "title": "PROTECT HANDS FROM IMPACT",
+    "copy": [
+      "Wear well-fitting protective gloves",
+      "Inspect padding and worn areas",
+      "Report painful swelling after impact",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/hockey-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "hockey athlete inspecting glove on bench, hand cyan regional anatomy"
+  },
+  {
+    "id": "exp-d-041",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey warm-up progression",
+    "title": "WARM UP BEFORE HARD STRIDES",
+    "copy": [
+      "Start with easy controlled movement",
+      "Gradually add skating speed",
+      "Avoid forcing cold muscles",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/hockey-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "hockey player fully geared gentle skating alone upright"
+  },
+  {
+    "id": "exp-d-042",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey dryland stress injury",
+    "title": "SHIN PAIN OFF THE ICE?",
+    "copy": [
+      "Build running drills gradually",
+      "Report localized shin pain",
+      "Stop impact that worsens symptoms",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "hockey athlete in dryland shorts training shoes seated with hockey bag and shin glow"
+  },
+  {
+    "id": "exp-d-043",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey recovery progression",
+    "title": "RETURN THROUGH SKILL PROGRESSION",
+    "copy": [
+      "Follow your clinician's return plan",
+      "Build skating before demanding contact",
+      "Report symptoms as intensity rises",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "fully geared hockey player gentle puck control cones no contact"
+  },
+  {
+    "id": "exp-d-044",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey spinal injury prevention",
+    "title": "NO CHECKING FROM BEHIND",
+    "copy": [
+      "Respect players near the boards",
+      "Keep illegal contact out of practice",
+      "Report dangerous checking immediately",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/hockey-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "two fully equipped hockey players skating separated along boards no tackle"
+  },
+  {
+    "id": "exp-d-045",
+    "sport_slug": "ice-hockey",
+    "category": "Ice Hockey",
+    "topic": "Hockey emergency neck response",
+    "title": "SUSPECTED NECK INJURY: GET HELP",
+    "copy": [
+      "Suspected neck injury: call 911",
+      "Keep still unless needed for immediate safety",
+      "Alert trained responders; stop play",
+      "Activate your team's emergency action plan."
+    ],
+    "source": "NATA",
+    "url": "https://www.nata.org/sites/default/files/2025-08/consensus_recommendations_on_the_prehospital_care_of_the_injured_athlete_with_a_suspected_catastrophic_cervical_spine_injury.pdf",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "hockey official stopping play, distant player supine still protected, no medical procedures"
+  },
+  {
+    "id": "exp-d-046",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golfer's elbow warning",
+    "title": "INNER ELBOW PAIN? LISTEN",
+    "copy": [
+      "Report pain on the elbow's inside",
+      "Reduce painful swing repetitions",
+      "Build forearm strength with guidance",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "young golfer standing with club grounded indicating inner elbow regional anatomy"
+  },
+  {
+    "id": "exp-d-047",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf back pain prevention",
+    "title": "BACK PAIN IS NOT A SWING CUE",
+    "copy": [
+      "Stop swings that provoke back pain",
+      "Review technique with a qualified coach",
+      "Build trunk strength gradually",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "young female golfer upright beside practice tee lower back cyan regional anatomy"
+  },
+  {
+    "id": "exp-d-048",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf club warm-up progression",
+    "title": "PROGRESS THROUGH YOUR WARM-UP",
+    "copy": [
+      "Begin with easy movement",
+      "Start range shots with shorter clubs",
+      "Build toward comfortable full swings",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "Asian young male golfer at range with wedge grounded and longer clubs in bag"
+  },
+  {
+    "id": "exp-d-049",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf repetition management",
+    "title": "CONTROL THE RANGE VOLUME",
+    "copy": [
+      "Increase practice volume gradually",
+      "Take breaks from repetitive swings",
+      "Report recurring wrist or elbow pain",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "golfer placing club down beside modest basket golf balls"
+  },
+  {
+    "id": "exp-d-050",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf wrist injury warning",
+    "title": "WRIST PAIN AFTER IMPACT?",
+    "copy": [
+      "Stop after a painful ground strike",
+      "Report swelling or weak grip",
+      "Get assessed before more swings",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "golfer holding relaxed wrist beside club and divot no swinging"
+  },
+  {
+    "id": "exp-d-051",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf lightning safety",
+    "title": "THUNDER MEANS SHELTER",
+    "copy": [
+      "Stop playing when storms approach",
+      "Seek a substantial building or enclosed car",
+      "Avoid trees and open shelters",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "young golfers walking away from course toward substantial clubhouse before storm, no tree shelter"
+  },
+  {
+    "id": "exp-d-052",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf cart ankle protection",
+    "title": "KEEP FEET INSIDE THE CART",
+    "copy": [
+      "Keep feet and arms inside",
+      "Stay seated while the cart moves",
+      "Wait for a complete stop",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "young adult golfers seated in stationary cart all limbs inside feet on floor"
+  },
+  {
+    "id": "exp-d-053",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf sun safety",
+    "title": "SUN PROTECTION EVERY ROUND",
+    "copy": [
+      "Apply sunscreen as directed",
+      "Wear a brimmed hat",
+      "Use sunglasses with UV protection",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "young female golfer wide brim sport hat sunglasses applying sunscreen at bench"
+  },
+  {
+    "id": "exp-d-054",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf impact awareness",
+    "title": "WATCH THE NEXT SWING",
+    "copy": [
+      "Check others before swinging",
+      "Stay clear of another player's arc",
+      "Wait until the landing area clears",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "two golfers widely separated at practice area club grounded safety space shown"
+  },
+  {
+    "id": "exp-d-055",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf hydration",
+    "title": "HYDRATE ACROSS THE ROUND",
+    "copy": [
+      "Start the round well hydrated",
+      "Drink during play and after",
+      "Take cooling breaks in hot conditions",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "golfer drinking water seated in shade beside bag no alcohol"
+  },
+  {
+    "id": "exp-d-056",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf hand nerve symptoms",
+    "title": "HAND NUMBNESS NEEDS A CHECK",
+    "copy": [
+      "Report tingling or numbness",
+      "Stop gripping when symptoms increase",
+      "Get assessed for persistent symptoms",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "young golfer showing open relaxed palm cyan hand regional anatomy"
+  },
+  {
+    "id": "exp-d-057",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf shoulder overload",
+    "title": "DO NOT SWING THROUGH SHOULDER PAIN",
+    "copy": [
+      "Pause painful swings",
+      "Report weakness or limited motion",
+      "Follow a guided strengthening plan",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/common-shoulder-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "female golfer resting club next to shoulder regional anatomy"
+  },
+  {
+    "id": "exp-d-058",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf ankle safety",
+    "title": "WALK THE COURSE WITH CARE",
+    "copy": [
+      "Watch uneven ground and slopes",
+      "Wear stable appropriate footwear",
+      "Report ankle pain or giving way",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprained-ankle/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "young golfer walking level path next to sloping rough appropriate golf shoes"
+  },
+  {
+    "id": "exp-d-059",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf return progression",
+    "title": "REBUILD AFTER INJURY",
+    "copy": [
+      "Follow your clinician's return plan",
+      "Start with tolerable practice demands",
+      "Report symptoms before increasing swings",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "golfer putting gently on practice green with coach nearby"
+  },
+  {
+    "id": "exp-d-060",
+    "sport_slug": "golf",
+    "category": "Golf",
+    "topic": "Golf forearm conditioning",
+    "title": "FOREARM STRENGTH FOR THE SWING",
+    "copy": [
+      "Use controlled resistance with guidance",
+      "Build strength gradually",
+      "Stop exercises that provoke pain",
+      "Stop and report symptoms to your athletic trainer."
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/golf-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "",
+    "scene": "young golfer seated forearm supported holding light unmarked dumbbell neutral wrist"
+  },
+  {
+    "id": "exp-d-061",
+    "sport_slug": "general-safety",
+    "category": "Universal",
+    "topic": "Exertional heat stroke emergency response",
+    "title": "EXERTIONAL HEAT STROKE: ACT NOW",
+    "copy": [
+      "Collapse or confusion in heat: call 911",
+      "Begin rapid cooling while help is coming",
+      "Trained responders: cold-water immersion, protect airway",
+      "Activate the emergency action plan immediately."
+    ],
+    "source": "NATA",
+    "url": "https://www.nata.org/press-release/nata-offers-10-tips-prevent-heat-illness-and-dehydration",
+    "additional_sources": [
+      "https://www.nata.org/sites/default/files/2025-08/exertional_heat_illnesses.pdf"
+    ],
+    "image_path": "",
+    "scene": "athletic field emergency cooling station with tub prepared, trained athletic staff in sports attire, athlete safely supported head above water, no doctor or detailed medical procedure"
+  }
+]

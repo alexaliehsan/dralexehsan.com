@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "exp-a-001",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "rolled ankle? leave the court",
+    "title": "ROLLED ANKLE? LEAVE THE COURT",
+    "copy": [
+      "BASKETBALL",
+      "ROLLED ANKLE? LEAVE THE COURT",
+      "Stop cutting and jumping.",
+      "Tell your athletic trainer.",
+      "Avoid testing it through pain.",
+      "Cannot bear weight? Seek prompt medical care.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [
+      "https://orthoinfo.aaos.org/en/diseases--conditions/sprained-ankle/"
+    ],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-001.png",
+    "region": "ankle"
+  },
+  {
+    "id": "exp-a-002",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "landing pain is feedback",
+    "title": "LANDING PAIN IS FEEDBACK",
+    "copy": [
+      "BASKETBALL",
+      "LANDING PAIN IS FEEDBACK",
+      "Report pain after rebounds.",
+      "Reduce painful jumping.",
+      "Ask for a movement assessment.",
+      "Stop if your knee gives way.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-002.png",
+    "region": "knee"
+  },
+  {
+    "id": "exp-a-003",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "a jammed finger needs attention",
+    "title": "A JAMMED FINGER NEEDS ATTENTION",
+    "copy": [
+      "BASKETBALL",
+      "A JAMMED FINGER NEEDS ATTENTION",
+      "Stop if catching hurts.",
+      "Report swelling or crooked alignment.",
+      "Avoid pulling the finger straight.",
+      "Deformity or numbness needs prompt care.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-003.png",
+    "region": "hand"
+  },
+  {
+    "id": "exp-a-004",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "check your baseline space",
+    "title": "CHECK YOUR BASELINE SPACE",
+    "copy": [
+      "BASKETBALL",
+      "CHECK YOUR BASELINE SPACE",
+      "Look for nearby obstacles.",
+      "Keep bags off the court.",
+      "Report unpadded posts and walls.",
+      "Stop play when the area is unsafe.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-004.png",
+    "region": "shoulder"
+  },
+  {
+    "id": "exp-a-005",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "shoes need a game check",
+    "title": "SHOES NEED A GAME CHECK",
+    "copy": [
+      "BASKETBALL",
+      "SHOES NEED A GAME CHECK",
+      "Check grip before warmups.",
+      "Secure laces for every session.",
+      "Replace worn or damaged footwear.",
+      "Report slipping or new foot pain.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-005.png",
+    "region": "foot"
+  },
+  {
+    "id": "exp-a-006",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "head hit? speak up",
+    "title": "HEAD HIT? SPEAK UP",
+    "copy": [
+      "BASKETBALL",
+      "HEAD HIT? SPEAK UP",
+      "Leave play after possible concussion.",
+      "Tell an adult immediately.",
+      "No same-day return. Medical clearance required.",
+      "Worsening headache or repeated vomiting: emergency care.",
+      "Source: CDC HEADS UP"
+    ],
+    "source": "CDC HEADS UP",
+    "url": "https://www.cdc.gov/heads-up/response/index.html",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-006-corrected.png",
+    "region": "brain"
+  },
+  {
+    "id": "exp-a-007",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "court vision includes teammates",
+    "title": "COURT VISION INCLUDES TEAMMATES",
+    "copy": [
+      "BASKETBALL",
+      "COURT VISION INCLUDES TEAMMATES",
+      "Know who is nearby.",
+      "Use controlled passing technique.",
+      "Avoid pushing beneath the basket.",
+      "Report pain after a collision.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-007.png",
+    "region": "shoulder"
+  },
+  {
+    "id": "exp-a-008",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "save your eyes on court",
+    "title": "SAVE YOUR EYES ON COURT",
+    "copy": [
+      "BASKETBALL",
+      "SAVE YOUR EYES ON COURT",
+      "Use appropriate sports eye protection.",
+      "Keep eyewear secure.",
+      "Avoid playing with damaged lenses.",
+      "Vision changes after impact need urgent care.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-008.png",
+    "region": "eye"
+  },
+  {
+    "id": "exp-a-009",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "keep your teeth in the game",
+    "title": "KEEP YOUR TEETH IN THE GAME",
+    "copy": [
+      "BASKETBALL",
+      "KEEP YOUR TEETH IN THE GAME",
+      "Wear a fitted mouthguard.",
+      "Check it for damage.",
+      "Bring it to every practice.",
+      "Report mouth injuries immediately.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-009.png",
+    "region": "jaw"
+  },
+  {
+    "id": "exp-a-010",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "count all your court time",
+    "title": "COUNT ALL YOUR COURT TIME",
+    "copy": [
+      "BASKETBALL",
+      "COUNT ALL YOUR COURT TIME",
+      "Include club and school sessions.",
+      "Share schedules with your coaches.",
+      "Plan breaks from repetitive basketball.",
+      "Report pain that returns each practice.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/overuse-injuries-in-children/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-010.png",
+    "region": "leg"
+  },
+  {
+    "id": "exp-a-011",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "calf pain during a drive",
+    "title": "CALF PAIN DURING A DRIVE",
+    "copy": [
+      "BASKETBALL",
+      "CALF PAIN DURING A DRIVE",
+      "Stop explosive moves that hurt.",
+      "Tell your athletic trainer.",
+      "Avoid repeated painful push-offs.",
+      "Sudden pain with weakness needs assessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-011.png",
+    "region": "calf"
+  },
+  {
+    "id": "exp-a-012",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "foot pain between games",
+    "title": "FOOT PAIN BETWEEN GAMES",
+    "copy": [
+      "BASKETBALL",
+      "FOOT PAIN BETWEEN GAMES",
+      "Notice pain during walking.",
+      "Report a tender spot.",
+      "Pause painful running and jumping.",
+      "Persistent focal pain needs medical assessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-012.png",
+    "region": "foot"
+  },
+  {
+    "id": "exp-a-013",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "bench time can support recovery",
+    "title": "BENCH TIME CAN SUPPORT RECOVERY",
+    "copy": [
+      "BASKETBALL",
+      "BENCH TIME CAN SUPPORT RECOVERY",
+      "Follow your rehabilitation plan.",
+      "Keep follow-up appointments.",
+      "Report symptoms as drills increase.",
+      "Do not self-clear a new injury.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-013.png",
+    "region": "knee"
+  },
+  {
+    "id": "exp-a-014",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "train for more than shots",
+    "title": "TRAIN FOR MORE THAN SHOTS",
+    "copy": [
+      "BASKETBALL",
+      "TRAIN FOR MORE THAN SHOTS",
+      "Include strength and flexibility.",
+      "Build aerobic fitness gradually.",
+      "Practice technique with coaching.",
+      "Pain changes the session: tell your coach.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-014.png",
+    "region": "hip"
+  },
+  {
+    "id": "exp-a-015",
+    "sport_slug": "basketball",
+    "category": "Basketball",
+    "topic": "the floor check comes first",
+    "title": "THE FLOOR CHECK COMES FIRST",
+    "copy": [
+      "BASKETBALL",
+      "THE FLOOR CHECK COMES FIRST",
+      "Check for moisture and debris.",
+      "Report slippery court sections.",
+      "Wait until hazards are removed.",
+      "Stop if traction is unsafe.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/basketball-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-015.png",
+    "region": "ankle"
+  },
+  {
+    "id": "exp-a-016",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "preseason starts with your health",
+    "title": "PRESEASON STARTS WITH YOUR HEALTH",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "PRESEASON STARTS WITH YOUR HEALTH",
+      "Complete your sports physical.",
+      "Share previous injuries honestly.",
+      "Discuss symptoms before contact begins.",
+      "Report fainting or chest pain promptly.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-016.png",
+    "region": "torso"
+  },
+  {
+    "id": "exp-a-017",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "a helmet is not concussion proof",
+    "title": "A HELMET IS NOT CONCUSSION PROOF",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "A HELMET IS NOT CONCUSSION PROOF",
+      "Report symptoms after any hit.",
+      "Leave play for suspected concussion.",
+      "No same-day return.",
+      "Return requires healthcare clearance.",
+      "Source: CDC HEADS UP"
+    ],
+    "source": "CDC HEADS UP",
+    "url": "https://www.cdc.gov/heads-up/response/index.html",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-017.png",
+    "region": "brain"
+  },
+  {
+    "id": "exp-a-018",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "contact pain deserves a report",
+    "title": "CONTACT PAIN DESERVES A REPORT",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "CONTACT PAIN DESERVES A REPORT",
+      "Tell staff where it hurts.",
+      "Stop drills that worsen pain.",
+      "Avoid hiding a new injury.",
+      "Severe pain or deformity needs prompt care.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-018.png",
+    "region": "shoulder"
+  },
+  {
+    "id": "exp-a-019",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "check every pad before contact",
+    "title": "CHECK EVERY PAD BEFORE CONTACT",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "CHECK EVERY PAD BEFORE CONTACT",
+      "Check shoulder and hip coverage.",
+      "Report damaged protective gear.",
+      "Have staff correct poor fit.",
+      "Do not practice with unsafe equipment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-019.png",
+    "region": "shoulder"
+  },
+  {
+    "id": "exp-a-020",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "build conditioning before contact",
+    "title": "BUILD CONDITIONING BEFORE CONTACT",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "BUILD CONDITIONING BEFORE CONTACT",
+      "Increase activity progressively.",
+      "Include strength and aerobic training.",
+      "Keep flexibility in your routine.",
+      "Report pain before increasing workload.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-020-corrected.png",
+    "region": "thigh"
+  },
+  {
+    "id": "exp-a-021",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "heat symptoms mean stop",
+    "title": "HEAT SYMPTOMS MEAN STOP",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "HEAT SYMPTOMS MEAN STOP",
+      "Tell staff if dizzy or weak.",
+      "Move to a cooler place.",
+      "Use planned water and rest breaks.",
+      "Confusion or collapse: call emergency services; start cooling.",
+      "Source: CDC"
+    ],
+    "source": "CDC",
+    "url": "https://www.cdc.gov/heat-health/about/index.html",
+    "additional_sources": [
+      "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html"
+    ],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-021-corrected.png",
+    "region": "torso"
+  },
+  {
+    "id": "exp-a-022",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "do not ignore a stinger",
+    "title": "DO NOT IGNORE A STINGER",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "DO NOT IGNORE A STINGER",
+      "Stop after burning arm pain.",
+      "Report tingling or weakness.",
+      "Get assessed before returning.",
+      "Keep still. Call emergency services for neck pain with weakness.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/burners-and-stingers/",
+    "additional_sources": [
+      "https://orthoinfo.aaos.org/en/diseases--conditions/cervical-fracture-broken-neck/"
+    ],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-022-corrected.png",
+    "region": "neck"
+  },
+  {
+    "id": "exp-a-023",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "knee swelling after a tackle",
+    "title": "KNEE SWELLING AFTER A TACKLE",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "KNEE SWELLING AFTER A TACKLE",
+      "Stop running and contact.",
+      "Report swelling or instability.",
+      "Seek a professional assessment.",
+      "A locked knee needs prompt care.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/common-knee-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-023.png",
+    "region": "knee"
+  },
+  {
+    "id": "exp-a-024",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "thumb pain changes your grip",
+    "title": "THUMB PAIN CHANGES YOUR GRIP",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "THUMB PAIN CHANGES YOUR GRIP",
+      "Stop painful catching or blocking.",
+      "Report swelling and weak grip.",
+      "Avoid testing the joint repeatedly.",
+      "Crooked alignment or numbness needs prompt care.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-024.png",
+    "region": "thumb"
+  },
+  {
+    "id": "exp-a-025",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "your shoulder should feel stable",
+    "title": "YOUR SHOULDER SHOULD FEEL STABLE",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "YOUR SHOULDER SHOULD FEEL STABLE",
+      "Report slipping after contact.",
+      "Avoid painful overhead drills.",
+      "Get assessed before more tackling.",
+      "Visible deformity needs urgent care.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-025.png",
+    "region": "shoulder"
+  },
+  {
+    "id": "exp-a-026",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "mouthguard in before the snap",
+    "title": "MOUTHGUARD IN BEFORE THE SNAP",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "MOUTHGUARD IN BEFORE THE SNAP",
+      "Wear your fitted mouthguard.",
+      "Check its condition regularly.",
+      "Replace damaged protection with guidance.",
+      "Report dental injuries immediately.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-026.png",
+    "region": "jaw"
+  },
+  {
+    "id": "exp-a-027",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "practice breaks are part of training",
+    "title": "PRACTICE BREAKS ARE PART OF TRAINING",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "PRACTICE BREAKS ARE PART OF TRAINING",
+      "Take scheduled water breaks.",
+      "Tell coaches about unusual fatigue.",
+      "Allow recovery between hard sessions.",
+      "Stop if weakness or dizziness develops.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-027-corrected.png",
+    "region": "leg"
+  },
+  {
+    "id": "exp-a-028",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "pain is not a depth-chart test",
+    "title": "PAIN IS NOT A DEPTH-CHART TEST",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "PAIN IS NOT A DEPTH-CHART TEST",
+      "Report symptoms early.",
+      "Tell staff about worsening pain.",
+      "Follow the modified training plan.",
+      "Stop drills that reproduce injury pain.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-028.png",
+    "region": "hip"
+  },
+  {
+    "id": "exp-a-029",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "rehab before the next hit",
+    "title": "REHAB BEFORE THE NEXT HIT",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "REHAB BEFORE THE NEXT HIT",
+      "Complete clinician-guided rehabilitation.",
+      "Restore movement and strength.",
+      "Build back through supervised drills.",
+      "Returning symptoms need reassessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-029-corrected.png",
+    "region": "knee"
+  },
+  {
+    "id": "exp-a-030",
+    "sport_slug": "american-football",
+    "category": "American Football",
+    "topic": "calf and thigh warmup matters",
+    "title": "CALF AND THIGH WARMUP MATTERS",
+    "copy": [
+      "AMERICAN FOOTBALL",
+      "CALF AND THIGH WARMUP MATTERS",
+      "Start with easy movement.",
+      "Prepare hips, thighs and calves.",
+      "Build speed after warming up.",
+      "Sharp pain means stop and report.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/football-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-030.png",
+    "region": "thigh"
+  },
+  {
+    "id": "exp-a-031",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "one sore spot deserves attention",
+    "title": "ONE SORE SPOT DESERVES ATTENTION",
+    "copy": [
+      "TRACK AND FIELD",
+      "ONE SORE SPOT DESERVES ATTENTION",
+      "Report focal bone pain.",
+      "Pause painful running or jumping.",
+      "Seek assessment before more impact.",
+      "Pain with walking needs medical review.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-031.png",
+    "region": "shin"
+  },
+  {
+    "id": "exp-a-032",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "new season, gradual load",
+    "title": "NEW SEASON, GRADUAL LOAD",
+    "copy": [
+      "TRACK AND FIELD",
+      "NEW SEASON, GRADUAL LOAD",
+      "Increase training progressively.",
+      "Share all sessions with your coach.",
+      "Build recovery into the plan.",
+      "Report pain that persists between sessions.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/overuse-injuries-in-children/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-032.png",
+    "region": "leg"
+  },
+  {
+    "id": "exp-a-033",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "sprint pain? end the rep",
+    "title": "SPRINT PAIN? END THE REP",
+    "copy": [
+      "TRACK AND FIELD",
+      "SPRINT PAIN? END THE REP",
+      "Stop after sudden thigh pain.",
+      "Tell your coach or trainer.",
+      "Avoid testing another maximal sprint.",
+      "Weakness or difficulty walking needs assessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-033.png",
+    "region": "hamstring"
+  },
+  {
+    "id": "exp-a-034",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "throwing arm fatigue is a signal",
+    "title": "THROWING ARM FATIGUE IS A SIGNAL",
+    "copy": [
+      "TRACK AND FIELD",
+      "THROWING ARM FATIGUE IS A SIGNAL",
+      "Report pain during release.",
+      "Avoid throwing through symptoms.",
+      "Review technique and workload.",
+      "Loss of strength needs assessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/overuse-injuries-in-children/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-034.png",
+    "region": "shoulder"
+  },
+  {
+    "id": "exp-a-035",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "hurdle contact? check yourself",
+    "title": "HURDLE CONTACT? CHECK YOURSELF",
+    "copy": [
+      "TRACK AND FIELD",
+      "HURDLE CONTACT? CHECK YOURSELF",
+      "Stop when pain changes movement.",
+      "Report falls and collisions.",
+      "Assess symptoms before the next attempt.",
+      "Head injury symptoms need immediate removal.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [
+      "https://www.cdc.gov/heads-up/response/index.html"
+    ],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-035.png",
+    "region": "hip"
+  },
+  {
+    "id": "exp-a-036",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "pole vault safety starts below",
+    "title": "POLE VAULT SAFETY STARTS BELOW",
+    "copy": [
+      "TRACK AND FIELD",
+      "POLE VAULT SAFETY STARTS BELOW",
+      "Inspect equipment with your coach.",
+      "Keep the landing area clear.",
+      "Use supervised skill progressions.",
+      "Stop when equipment or conditions are unsafe.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-036.png",
+    "region": "spine"
+  },
+  {
+    "id": "exp-a-037",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "jump landings need a clear zone",
+    "title": "JUMP LANDINGS NEED A CLEAR ZONE",
+    "copy": [
+      "TRACK AND FIELD",
+      "JUMP LANDINGS NEED A CLEAR ZONE",
+      "Check the landing surface.",
+      "Remove debris before attempts.",
+      "Follow your coach's landing instruction.",
+      "Report pain after an awkward landing.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-037.png",
+    "region": "ankle"
+  },
+  {
+    "id": "exp-a-038",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "shin pain is not a goal",
+    "title": "SHIN PAIN IS NOT A GOAL",
+    "copy": [
+      "TRACK AND FIELD",
+      "SHIN PAIN IS NOT A GOAL",
+      "Tell your coach when pain begins.",
+      "Reduce activities that trigger pain.",
+      "Get persistent symptoms assessed.",
+      "Pain at rest needs medical review.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-038.png",
+    "region": "shin"
+  },
+  {
+    "id": "exp-a-039",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "achilles pain? adjust the session",
+    "title": "ACHILLES PAIN? ADJUST THE SESSION",
+    "copy": [
+      "TRACK AND FIELD",
+      "ACHILLES PAIN? ADJUST THE SESSION",
+      "Report painful push-offs.",
+      "Pause painful sprinting and jumping.",
+      "Get professional guidance on loading.",
+      "A sudden pop needs prompt assessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-039.png",
+    "region": "Achilles tendon"
+  },
+  {
+    "id": "exp-a-040",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "recovery belongs on the schedule",
+    "title": "RECOVERY BELONGS ON THE SCHEDULE",
+    "copy": [
+      "TRACK AND FIELD",
+      "RECOVERY BELONGS ON THE SCHEDULE",
+      "Allow breaks from repetitive training.",
+      "Vary activities with your coach.",
+      "Avoid stacking hard sessions unplanned.",
+      "Ongoing soreness needs a workload review.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/overuse-injuries-in-children/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-040.png",
+    "region": "leg"
+  },
+  {
+    "id": "exp-a-041",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "fuel supports strong bones",
+    "title": "FUEL SUPPORTS STRONG BONES",
+    "copy": [
+      "TRACK AND FIELD",
+      "FUEL SUPPORTS STRONG BONES",
+      "Eat enough for training demands.",
+      "Include varied nutrient-rich foods.",
+      "Discuss unexplained fatigue with staff.",
+      "Recurrent bone pain needs medical review.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-041.png",
+    "region": "pelvis"
+  },
+  {
+    "id": "exp-a-042",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "do not race through dizziness",
+    "title": "DO NOT RACE THROUGH DIZZINESS",
+    "copy": [
+      "TRACK AND FIELD",
+      "DO NOT RACE THROUGH DIZZINESS",
+      "Stop and tell meet staff.",
+      "Move to a cool safe place.",
+      "Use planned hydration breaks.",
+      "Confusion or collapse: call emergency services; start cooling.",
+      "Source: CDC"
+    ],
+    "source": "CDC",
+    "url": "https://www.cdc.gov/heat-health/about/index.html",
+    "additional_sources": [
+      "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html"
+    ],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-042.png",
+    "region": "brain"
+  },
+  {
+    "id": "exp-a-043",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "spikes need the right fit",
+    "title": "SPIKES NEED THE RIGHT FIT",
+    "copy": [
+      "TRACK AND FIELD",
+      "SPIKES NEED THE RIGHT FIT",
+      "Check footwear before sessions.",
+      "Replace worn or damaged shoes.",
+      "Discuss new foot pressure points.",
+      "Report pain that changes your stride.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/high-school-sports-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-043.png",
+    "region": "foot"
+  },
+  {
+    "id": "exp-a-044",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "rest pain is not normal soreness",
+    "title": "REST PAIN IS NOT NORMAL SORENESS",
+    "copy": [
+      "TRACK AND FIELD",
+      "REST PAIN IS NOT NORMAL SORENESS",
+      "Report pain outside training.",
+      "Explain when symptoms started.",
+      "Seek assessment before more loading.",
+      "Worsening night pain needs medical review.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-044.png",
+    "region": "shin"
+  },
+  {
+    "id": "exp-a-045",
+    "sport_slug": "track-and-field",
+    "category": "Track and Field",
+    "topic": "return to running with a plan",
+    "title": "RETURN TO RUNNING WITH A PLAN",
+    "copy": [
+      "TRACK AND FIELD",
+      "RETURN TO RUNNING WITH A PLAN",
+      "Follow your clinician's progression.",
+      "Track symptoms as load increases.",
+      "Tell staff if pain returns.",
+      "Do not race before medical clearance.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/stress-fractures/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-045.png",
+    "region": "leg"
+  },
+  {
+    "id": "exp-a-046",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "shin guards before kickoff",
+    "title": "SHIN GUARDS BEFORE KICKOFF",
+    "copy": [
+      "SOCCER",
+      "SHIN GUARDS BEFORE KICKOFF",
+      "Wear properly fitted shin guards.",
+      "Check protection before each session.",
+      "Replace damaged guards with guidance.",
+      "Report pain after a direct kick.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/soccer-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-046.png",
+    "region": "shin"
+  },
+  {
+    "id": "exp-a-047",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "a field walk can prevent a fall",
+    "title": "A FIELD WALK CAN PREVENT A FALL",
+    "copy": [
+      "SOCCER",
+      "A FIELD WALK CAN PREVENT A FALL",
+      "Look for holes and debris.",
+      "Tell staff about surface hazards.",
+      "Wait for unsafe areas to clear.",
+      "Stop play if the field is unsafe.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/soccer-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-047.png",
+    "region": "ankle"
+  },
+  {
+    "id": "exp-a-048",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "goalposts are not climbing frames",
+    "title": "GOALPOSTS ARE NOT CLIMBING FRAMES",
+    "copy": [
+      "SOCCER",
+      "GOALPOSTS ARE NOT CLIMBING FRAMES",
+      "Avoid climbing or hanging on goals.",
+      "Tell staff about unstable goals.",
+      "Keep clear until goals are secured.",
+      "Stop play around unsecured goals.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/soccer-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-048.png",
+    "region": "torso"
+  },
+  {
+    "id": "exp-a-049",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "dizzy after a header? leave play",
+    "title": "DIZZY AFTER A HEADER? LEAVE PLAY",
+    "copy": [
+      "SOCCER",
+      "DIZZY AFTER A HEADER? LEAVE PLAY",
+      "Report symptoms after head contact.",
+      "Stop play for suspected concussion.",
+      "No same-day return.",
+      "Return requires healthcare clearance.",
+      "Source: CDC HEADS UP"
+    ],
+    "source": "CDC HEADS UP",
+    "url": "https://www.cdc.gov/heads-up/response/index.html",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-049.png",
+    "region": "brain"
+  },
+  {
+    "id": "exp-a-050",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "groin pain during a kick",
+    "title": "GROIN PAIN DURING A KICK",
+    "copy": [
+      "SOCCER",
+      "GROIN PAIN DURING A KICK",
+      "Stop painful shooting drills.",
+      "Report pain with cutting.",
+      "Seek assessment for persistent symptoms.",
+      "Difficulty walking needs prompt assessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-050.png",
+    "region": "adductors"
+  },
+  {
+    "id": "exp-a-051",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "cutting should not feel unstable",
+    "title": "CUTTING SHOULD NOT FEEL UNSTABLE",
+    "copy": [
+      "SOCCER",
+      "CUTTING SHOULD NOT FEEL UNSTABLE",
+      "Report a knee that gives way.",
+      "Stop painful changes of direction.",
+      "Get swelling assessed before playing.",
+      "A locked knee needs prompt care.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/common-knee-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-051-corrected.png",
+    "region": "knee"
+  },
+  {
+    "id": "exp-a-052",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "goalkeeper landing pain matters",
+    "title": "GOALKEEPER LANDING PAIN MATTERS",
+    "copy": [
+      "SOCCER",
+      "GOALKEEPER LANDING PAIN MATTERS",
+      "Report wrist pain after a save.",
+      "Stop painful diving and catching.",
+      "Avoid repeated painful grip tests.",
+      "Deformity or numbness needs urgent care.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-052.png",
+    "region": "wrist"
+  },
+  {
+    "id": "exp-a-053",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "cleat comfort is a safety check",
+    "title": "CLEAT COMFORT IS A SAFETY CHECK",
+    "copy": [
+      "SOCCER",
+      "CLEAT COMFORT IS A SAFETY CHECK",
+      "Choose appropriate well-fitting footwear.",
+      "Check cleats for damage.",
+      "Report new pressure or slipping.",
+      "Pain that changes running needs assessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/soccer-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-053.png",
+    "region": "foot"
+  },
+  {
+    "id": "exp-a-054",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "tournaments add up",
+    "title": "TOURNAMENTS ADD UP",
+    "copy": [
+      "SOCCER",
+      "TOURNAMENTS ADD UP",
+      "Count training and match minutes.",
+      "Share all team commitments.",
+      "Plan recovery with your coaches.",
+      "Persistent soreness needs a workload review.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/overuse-injuries-in-children/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-054.png",
+    "region": "leg"
+  },
+  {
+    "id": "exp-a-055",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "warm up before the first sprint",
+    "title": "WARM UP BEFORE THE FIRST SPRINT",
+    "copy": [
+      "SOCCER",
+      "WARM UP BEFORE THE FIRST SPRINT",
+      "Start with easy movement.",
+      "Prepare for running and direction changes.",
+      "Increase effort progressively.",
+      "Stop if sharp pain develops.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/soccer-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-055.png",
+    "region": "hip"
+  },
+  {
+    "id": "exp-a-056",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "collision symptoms can appear later",
+    "title": "COLLISION SYMPTOMS CAN APPEAR LATER",
+    "copy": [
+      "SOCCER",
+      "COLLISION SYMPTOMS CAN APPEAR LATER",
+      "Tell staff about significant head impacts.",
+      "Watch for new headache or dizziness.",
+      "Report changes after leaving the field.",
+      "Suspected concussion means no same-day return.",
+      "Source: CDC HEADS UP"
+    ],
+    "source": "CDC HEADS UP",
+    "url": "https://www.cdc.gov/heads-up/response/index.html",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-056.png",
+    "region": "brain"
+  },
+  {
+    "id": "exp-a-057",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "do not chase through hamstring pain",
+    "title": "DO NOT CHASE THROUGH HAMSTRING PAIN",
+    "copy": [
+      "SOCCER",
+      "DO NOT CHASE THROUGH HAMSTRING PAIN",
+      "Stop sprinting when pain starts.",
+      "Tell your coach or trainer.",
+      "Avoid another maximal-speed test.",
+      "Sudden weakness needs professional assessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-057-final.png",
+    "region": "hamstring"
+  },
+  {
+    "id": "exp-a-058",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "ankle giving way? get help",
+    "title": "ANKLE GIVING WAY? GET HELP",
+    "copy": [
+      "SOCCER",
+      "ANKLE GIVING WAY? GET HELP",
+      "Report repeated ankle rolling.",
+      "Pause painful cutting drills.",
+      "Ask about guided balance training.",
+      "New swelling needs an injury assessment.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-058.png",
+    "region": "ankle"
+  },
+  {
+    "id": "exp-a-059",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "heat can change the match plan",
+    "title": "HEAT CAN CHANGE THE MATCH PLAN",
+    "copy": [
+      "SOCCER",
+      "HEAT CAN CHANGE THE MATCH PLAN",
+      "Take scheduled cooling breaks.",
+      "Tell staff when unusually weak.",
+      "Move to shade when symptoms start.",
+      "Confusion or collapse: call emergency services; start cooling.",
+      "Source: CDC"
+    ],
+    "source": "CDC",
+    "url": "https://www.cdc.gov/heat-health/about/index.html",
+    "additional_sources": [
+      "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html"
+    ],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-059.png",
+    "region": "torso"
+  },
+  {
+    "id": "exp-a-060",
+    "sport_slug": "soccer",
+    "category": "Soccer",
+    "topic": "play the ball with control",
+    "title": "PLAY THE BALL WITH CONTROL",
+    "copy": [
+      "SOCCER",
+      "PLAY THE BALL WITH CONTROL",
+      "Avoid reckless contact.",
+      "Follow rules and referee guidance.",
+      "Keep awareness of nearby players.",
+      "Report injuries after a collision.",
+      "Source: AAOS OrthoInfo"
+    ],
+    "source": "AAOS OrthoInfo",
+    "url": "https://orthoinfo.aaos.org/en/staying-healthy/soccer-injury-prevention/",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-060.png",
+    "region": "knee"
+  },
+  {
+    "id": "exp-a-061",
+    "sport_slug": "general-safety",
+    "category": "Universal",
+    "topic": "emergency action plan",
+    "title": "EMERGENCY ACTION PLAN",
+    "copy": [
+      "UNIVERSAL",
+      "EMERGENCY ACTION PLAN",
+      "Know who calls emergency services.",
+      "Locate the AED before activity.",
+      "Keep emergency access routes clear.",
+      "Collapse or unresponsiveness: activate emergency help now.",
+      "Source: NATA"
+    ],
+    "source": "NATA",
+    "url": "https://www.nata.org/sites/default/files/emergency_action_plan_development.pdf",
+    "additional_sources": [],
+    "image_path": "/workspace/scratch/c17c29802bc0/expand444-a/exp-a-061.png",
+    "region": "heart"
+  }
+]

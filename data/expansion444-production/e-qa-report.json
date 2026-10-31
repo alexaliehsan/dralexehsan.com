@@ -1,0 +1,686 @@
+{
+  "count": 61,
+  "date": "2026-09-27",
+  "generation": "Built-in imagegen, one original call per poster plus targeted corrections",
+  "counts": {
+    "powerlifting-and-weight-training": 15,
+    "martial-arts-and-boxing": 15,
+    "cycling": 15,
+    "pickleball": 15,
+    "general-safety": 1
+  },
+  "review_scope": "Editorial visual QA; not individualized clinical advice or formal clinical sign-off",
+  "assets": [
+    {
+      "id": "exp-e-001",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "02e7b39a465f8d796b8c6cdb385391e08eeda19f2278c02da0cc16d1beb35586",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": "Identifiable brand marks removed"
+    },
+    {
+      "id": "exp-e-002",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-002.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "467730c7039bf14e87252dfb4b141e3eb6b156278c2e6d73900a67bf5774440c",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": "Identifiable brand marks removed"
+    },
+    {
+      "id": "exp-e-003",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-003.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "ac29c08e314f2fe26fca70da72e55990f4400b0c46071cbacedc740931617ef2",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": "Identifiable brand marks removed"
+    },
+    {
+      "id": "exp-e-004",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-004.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "4cbe4a7729cb576418a5cfb2d6439bd7d0a9e8d07ac1b0ec12c8580f68642fe3",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-005",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-005.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "bcdbb1cf44029ae138fb71e6e63b37ae970865520dbb16697d8b661f655f08e7",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": "Identifiable brand marks removed"
+    },
+    {
+      "id": "exp-e-006",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-006.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "34981fb9a8b29be2fcce73e37b7146a6e426ae460acd54a92cfa8d4e7b3f7ff2",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": "Identifiable brand marks removed"
+    },
+    {
+      "id": "exp-e-007",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-007.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "c54670c514044ff4d9bebc15aedb8b057ace839fd0e51a6b32eb02663265ddfb",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": "Identifiable brand marks removed"
+    },
+    {
+      "id": "exp-e-008",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-008.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "7f068ce31b5d8194c8529e9713470f1f37192279f502b29a87e325afe54205f6",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-009",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-009.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "510e6830a7521b2ca9be2911d00ba0cd0c9361168455a258f080338f477efec5",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-010",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-010.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "ac5757e05a33fb42c958a4d2261062237b39c1485d17a223c3597fa130364603",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-011",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-011.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "2a9d888fd0f8f29d769ac5865f2b982bab7a3d3498d0471bddfb37a8d7922c7d",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-012",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-012.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "89b753279e5a1710ab16b8aeb66b3b984632b1168bbe0dad2a82efdcbb6e47db",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-013",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-013.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "ae68f44204a894638b27c2f0b9d2fe4a9950dd892dd837e65bc036cc229477b9",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-014",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-014.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "245ee121fa422c45e6257576a85687687a48b7f5931006c3b0f6a5075a11e118",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-015",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-015.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b3ae8fb82fd9ed2e734a5e1a702098f0759cfbce18de5fa87e01f46521a0211b",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-016",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-016.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "a28957d51c8a51deab2f91e5ccbc5f9872152b555668fdf6739e8ae9e5959321",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-017",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-017.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "9ea286a78ec93ec672f8c80a140f3ceac797da82aaa52b9e596c1ef035de4e09",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-018",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-018.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "1af76032321551c9440886478345af735524bd43db151a9743e948d518813e26",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-019",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-019.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "cffd5350b6b45bcc7393de2ad89b059fbda69e7182acca6e9e2bdfcc7a688865",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-020",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-020.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b2964d1cc56c90a8352145e72946003292b935741fc26f72d8d5b3a3a8252af3",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-021",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-021.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "01410220d6595571f7edfcf4b70af8b3ab49bb38951d4f3893496b048061edbb",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-022",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-022.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "fb2c295a379c029f4527e683b0e90d7a71d63af6cc06e31779ab8a354257d39c",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-023",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-023.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "fb14d4df9aa1d45035afd0a078181cc450f66dd40d9fe934b68c79e1abb23e11",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-024",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-024.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "adae368fc9734ef60b4eab38c5cddc908e963ddbb41735ea41090e1d37254044",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-025",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-025.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "6eb0002c63674043d71f618ba50cfb6d77bfe7f1e8c9874feb0c85fa2e35e325",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": "Concussion no-same-day-return report band"
+    },
+    {
+      "id": "exp-e-026",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-026.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "e49b5d12e3a5654f5a642086f41e67505315084299548d31e53f3ec95afa0a6f",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-027",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-027.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b626fbb6d5180801fb1893646906db522a03a896a0f616aabb8ed074690c9aef",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-028",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-028.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "a9e83243cb54f4a3c26a6beb06c9cc4aaf622dc242bead0b6cfe8526dc15f60d",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-029",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-029.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "480af74c1b5446e5dbbaafcf168239cc50049c088f0f5279bc000a9fc33a13f6",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-030",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-030.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "57b9953678c50b9aa1979299f8d7a17e9f4b70312b2d52eb8dc546a20e1473bc",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-031",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-031.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "e44b4593c271803d4e51b9c7fdbc86d8ec9ab772db2f9fa20af757d045197448",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-032",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-032.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "1498c5c5cbf0784b4aa1f1244834e9f6847dac2630a3a110838268403386349e",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-033",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-033.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "9cb9bc3cb13e6d1eb51b010232b08b0ba1c161c148bcd74b2a7add880258ec5f",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-034",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-034.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "16d69ec3852a050fa5d6d88edd1030f55adff247241bea7258d22106c2c28e78",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-035",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-035.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "4022cd4386e368c365f67b6336e7cc6152c9c2736ce0ca1cd0376c255dcf3db4",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-036",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-036.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "82d542f596cdebc3d22d347b88569715b5cab16d2e50dbfc742506bc5de45475",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-037",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-037.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b5b19196a868e460b2d0420f24e58a9f9d07513ec45b59672ee242608f3aba6d",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-038",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-038.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "290596a678223aa83baa5de616e7c7b49f5b583fdace9b3a29ece992af114a2d",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-039",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-039.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "977dff365f90d6fbcbf9ede3913ff8348174c1ebb4832f7a8f159f6817e89023",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-040",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-040.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "6ef283079e8571e7532eba6dc46912940f6070d3eda09ec5a0c2f639b8b304c6",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-041",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-041.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "c667dd5d279ad54bff4d62be21ec860a4a3bf3372785ef0a88d295c950ca8391",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-042",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-042.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "1df93327b3a044e520a2eecf591086d44910ea46357297407d9e8c6a9708271b",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-043",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-043.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "7773456af9c1c5a1ca1ed182bb80cbf28e9dfdbcebdba44e650f77ee0ff2b7e1",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-044",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-044.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "6d734a12e39a53de2d6c1d5ea9498e5e1e335b93950d25e56a0013b4b75943fd",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-045",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-045.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "345c8f0cf37ed36b9346990851fb446db7608ed7d4b721361d50e10dd31fe0d3",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-046",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-046.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "ff28ebea720bdefbf3056092c72e1e15a0bd563dc98d0b62bf8f92545bf420ba",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-047",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-047.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "e2355d951f614443f850fe06365cbd48fdf417099e066a20dee611a3295d39ed",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-048",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-048.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "0872253f7c6ee99213ca74e2940bb5d2f014c19172a0994bdfce1abee3229ee1",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-049",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-049.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "9cdb7559808dc56996ca667e52b87c4ef4347fd56af9bf7bebd5abbbc25bfab0",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-050",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-050.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "1624b06d145510725de00ac163c2b4580df9fa0ade3918b4515db3c62d303b42",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-051",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-051.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "cd802f9c695a93afc3d033da774877197f2be91910506a248c83edb3c21cacb4",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-052",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-052.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "1ffc22ed5c287bc46bee6d688d7b39d1709dfadcdb9bf4f818c8a7c9a2c35716",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-053",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-053.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "c3912101de8f83cab9b96d372995368ceb3159c57f33cf1da1633d0371abc1b9",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-054",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-054.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "119a9193a7238aa5a702c57187f694038097c9385ccfbed47cdf10aea33efdea",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-055",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-055.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b992c10582f746c3631a5415fca0fae5d1e6d5d4ce92532f0b609ae12e824909",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-056",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-056.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "5c8d2acc3dc679c40fcfd780005fd86aec3645dd21dc1e24e7eb7082c57e830d",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-057",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-057.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "aca19fa4a9dd82f2960a2d6057be47ff04c4fd641e247ba161550cdb1b136655",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-058",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-058.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "d8faa00383588eebc650d9929d2a28515e2f27f36727de4418f40b2aa50833b5",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-059",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-059.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "651adcf2aa3f18c77065e617555ed4712d4805e2b3a8dfb1c2f17fdc49f3756d",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-060",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-060.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "e6feb874f72398b0d0283a52a59321a07855c4d911c78435cbc615ca966893e5",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    },
+    {
+      "id": "exp-e-061",
+      "image_path": "/workspace/scratch/c17c29802bc0/expand444-e/assets/exp-e-061.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "5b0800ed99e6247162f6f23a2b1eeb42747f07db24e8e706e678409f46750e79",
+      "visual_review": "Passed: text legibility, regional anatomy plausibility, sport equipment and safety.",
+      "correction": null
+    }
+  ]
+}

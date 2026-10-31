@@ -1,0 +1,60 @@
+from pathlib import Path
+import json,html,re
+root=Path('dist');briefs=json.loads(Path('data/illustrated-poster-briefs.json').read_text())
+concussion={'id':'concussion-locker-room','category':'Concussion and head safety','title':'PROTECT YOUR BRAIN','copy':['Suspect a concussion? Stop playing.','Tell your coach or athletic trainer.','No return to play that day. Get medical clearance.','Worsening headache, repeated vomiting, seizure, or trouble waking? Call 911.','Your future is bigger than one game.'],'source':'CDC HEADS UP','url':'https://www.cdc.gov/heads-up/response/index.html'}
+injuries=json.loads(Path('data/injury-poster-briefs.json').read_text()) if Path('data/injury-poster-briefs.json').exists() else []
+concussion['additional_sources']=['https://www.cdc.gov/heads-up/signs-symptoms/index.html']
+concussion['topic']='sports concussion'
+concussion['scope']='Individual injury safety poster; not a personalized treatment plan'
+topic_order={x['topic']:i for i,x in enumerate(json.loads(Path('data/illustrated-poster-review-queue.json').read_text()))}
+injuries.sort(key=lambda x:topic_order.get(x['topic'],999))
+sports=json.loads(Path('data/sport-poster-briefs.json').read_text()) if Path('data/sport-poster-briefs.json').exists() else []
+expansion=json.loads(Path('data/expansion444-posters.json').read_text()) if Path('data/expansion444-posters.json').exists() else []
+items=sports+expansion+[concussion]+injuries+briefs
+sport_items=[x for x in items if x.get('sport_slug') in {a['sport_slug'] for a in sports}]
+for x in items:
+ x['image']=x.get('image','posters/'+x['id']+'.png');x['review']=x.get('review','Awaiting individual clinical review');x['scope']=x.get('scope','General category safety poster, not a condition-specific treatment guide');x['source_checked']=x.get('source_checked','2026-09-27')
+Path('data/illustrated-posters.json').write_text(json.dumps(items,ensure_ascii=False,indent=2))
+signoff_path=Path('data/poster-clinical-signoff.json')
+signoff=json.loads(signoff_path.read_text()) if signoff_path.exists() else None
+if signoff:
+ for x in items:
+  x['review']='Collection review and approved revisions signed off by Alex Ehsan, MD, PhD'
+  x['review_date']=signoff['date']
+ Path('data/illustrated-posters.json').write_text(json.dumps(items,ensure_ascii=False,indent=2))
+esc=html.escape
+cards=[]
+for x in items:
+ alt=x['title']+'. '+' '.join(x['copy'])
+ cards.append('<article class="poster" id="'+x['id']+'" data-search="'+esc(' '.join([x['category'],x['title'],x.get('topic',''),x.get('body_area','')]+x['copy']),quote=True)+'" data-sport="'+esc(x.get('sport_slug',''),quote=True)+'"><h2>'+esc(x.get('topic',x['category']))+'</h2><a href="'+x['image']+'"><img loading="lazy" src="'+x['image']+'" alt="'+esc(alt,quote=True)+'" width="1024" height="1536"></a><div class="actions"><a href="'+x['image']+'">Open full poster</a><a href="'+x['image']+'" download="'+Path(x['image']).name+'">Download</a></div><details><summary>Text and source</summary>'+''.join('<p>'+esc(t)+'</p>' for t in x['copy'])+'<p><a href="'+esc(x['url'],quote=True)+'">'+esc(x['source'])+'</a></p>'+''.join('<p><a href="'+esc(u,quote=True)+'">Additional clinical source</a></p>' for u in x.get('additional_sources',[]))+'</details></article>')
+page=r'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Illustrated Locker Room Posters | Alex Ehsan</title><link rel="canonical" href="https://dralexehsan.com/illustrated-posters.html"><style>*{box-sizing:border-box}body{margin:0;background:#eef4f7;color:#071e2b;font:18px/1.6 system-ui}header{background:#071e2b;padding:18px}header a{color:#78d7e7}main{max-width:1300px;margin:auto;padding:24px 18px}h1{font-size:clamp(2rem,5vw,3rem);line-height:1.15}h2{font-size:1.3rem;margin:0 0 16px}label{display:block;font-weight:700}input{font:inherit;width:100%;padding:14px;border:1px solid #567b8a;border-radius:12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:24px}.poster{background:white;border-radius:16px;padding:18px;min-width:0}.poster[hidden]{display:none}.poster img{display:block;width:100%;height:auto}.actions{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}.actions a{padding:12px 16px;background:#071e2b;color:white;border-radius:10px;min-height:48px;text-decoration:none}summary{cursor:pointer;min-height:44px}a{color:#0d718f}a:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #c07300;outline-offset:4px}.note{border-left:4px solid #0d718f;padding-left:16px}footer{margin-top:32px}#poster-more{font:inherit;font-weight:700;display:block;margin:24px auto;padding:14px 24px;border:0;border-radius:12px;background:#071e2b;color:white;cursor:pointer}#poster-more[hidden]{display:none}.poster{scroll-margin-top:20px}.poster-filters{display:flex;align-items:end;gap:14px;flex-wrap:wrap;margin:18px 0}.poster-filters>div{flex:1;min-width:min(100%,240px)}.poster-filters select,.poster-filters button{font:inherit;min-height:48px;padding:12px;border:1px solid #567b8a;border-radius:12px;max-width:100%}.poster-filters select{width:100%;background:white;color:#071e2b}.poster-filters button{background:#071e2b;color:white;cursor:pointer}button:focus-visible,select:focus-visible{outline:3px solid #c07300;outline-offset:4px}.poster h2,.poster p{overflow-wrap:anywhere}@media(max-width:500px){.poster-filters{display:block}.poster-filters button{width:100%;margin-top:12px}}</style></head><body><header><a href="index.html#locker-posters">Alex Ehsan · Locker room print center</a></header><main><h1>Illustrated locker room posters</h1><p>20 anatomical and athlete safety posters for teens and student athletes. Open an image to view it at full size, or download it for printing.</p><p class="note">General safety themes. These do not replace individual injury assessment or return-to-play clearance. Individual clinical review is pending. The topic library contains 1,000 searchable focus entries. Several entries may share one illustrated poster.</p><label for="poster-filter">Find an injury, body area or safety theme</label><input id="poster-filter" type="search" placeholder="Try ACL, ankle sprain, shoulder or recovery"><div class="poster-filters"><div><label for="poster-sport">Sport</label><select id="poster-sport"><option value="">All sports and topics</option><option value="basketball">Basketball</option><option value="american-football">American Football</option><option value="track-and-field">Track and Field</option><option value="soccer">Soccer</option><option value="baseball">Baseball</option><option value="volleyball">Volleyball</option><option value="softball">Softball</option><option value="wrestling">Wrestling</option><option value="swimming-and-diving">Swimming and diving</option><option value="tennis">Tennis</option><option value="cross-country">Cross country</option><option value="gymnastics">Gymnastics</option><option value="cheerleading">Cheerleading</option><option value="lacrosse">Lacrosse</option><option value="ice-hockey">Ice hockey</option><option value="golf">Golf</option><option value="powerlifting-and-weight-training">Powerlifting &amp; Weight Training</option><option value="martial-arts-and-boxing">Martial Arts &amp; Boxing</option><option value="cycling">Cycling</option><option value="pickleball">Pickleball</option></select></div><button id="poster-clear" type="button">Clear search and filters</button></div><p id="poster-results" role="status">20 posters</p><div class="grid">'''+''.join(cards)+r'''</div><button id="poster-more" type="button" hidden>Show more posters</button><footer>Educational only. Sources checked September 27, 2026. Original illustrations are educational depictions, not diagnostic images.</footer></main><script src="poster-gallery.js"></script></body></html>'''
+page=page.replace('20 anatomical and athlete safety posters',str(len(items))+' anatomical and athlete safety posters').replace('General safety themes.',str(len(sport_items))+' sport-focused posters, '+str(len(injuries)+1)+' injury and body-area topic posters, and '+str(len(items)-len(sport_items)-len(injuries)-1)+' general safety designs.').replace('these 20 illustrated designs','these '+str(len(items))+' illustrated designs').replace('>20 posters<','>'+str(len(items))+' posters<')
+if signoff:
+ page=page.replace('Individual clinical review is pending.', 'Collection review and listed revisions approved by Alex Ehsan, MD, PhD on September 28, 2026.')
+ page=page.replace('Sources checked September 27, 2026.', 'Sources checked September 27–28, 2026.')
+(root/'illustrated-posters.html').write_text(page)
+if sports:
+ sport_page=page.replace('Illustrated Locker Room Posters | Alex Ehsan','Sport Posters | Alex Ehsan').replace('<h1>Illustrated locker room posters</h1>','<h1>Find your sport poster</h1>').replace('href="https://dralexehsan.com/illustrated-posters.html"','href="https://dralexehsan.com/sport-posters.html"')
+ sport_page=sport_page.replace(str(len(items))+' anatomical and athlete safety posters',str(len(sport_items))+' illustrated sport safety posters').replace(str(len(items))+' posters</p>',str(len(sport_items))+' posters</p>')
+ sport_page=sport_page.replace(''.join(cards),''.join(c for x,c in zip(items,cards) if x in sport_items))
+ sport_page=sport_page.replace('Find an injury, body area or safety theme','Find your sport').replace('Try ACL, ankle sprain, shoulder or recovery','Try basketball, swimming or pickleball')
+ sport_page=sport_page.replace(str(len(sport_items))+' sport-focused posters, '+str(len(injuries)+1)+' injury and body-area topic posters, and '+str(len(items)-len(sport_items)-len(injuries)-1)+' general safety designs.','Dedicated safety posters for all 20 listed sports.')
+ sport_page=sport_page.replace('The topic library contains 1,000 searchable focus entries. Several entries may share one illustrated poster.','')
+ sport_page=sport_page.replace('<label for="poster-filter">','<p><a href="sport-posters.html">Browse all sports</a></p><label for="poster-filter">')
+ sport_page=sport_page.replace('<footer>','<footer><p><a href="illustrated-posters.html">Browse all injury and sport posters</a></p>')
+ (root/'sport-posters.html').write_text(sport_page)
+
+p=root/'index.html';s=p.read_text()
+library_script=root/'medical-library.js'
+if 'const illustratedPosterCategories=' not in s and not (library_script.exists() and 'const illustratedPosterCategories=' in library_script.read_text()):
+ s=s.replace('<div class="poster-tools">','<p><a class="btn btn-primary" href="illustrated-posters.html">Browse 20 illustrated locker room posters</a></p><div class="poster-tools">',1)
+ # Add category reading links without falsely identifying broad posters as exact injury treatments.
+ mapping={x['category']:{'id':x['id'],'title':x['title']} for x in items}
+ mark='    function renderPosters()';s=s.replace(mark,'    const illustratedPosterCategories='+json.dumps(mapping,separators=(',',':'))+';\n'+mark,1)
+ s=s.replace('const p=posterMessage(g);if(',"const p=posterMessage(g);const art=illustratedPosterCategories[g[4]];const related=art&&(!(g[4]==='Concussion and head safety')||/concussion/i.test(p.topic))?`<p><a class=\"related-poster\" href=\"illustrated-posters.html#${art.id}\">Related illustrated safety poster</a></p>`:'';if(",1)
+ s=s.replace('<div class="poster-actions"><button type="button" data-print-poster>Open poster</button>','${related}<div class="poster-actions"><button type="button" data-print-poster>Open text reminder</button>',1)
+ p.write_text(s)
+p=root/'poster-preview.css';rule='.locker-poster .related-poster{display:block;background:white;color:#071e2b;padding:12px;border-radius:10px;font-weight:700}'
+if rule not in p.read_text():p.write_text(p.read_text()+'\n'+rule+'\n')
+p=root/'sitemap.xml';s=p.read_text().replace('<url><loc>https://dralexehsan.com/illustrated-posters.html</loc></url>','').replace('</urlset>','<url><loc>https://dralexehsan.com/illustrated-posters.html</loc></url></urlset>');p.write_text(s)
+print('Built',len(items),'poster directory entries')

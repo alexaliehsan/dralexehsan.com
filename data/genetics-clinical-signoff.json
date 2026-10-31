@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-28",
+  "timezone": "America/Chicago",
+  "approved_by": "Alex Ehsan, MD, PhD",
+  "authorization": "User stated: I approve all updates and sign off on genetics.",
+  "scope": "Existing genetics directory and explanations, including CDH1 visit guide in English and Spanish. Does not approve future revisions or unrelated clinical guides.",
+  "basis": "Explicit physician user sign-off. No independent clinician review by other named physicians is implied.",
+  "files": {
+    "genetics.html": "1af3e8ce8d355cb29e3073009247665ab2ed04c9220bf972d5656d466d9bb73b",
+    "genetics.js": "7c21379ff9c624b41b59ea8578610ffaf907f12b5f29a515373232bf70f3e3d3",
+    "genetics-data.json": "3f022e0cb9f141833d5a4664ea53a58ecad8c1f470350e90181f8ad75d334c25",
+    "cdh1-guide.html": "048fae16e9b206f5dcdd1498a00a14528524cc203c5a6c0d51107aadd9214063",
+    "cdh1-guide-es.html": "88f2cb2560b96bdccc30513f836626f4d38329211d21f619a6dbfed1597de904"
+  }
+}

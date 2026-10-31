@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#342b63"/><stop offset="1" stop-color="#6555ae"/></linearGradient><radialGradient id="r"><stop stop-color="#a49be4" stop-opacity=".55"/><stop offset="1" stop-color="#a49be4" stop-opacity="0"/></radialGradient></defs>
+    <rect width="640" height="640" rx="42" fill="url(#g)"/>
+    <circle cx="560" cy="80" r="230" fill="url(#r)"/><circle cx="560" cy="80" r="118" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="2"/><circle cx="560" cy="80" r="78" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2"/>
+    <path d="M470 82h180M560-8v180" stroke="#fff" stroke-opacity=".08" stroke-width="22"/>
+    <rect x="46" y="46" width="238" height="42" rx="21" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".22"/>
+    <text x="64" y="74" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2" fill="#fff">TESTS &amp; TREATMENT</text>
+    <circle cx="548" cy="520" r="54" fill="#75d5df"/><text x="548" y="533" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="800" fill="#342b63">T</text>
+    <text x="54" y="285" font-family="DejaVu Sans, Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff">Fertility and cancer</text>
+    <line x1="54" y1="530" x2="390" y2="530" stroke="#a49be4" stroke-width="5"/>
+    <text x="54" y="574" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="600" fill="#dff7fb">DR. ALEX EHSAN • FREE EDUCATION</text>
+  </svg>
