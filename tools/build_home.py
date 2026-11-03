@@ -98,9 +98,9 @@ S = {
           ('hands', 'guides/1355.html', 'Learn about hospice care', 'What it is, and how to talk about it as a family'),
           ('mind', 'all-resources.html#mental-health', 'Cope with stress and worry', 'Mental health support in English and Spanish'),
           ('book', 'patient-guides.html', 'Browse 2,000+ patient guides', 'Every condition and test, A to Z')],
-    loc_h='Clinics and telemedicine', loc_p='Dr. Ehsan practices with Starling Oncology, formerly The Oncology Institute.',
-    clinics=[('downey', 'Mon–Thu, week one', 'Downey', 'Starling Oncology<br>11525 Brookshire Ave, Suite 202<br>Downey, CA 90241', '+15628691201', '(562) 869-1201', '11525 Brookshire Ave Suite 202, Downey, CA 90241', 'https://starlingoncology.com/locations/downey/'),
-             ('culver', 'Friday, week one', 'Culver City', 'Starling Oncology<br>9808 Venice Blvd, Suite 603<br>Culver City, CA 90232', '+14243890037', '(424) 389-0037', '9808 Venice Blvd Suite 603, Culver City, CA 90232', 'https://starlingoncology.com/locations/culver-city/')],
+    loc_h='Clinics and telemedicine', loc_p='Dr. Ehsan sees patients in person in Los Angeles every other week, and by video from Texas in between.',
+    clinics=[('downey', 'Mon–Thu, week one', 'Downey', 'In-person visits, Monday through Thursday.'),
+             ('culver', 'Friday, week one', 'Culver City', 'In-person visits on Friday.')],
     tx=('Week two', 'Telemedicine from Texas', 'Dr. Ehsan sees patients by secure video and is not at the California offices that week. Your clinic sends the link and tells you whether to join from home or from an office.'),
     call_short='Call', directions='Directions', site='Clinic website',
     fine='To book, confirm, cancel or change a visit, call your clinic. This website and Dr. Ehsan’s social media can’t schedule appointments and aren’t monitored for medical questions. Please don’t send personal health information here.',
@@ -120,12 +120,12 @@ S = {
           ('Internal medicine residency', 'Scott & White / Texas A&M College of Medicine, Temple, Texas'),
           ('Hematology & medical oncology fellowship', 'Scott & White / Texas A&M College of Medicine, Temple, Texas, completed 2008'),
           ('North Texas', 'Medical oncologist; Chief of Medicine at Texoma Medical Center; Adjunct Clinical Assistant Professor, UNT Health Science Center at Fort Worth'),
-          ('Los Angeles', 'Starling Oncology, Downey and Culver City')],
-    hosp='Member, American College of Physicians. Hospital affiliations: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center and Henry Mayo Newhall Hospital.',
+          ('Los Angeles', 'Medical oncology and hematology, Downey and Culver City')],
+    hosp='Fellow of the American College of Physicians (FACP). Hospital affiliations: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center and Henry Mayo Newhall Hospital.',
     foot_about='Free medical education in English and Spanish. No advertising.',
     foot_h1='Patients', foot_l1=[('#where', 'Clinics and telemedicine'), ('cancer-visit-guide.html', 'Prepare for your visit'), ('patient-guides.html', 'Patient guide library'), ('all-resources.html#library', 'Search all health topics'), ('es.html', 'En español')],
     foot_h2='More', foot_l2=[('genetics.html', 'Genes and genetic testing'), ('health-guides.html', 'Health explainers'), ('athlete-injury-center.html', 'Athletes and injury prevention'), ('social-updates.html', 'All social media posts'), ('all-resources.html', 'Everything on this site'), ('all-resources.html#editorial', 'Sources and review')],
-    legal='This website is for general education and does not replace advice from your own doctor. It is Dr. Ehsan’s personal website and is not affiliated with or endorsed by Starling Oncology or any employer. Using it does not create a doctor–patient relationship.',
+    legal='This website is for general education and does not replace advice from your own doctor. It is Dr. Ehsan’s personal, independent website and has no connection to any of his current or former employers: it is not affiliated with, sponsored, reviewed or endorsed by them, and the views here are his own. Using it does not create a doctor–patient relationship.',
     portrait_cap='Medical oncology, hematology and internal medicine',
     netlabel={'Facebook': 'Facebook', 'LinkedIn': 'LinkedIn', 'TikTok': 'TikTok', 'Instagram': 'Instagram', 'YouTube': 'YouTube', 'X': 'X'},
 ),
@@ -159,9 +159,9 @@ S = {
           ('hands', 'guides/4824.html', 'Cuidados paliativos', 'Alivio de síntomas y apoyo para la familia'),
           ('mind', 'all-resources.html?lang=es#mental-health', 'Estrés y preocupación', 'Apoyo de salud mental en español'),
           ('book', 'visit-guides-es.html', 'Todas las guías en español', 'Guías para su visita y más de 1,000 temas')],
-    loc_h='Clínicas y telemedicina', loc_p='El Dr. Ehsan atiende con Starling Oncology, antes The Oncology Institute.',
-    clinics=[('downey', 'Lun a jue, semana uno', 'Downey', 'Starling Oncology<br>11525 Brookshire Ave, Suite 202<br>Downey, CA 90241', '+15628691201', '(562) 869-1201', '11525 Brookshire Ave Suite 202, Downey, CA 90241', 'https://starlingoncology.com/locations/downey/'),
-             ('culver', 'Viernes, semana uno', 'Culver City', 'Starling Oncology<br>9808 Venice Blvd, Suite 603<br>Culver City, CA 90232', '+14243890037', '(424) 389-0037', '9808 Venice Blvd Suite 603, Culver City, CA 90232', 'https://starlingoncology.com/locations/culver-city/')],
+    loc_h='Clínicas y telemedicina', loc_p='El Dr. Ehsan atiende en persona en Los Ángeles una semana sí y otra no, y por video desde Texas la semana intermedia.',
+    clinics=[('downey', 'Lun a jue, semana uno', 'Downey', 'Citas en persona, de lunes a jueves.'),
+             ('culver', 'Viernes, semana uno', 'Culver City', 'Citas en persona el viernes.')],
     tx=('Semana dos', 'Telemedicina desde Texas', 'Esa semana el Dr. Ehsan atiende por video seguro y no está en las oficinas de California. Su clínica le envía el enlace y le dice si debe conectarse desde casa o desde una oficina.'),
     call_short='Llamar', directions='Cómo llegar', site='Sitio de la clínica',
     fine='Para hacer, confirmar, cancelar o cambiar una cita, llame a su clínica. Este sitio y las redes sociales del Dr. Ehsan no pueden programar citas ni se revisan para preguntas médicas. No envíe información personal de salud por aquí.',
@@ -181,12 +181,12 @@ S = {
           ('Residencia en medicina interna', 'Scott & White / Texas A&M College of Medicine, Temple, Texas'),
           ('Especialidad en hematología y oncología médica', 'Scott & White / Texas A&M College of Medicine, Temple, Texas, terminada en 2008'),
           ('Norte de Texas', 'Oncólogo médico; Jefe de Medicina en Texoma Medical Center; profesor clínico asistente adjunto, UNT Health Science Center en Fort Worth'),
-          ('Los Ángeles', 'Starling Oncology, Downey y Culver City')],
-    hosp='Miembro del American College of Physicians. Afiliaciones hospitalarias: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center y Henry Mayo Newhall Hospital.',
+          ('Los Ángeles', 'Oncología médica y hematología, Downey y Culver City')],
+    hosp='Fellow del American College of Physicians (FACP). Afiliaciones hospitalarias: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center y Henry Mayo Newhall Hospital.',
     foot_about='Educación médica gratuita en español e inglés. Sin publicidad.',
     foot_h1='Pacientes', foot_l1=[('#where', 'Clínicas y telemedicina'), ('cancer-visit-guide-es.html', 'Prepare su consulta'), ('visit-guides-es.html', 'Guías en español'), ('patient-guides.html', 'Biblioteca de guías'), ('index.html', 'In English')],
     foot_h2='Más', foot_l2=[('cdh1-guide-es.html', 'Genética: CDH1'), ('football-learning-guide-es.html', 'Fútbol americano y lesiones'), ('social-updates.html', 'Publicaciones en redes'), ('all-resources.html', 'Todo el sitio (inglés)')],
-    legal='Este sitio es solo para educación general y no reemplaza el consejo de su propio médico. Es el sitio personal del Dr. Ehsan y no está afiliado ni respaldado por Starling Oncology ni por ningún empleador. Usarlo no crea una relación médico-paciente.',
+    legal='Este sitio es solo para educación general y no reemplaza el consejo de su propio médico. Es el sitio personal e independiente del Dr. Ehsan y no tiene ninguna relación con sus empleadores actuales o anteriores: no está afiliado, patrocinado, revisado ni respaldado por ellos, y las opiniones son suyas. Usarlo no crea una relación médico-paciente.',
     portrait_cap='Oncología médica, hematología y medicina interna',
     netlabel={},
 ),
@@ -220,9 +220,7 @@ def build(L):
     days = ''.join(f'<li class="{"d-culver" if i == 4 else "d-downey"}"><b>{d}</b>{s["culver"] if i == 4 else s["downey"]}</li>' for i, d in enumerate(s['days']))
     care = ''.join(f'<a href="{fix(h)}">{svg(I[i])}<h3>{t}</h3><span>{d}</span></a>' for i, h, t, d in s['care'])
     helps = ''.join(f'<a href="{fix(h)}">{svg(I[i])}<div><strong>{t}</strong><span>{d}</span></div></a>' for i, h, t, d in s['help'])
-    spots = ''.join(f'''<div class="spot {k}"><span class="tag">{svg(I['pin'])}{when}</span><h3>{name}</h3><address>{addr_html}</address>
-<div class="btns"><a class="btn btn-gold" href="tel:{tel}">{svg(I['phone'])}{s['call_short']} {disp}</a><a class="btn btn-ghost" href="{maps(addr)}" target="_blank" rel="noopener">{s['directions']}</a></div>
-<a class="site" href="{site}" target="_blank" rel="noopener">{s['site']}</a></div>''' for k, when, name, addr_html, tel, disp, addr, site in s['clinics'])
+    spots = ''.join(f'''<div class="spot {k}"><span class="tag">{svg(I['pin'])}{when}</span><h3>{name}</h3><p style="margin:0">{note}</p></div>''' for k, when, name, note in s['clinics'])
     w, n, d = s['tx']
     spots += f'<div class="spot tx"><span class="tag">{svg(I["video"])}{w}</span><h3>{n}</h3><p style="color:#cfcbe8;margin:0">{d}</p></div>'
     vids = ''.join(f'<article class="video"><button type="button" data-yt="{v}" aria-label="{s["play"]} {t}"><img src="https://i.ytimg.com/vi/{v}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"></button><div><h3>{t}</h3><p>{d}</p></div></article>' for v, t, d in s['videos'])
@@ -237,11 +235,7 @@ def build(L):
         {'@type': 'Physician', '@id': SITE + '/#alex-ehsan', 'name': 'Dr. Alex Ehsan, MD, PhD', 'url': SITE + '/', 'image': SITE + '/dr-ehsan.jpg', 'knowsLanguage': ['en', 'es', 'fa'],
          'description': 'Medical oncologist, hematologist and internist in Los Angeles (Downey and Culver City), with telemedicine from Texas.',
          'medicalSpecialty': ['Oncologic', 'Hematologic', 'PalliativeCare'], 'sameAs': [u for _, u in SOCIAL],
-         'areaServed': {'@type': 'City', 'name': 'Los Angeles'},
-         'location': [{'@type': 'MedicalClinic', 'name': 'Starling Oncology — Downey', 'telephone': '+1-562-869-1201',
-                       'address': {'@type': 'PostalAddress', 'streetAddress': '11525 Brookshire Avenue, Suite 202', 'addressLocality': 'Downey', 'addressRegion': 'CA', 'postalCode': '90241', 'addressCountry': 'US'}},
-                      {'@type': 'MedicalClinic', 'name': 'Starling Oncology — Culver City', 'telephone': '+1-424-389-0037',
-                       'address': {'@type': 'PostalAddress', 'streetAddress': '9808 Venice Boulevard, Suite 603', 'addressLocality': 'Culver City', 'addressRegion': 'CA', 'postalCode': '90232', 'addressCountry': 'US'}}]},
+         'areaServed': {'@type': 'City', 'name': 'Los Angeles'}},
         {'@type': 'MedicalWebPage', '@id': url + '#webpage', 'url': url, 'name': s['title'], 'description': s['desc'], 'inLanguage': L,
          'isPartOf': {'@id': SITE + '/#website'}, 'about': {'@id': SITE + '/#alex-ehsan'}}]}
     ld = json.dumps(ld, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
@@ -276,7 +270,6 @@ def build(L):
 <a class="brand" href="{s['file']}"><span class="mark" aria-hidden="true">AE</span><span><b>Dr. Alex Ehsan</b><small>{s['tagline']}</small></span></a>
 <nav class="nav" aria-label="Main">{nav}{lang}</nav>
 <a class="lang-m" href="{s['other']}" lang="{s['other_lang']}" hreflang="{s['other_lang']}">{s['other_label']}</a>
-<a class="callnow" href="#where">{svg(I['phone'])}<span>{s['call']}</span></a>
 <details class="menu"><summary>{s['menu']}</summary><nav aria-label="Main">{nav}{lang}</nav></details>
 </div></header>
 

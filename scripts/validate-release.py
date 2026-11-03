@@ -52,6 +52,6 @@ for name in ['sitemap.xml','patient-guides-sitemap.xml']:
         assert u.hostname=='dralexehsan.com'
         assert (root/(u.path.lstrip('/') or 'index.html')).exists(), node.text
 home=(root/'index.html').read_text()
-for required in ['google-site-verification','11525 Brookshire','9808 Venice','telemedicine','Starling Oncology']:
+for required in ['google-site-verification','Downey','Culver City','telemedicine','not affiliated']:
     assert required in home, required
-print(json.dumps({'pages':len(pages),'local_references':reference_count,'decoded_poster_assets':len(posters),'navigation_and_sitemaps':'valid','practice_details':'preserved'}))
+print(json.dumps({'pages':len(pages),'local_references':reference_count,'decoded_poster_assets':len(posters),'navigation_and_sitemaps':'valid','practice_details':'schedule only'}))
