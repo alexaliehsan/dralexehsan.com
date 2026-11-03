@@ -3,14 +3,17 @@
   var form = document.getElementById('find'), input = document.getElementById('find-q'), box = document.getElementById('find-results');
   if (!form || !input || !box) return;
   var es = document.documentElement.lang === 'es';
-  var T = es ? { all: 'Ver todos los resultados para', none: 'Sin guías con ese nombre. Buscar en toda la biblioteca:', en: 'Inglés', sp: 'Español' }
-             : { all: 'See all results for', none: 'No guide with that name. Search the full library for', en: 'English', sp: 'Spanish' };
+  var T = es ? { all: 'Ver todos los resultados para', none: 'Sin guías con ese nombre. Buscar en toda la biblioteca:', en: 'Inglés', sp: 'Español', med: 'Medicamento' }
+             : { all: 'See all results for', none: 'No guide with that name. Search the full library for', en: 'English', sp: 'Spanish', med: 'Medicine' };
   var data = null, loading = null;
   var norm = function (s) { return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(); };
   function load() {
-    return loading || (loading = fetch('patient-guide-index.json').then(function (r) { return r.json(); }).then(function (d) {
-      data = d.map(function (g) { return { id: g.id, title: g.title, lang: g.language, t: norm(g.title), k: norm(g.title + ' ' + (g.terms || '')) }; });
-    }).catch(function () { data = []; }));
+    var get = function (u) { return fetch(u).then(function (r) { return r.json(); }).catch(function () { return []; }); };
+    return loading || (loading = Promise.all([get('medicines-index.json'), get('patient-guide-index.json')]).then(function (all) {
+      data = all[0].concat(all[1]).map(function (g) {
+        return { id: g.id, url: g.url, med: g.kind === 'med', title: g.title, lang: g.language, t: norm(g.title), k: norm(g.title + ' ' + (g.terms || '')) };
+      });
+    }));
   }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function libraryUrl(q) { return 'all-resources.html?q=' + encodeURIComponent(q) + '#library'; }
@@ -20,15 +23,16 @@
     if (!data) { load().then(render); return; }
     var words = nq.split(' ');
     var want = es ? 'Spanish' : 'English';
-    var hits = data.filter(function (g) { return words.every(function (w) { return g.k.indexOf(w) > -1; }); })
+    var hits = data.filter(function (g) { return !(g.med && g.lang !== want) && words.every(function (w) { return g.k.indexOf(w) > -1; }); })
       .map(function (g) {
         var s = g.t === nq ? 0 : g.t.indexOf(nq) === 0 ? 1 : g.t.indexOf(nq) > -1 ? 2 : 3;
-        return { g: g, s: s + (g.lang === want ? 0 : 0.5) };
+        if (g.med) s = Math.min(s, 1) - 0.5;
+        return { g: g, s: s + (g.lang === want ? 0 : (g.med ? 5 : 0.5)) };
       })
       .sort(function (a, b) { return a.s - b.s || a.g.title.length - b.g.title.length; })
       .slice(0, 7);
     var html = hits.map(function (h) {
-      return '<a href="guides/' + h.g.id + '.html"><strong>' + esc(h.g.title) + '</strong><span>' + (h.g.lang === 'Spanish' ? T.sp : T.en) + '</span></a>';
+      return '<a href="' + (h.g.url || 'guides/' + h.g.id + '.html') + '"><strong>' + esc(h.g.title) + '</strong><span>' + (h.g.med ? T.med : h.g.lang === 'Spanish' ? T.sp : T.en) + '</span></a>';
     }).join('');
     html += '<a class="all" href="' + libraryUrl(q) + '">' + (hits.length ? T.all : T.none) + ' “' + esc(q) + '” →</a>';
     box.innerHTML = html; box.hidden = false;
@@ -51,7 +55,7 @@
     e.preventDefault();
     var q = input.value.trim(); if (!q) { input.focus(); return; }
     var first = box.hidden ? null : box.querySelector('a:not(.all)');
-    var exact = first && norm(first.textContent.replace(/(English|Spanish|Inglés|Español)$/, '')) === norm(q);
+    var exact = first && (norm(first.textContent.replace(/(English|Spanish|Inglés|Español|Medicine|Medicamento)$/, '')) === norm(q) || /medicines/.test(first.getAttribute('href')));
     location.href = exact ? first.getAttribute('href') : libraryUrl(q);
   });
 
@@ -92,6 +96,11 @@
   legacy();
   window.addEventListener('hashchange', legacy);
   if (/[?&](q|category)=/.test(location.search) && !location.hash) location.replace('all-resources.html' + location.search + '#library');
+
+  /* Quick-question links open their answer. */
+  function openFaq() { var d = document.getElementById(location.hash.slice(1)); if (d && d.tagName === 'DETAILS') d.open = true; }
+  openFaq(); window.addEventListener('hashchange', openFaq);
+  [].forEach.call(document.querySelectorAll('[data-open]'), function (a) { a.addEventListener('click', function () { var d = document.getElementById(a.dataset.open); if (d) d.open = true; }); });
 
   /* Close the phone menu after choosing a destination. */
   var menu = document.querySelector('.menu');

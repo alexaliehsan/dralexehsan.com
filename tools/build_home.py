@@ -29,6 +29,8 @@ I = {
     'dna': '<path d="M7 3c0 6 10 6 10 12v6M17 3c0 6-10 6-10 12v6M8 7h8M8 17h8M9.5 12h5"/>',
     'mind': '<circle cx="12" cy="12" r="9"/><path d="M8.5 14.5s1.3 1.5 3.5 1.5 3.5-1.5 3.5-1.5M9 9.5h.01M15 9.5h.01"/>',
     'run': '<circle cx="14" cy="4.5" r="1.8"/><path d="m8 21 3-6 3 2v4M6 12l3-4 4 1 2 3h3M11 15l-1-5"/>',
+    'pill': '<rect x="3" y="8.5" width="18" height="7" rx="3.5" transform="rotate(-45 12 12)"/><path d="m9.5 9.5 5 5"/>',
+    'chat': '<path d="M4 5h16v11H9l-5 4Z"/><path d="M9 10h.01M12 10h.01M15 10h.01"/>',
     'book': '<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2Z"/><path d="M4 19V5M8 7h7"/>',
 }
 
@@ -69,17 +71,17 @@ SKY = f'''<svg class="sky" viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax 
 
 S = {
 'en': dict(
-    file='index.html', other='es.html', other_label='Español', other_lang='es',
+    file='index.html', other='es.html', other_med='medicines.html', other_label='Español', other_lang='es',
     title='Dr. Alex Ehsan, MD, PhD | Cancer & Blood Doctor in Los Angeles',
     desc='Dr. Alex Ehsan, MD, PhD — board-certified oncologist and internist caring for patients in Downey and Culver City, Los Angeles, with telemedicine from Texas. Free cancer and blood disorder education in English and Spanish.',
     skip='Skip to main content', menu='Menu', tagline='Cancer & blood doctor, Los Angeles',
-    nav=[('#where', 'Locations'), ('#care', 'Care'), ('all-resources.html#library', 'Health topics'), ('#latest', 'Videos & posts'), ('#about', 'About')],
+    nav=[('#faq', 'Questions'), ('medicines.html', 'Medicines'), ('all-resources.html#library', 'Health topics'), ('#latest', 'Videos & posts'), ('#about', 'About')],
     call='Call clinic',
-    where='Downey  ·  Culver City  ·  Telemedicine'.replace('  ·  ', ' / '),
+    where='Free cancer and blood education / English and Spanish',
     h1='Your cancer and blood doctor in Los Angeles.',
     lead='Clear answers, honest conversations, and care that treats you as a whole person — in English and Spanish.',
     areas=['Medical oncology', 'Hematology', 'Internal medicine', 'Palliative and hospice care'],
-    search_label='Look up a diagnosis, test or treatment', search_ph='e.g. breast cancer, anemia', search_btn='Search',
+    search_label='Look up a diagnosis, test or medicine', search_ph='e.g. breast cancer, anemia, Rituxan', search_btn='Search',
     chips=[('3', 'Breast cancer'), ('5620', 'Leukemia'), ('117', 'Lymphoma'), ('332', 'Myeloma'), ('139', 'Anemia'), ('1104', 'Scans')],
     rh_h='Where to find Dr. Ehsan', rh_p='He works on a two-week rhythm.',
     w1='Week one: Los Angeles, in person', w2='Week two: telemedicine from Texas',
@@ -95,7 +97,7 @@ S = {
     help=[('list', 'cancer-visit-guide.html', 'Prepare for a cancer appointment', 'A printable list of questions to bring'),
           ('scan', 'guides/1104.html', 'Understand a scan or test result', 'What PET, CT and MRI can and can’t show'),
           ('dna', 'genetics.html', 'Look up a genetic test result', 'BRCA1, CDH1 and 1,500 other genes'),
-          ('hands', 'guides/1355.html', 'Learn about hospice care', 'What it is, and how to talk about it as a family'),
+          ('pill', 'medicines.html', 'Look up a cancer medicine', 'Rituxan, Keytruda, Revlimid and 60+ more, by brand or generic name'),
           ('mind', 'all-resources.html#mental-health', 'Cope with stress and worry', 'Mental health support in English and Spanish'),
           ('book', 'patient-guides.html', 'Browse 2,000+ patient guides', 'Every condition and test, A to Z')],
     loc_h='Clinics and telemedicine', loc_p='Dr. Ehsan sees patients in person in Los Angeles every other week, and by video from Texas in between.',
@@ -123,24 +125,38 @@ S = {
           ('Los Angeles', 'Medical oncology and hematology, Downey and Culver City')],
     hosp='Fellow of the American College of Physicians (FACP). Hospital affiliations: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center and Henry Mayo Newhall Hospital.',
     foot_about='Free medical education in English and Spanish. No advertising.',
-    foot_h1='Patients', foot_l1=[('#where', 'Clinics and telemedicine'), ('cancer-visit-guide.html', 'Prepare for your visit'), ('patient-guides.html', 'Patient guide library'), ('all-resources.html#library', 'Search all health topics'), ('es.html', 'En español')],
+    foot_h1='Patients', foot_l1=[('medicines.html', 'Cancer medicines A–Z'), ('#faq', 'Common questions'), ('cancer-visit-guide.html', 'Prepare for your visit'), ('patient-guides.html', 'Patient guide library'), ('all-resources.html#library', 'Search all health topics'), ('es.html', 'En español')],
     foot_h2='More', foot_l2=[('genetics.html', 'Genes and genetic testing'), ('health-guides.html', 'Health explainers'), ('athlete-injury-center.html', 'Athletes and injury prevention'), ('social-updates.html', 'All social media posts'), ('all-resources.html', 'Everything on this site'), ('all-resources.html#editorial', 'Sources and review')],
+    qa_h='Patients often ask', qa_p='Quick answers to the questions Dr. Ehsan hears most.', qa_more='Cancer medicines A to Z',
+    qa_top=[1, 2, 4, 8],
+    faq_h='Common questions', faq_p='Plain answers for patients and families. Your own care team knows your situation best.',
+    faq=[('I was just diagnosed. What should I do first?', 'Ask your care team three things: the exact type of cancer, its stage, and the goal of treatment — cure, control or comfort. Bring a friend or family member, write your questions down, and ask for copies of your reports. The <a href="cancer-visit-guide.html">visit guide</a> has a printable list of questions.'),
+         ('How do I look up a medicine my doctor mentioned?', 'Type the brand or generic name in the search box at the top of this page — for example Rituxan or rituximab — or browse <a href="medicines.html">Cancer medicines A to Z</a>. The name on your pharmacy label or treatment calendar works too.'),
+         ('What is the difference between chemotherapy, immunotherapy and targeted therapy?', 'Chemotherapy damages fast-growing cells. Immunotherapy helps your own immune system attack the cancer. Targeted therapy blocks a specific signal the cancer uses to grow. Many treatment plans combine them. <a href="medicines.html#types">More in plain words</a>.'),
+         ('When should I call my care team right away?', 'Call right away for a temperature of 100.4°F (38°C) or higher, shaking chills, trouble breathing, chest pain, bleeding that won’t stop, vomiting or diarrhea that won’t stop, or new confusion. During treatment a fever can be an emergency even if you feel fine. <strong>For a medical emergency, call 911.</strong>'),
+         ('Will I lose my hair?', 'It depends on the medicine. Many treatments — including most immunotherapy, targeted therapy and hormone therapy — usually do not cause full hair loss. Some chemotherapy does. Ask your team about your plan, and whether a scalp-cooling cap is an option.'),
+         ('Can I take vitamins, herbs or supplements?', 'Tell your care team about everything you take, including teas, herbs, vitamins and remedies from home or from another country. Some can weaken treatment or increase side effects. Bring the bottles to your visit.'),
+         ('What does my scan or biopsy report mean?', 'Reports are written for doctors and can be confusing or frightening to read alone. Write down the words you don’t understand and go over them with your oncologist. <a href="guides/1104.html">What PET, CT and MRI can and can’t show</a>.'),
+         ('Is palliative care the same as hospice?', 'No. Palliative care is extra support for pain and symptoms at any stage, even alongside treatment meant to cure. Hospice is comfort-focused care when treatment is no longer helping. <a href="guides/4823.html">Learn about palliative care</a>.'),
+         ('Should I ask about clinical trials?', 'Yes. A clinical trial may offer a newer treatment with close follow-up. Ask your oncologist whether one fits your cancer and stage. You can also search <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a>.'),
+         ('Is my cancer inherited?', 'Most cancers are not inherited, but some run in families. If close relatives had cancer — especially at a young age — ask about genetic counseling and testing. <a href="genetics.html">Look up a gene</a>.')],
+    sched='<strong>Schedule.</strong> Dr. Ehsan sees patients in person in Downey (Monday–Thursday) and Culver City (Friday) every other week, and by telemedicine from Texas in between. Your clinic confirms every appointment; this website can’t schedule visits or answer personal medical questions.',
     legal='This website is for general education and does not replace advice from your own doctor. It is Dr. Ehsan’s personal, independent website and has no connection to any of his current or former employers: it is not affiliated with, sponsored, reviewed or endorsed by them, and the views here are his own. Using it does not create a doctor–patient relationship.',
     portrait_cap='Medical oncology, hematology and internal medicine',
     netlabel={'Facebook': 'Facebook', 'LinkedIn': 'LinkedIn', 'TikTok': 'TikTok', 'Instagram': 'Instagram', 'YouTube': 'YouTube', 'X': 'X'},
 ),
 'es': dict(
-    file='es.html', other='index.html', other_label='English', other_lang='en',
+    file='es.html', other='index.html', other_med='medicines-es.html', other_label='English', other_lang='en',
     title='Dr. Alex Ehsan, MD, PhD | Médico de cáncer y de la sangre en Los Ángeles',
     desc='Dr. Alex Ehsan, MD, PhD — oncólogo e internista certificado que atiende en Downey y Culver City, Los Ángeles, con telemedicina desde Texas. Educación gratuita sobre cáncer y enfermedades de la sangre en español e inglés.',
     skip='Ir al contenido', menu='Menú', tagline='Cáncer y sangre, Los Ángeles',
-    nav=[('#where', 'Clínicas'), ('#care', 'Atención'), ('visit-guides-es.html', 'Guías'), ('#latest', 'Videos'), ('#about', 'Sobre el doctor')],
+    nav=[('#faq', 'Preguntas'), ('medicines-es.html', 'Medicamentos'), ('visit-guides-es.html', 'Guías'), ('#latest', 'Videos'), ('#about', 'Sobre el doctor')],
     call='Llamar',
-    where='Downey / Culver City / Telemedicina',
+    where='Educación gratuita / Español e inglés',
     h1='Su médico de cáncer y de la sangre en Los Ángeles.',
     lead='Respuestas claras, conversaciones honestas y una atención que lo ve como persona completa, en español y en inglés.',
     areas=['Oncología médica', 'Hematología', 'Medicina interna', 'Cuidados paliativos y hospicio'],
-    search_label='Busque un diagnóstico, prueba o tratamiento', search_ph='p. ej. cáncer de mama, anemia', search_btn='Buscar',
+    search_label='Busque un diagnóstico, prueba o medicamento', search_ph='p. ej. cáncer de mama, anemia, Rituxan', search_btn='Buscar',
     chips=[('3', 'Cáncer de mama'), ('5620', 'Leucemia'), ('117', 'Linfoma'), ('332', 'Mieloma'), ('139', 'Anemia'), ('1104', 'Estudios de imagen')],
     rh_h='Dónde encontrar al Dr. Ehsan', rh_p='Trabaja en un ciclo de dos semanas.',
     w1='Semana uno: Los Ángeles, en persona', w2='Semana dos: telemedicina desde Texas',
@@ -156,7 +172,7 @@ S = {
     help=[('list', 'cancer-visit-guide-es.html', 'Prepararse para una cita de cáncer', 'Una lista de preguntas para imprimir'),
           ('scan', 'guides/{es:1104}.html', 'Entender un estudio o resultado', 'Qué pueden mostrar la PET, la TC y la RM'),
           ('dna', 'cdh1-guide-es.html', 'Resultados genéticos', 'Qué significa un resultado de CDH1'),
-          ('hands', 'guides/4824.html', 'Cuidados paliativos', 'Alivio de síntomas y apoyo para la familia'),
+          ('pill', 'medicines-es.html', 'Buscar un medicamento', 'Rituxan, Keytruda, Revlimid y más de 60, por nombre comercial o genérico'),
           ('mind', 'all-resources.html?lang=es#mental-health', 'Estrés y preocupación', 'Apoyo de salud mental en español'),
           ('book', 'visit-guides-es.html', 'Todas las guías en español', 'Guías para su visita y más de 1,000 temas')],
     loc_h='Clínicas y telemedicina', loc_p='El Dr. Ehsan atiende en persona en Los Ángeles una semana sí y otra no, y por video desde Texas la semana intermedia.',
@@ -184,8 +200,22 @@ S = {
           ('Los Ángeles', 'Oncología médica y hematología, Downey y Culver City')],
     hosp='Fellow del American College of Physicians (FACP). Afiliaciones hospitalarias: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center y Henry Mayo Newhall Hospital.',
     foot_about='Educación médica gratuita en español e inglés. Sin publicidad.',
-    foot_h1='Pacientes', foot_l1=[('#where', 'Clínicas y telemedicina'), ('cancer-visit-guide-es.html', 'Prepare su consulta'), ('visit-guides-es.html', 'Guías en español'), ('patient-guides.html', 'Biblioteca de guías'), ('index.html', 'In English')],
+    foot_h1='Pacientes', foot_l1=[('medicines-es.html', 'Medicamentos de la A a la Z'), ('#faq', 'Preguntas frecuentes'), ('cancer-visit-guide-es.html', 'Prepare su consulta'), ('visit-guides-es.html', 'Guías en español'), ('patient-guides.html', 'Biblioteca de guías'), ('index.html', 'In English')],
     foot_h2='Más', foot_l2=[('cdh1-guide-es.html', 'Genética: CDH1'), ('football-learning-guide-es.html', 'Fútbol americano y lesiones'), ('social-updates.html', 'Publicaciones en redes'), ('all-resources.html', 'Todo el sitio (inglés)')],
+    qa_h='Lo que más preguntan los pacientes', qa_p='Respuestas rápidas a las preguntas que más escucha el Dr. Ehsan.', qa_more='Medicamentos de la A a la Z',
+    qa_top=[1, 2, 4, 8],
+    faq_h='Preguntas frecuentes', faq_p='Respuestas sencillas para pacientes y familias. Su propio equipo médico conoce mejor su situación.',
+    faq=[('Me acaban de diagnosticar. ¿Qué hago primero?', 'Pregunte a su equipo tres cosas: el tipo exacto de cáncer, su etapa y la meta del tratamiento (curar, controlar o dar alivio). Vaya acompañado, escriba sus preguntas y pida copias de sus reportes. La <a href="cancer-visit-guide-es.html">guía para su cita</a> tiene una lista de preguntas para imprimir.'),
+         ('¿Cómo busco un medicamento que me mencionó el doctor?', 'Escriba el nombre comercial o genérico en el buscador de arriba —por ejemplo Rituxan o rituximab— o vea <a href="medicines-es.html">Medicamentos de la A a la Z</a>. También sirve el nombre que aparece en la etiqueta de la farmacia o en su calendario de tratamiento.'),
+         ('¿Qué diferencia hay entre quimioterapia, inmunoterapia y terapia dirigida?', 'La quimioterapia daña las células que crecen rápido. La inmunoterapia ayuda a su propio sistema inmunitario a atacar el cáncer. La terapia dirigida bloquea una señal específica que el cáncer usa para crecer. Muchos planes las combinan. <a href="medicines-es.html#types">Más en palabras sencillas</a>.'),
+         ('¿Cuándo debo llamar de inmediato a mi equipo médico?', 'Llame de inmediato si tiene temperatura de 100.4 °F (38 °C) o más, escalofríos fuertes, dificultad para respirar, dolor de pecho, sangrado que no para, vómitos o diarrea que no paran, o confusión nueva. Durante el tratamiento, la fiebre puede ser una emergencia aunque se sienta bien. <strong>Para una emergencia médica, llame al 911.</strong>'),
+         ('¿Se me va a caer el cabello?', 'Depende del medicamento. Muchos tratamientos —como la mayoría de la inmunoterapia, la terapia dirigida y la terapia hormonal— por lo general no causan la caída total del cabello. Algunas quimioterapias sí. Pregunte por su plan y si un gorro frío para el cuero cabelludo es una opción.'),
+         ('¿Puedo tomar vitaminas, hierbas o suplementos?', 'Dígale a su equipo todo lo que toma, incluidos tés, hierbas, vitaminas y remedios de casa o de otro país. Algunos pueden debilitar el tratamiento o aumentar los efectos secundarios. Lleve los frascos a su cita.'),
+         ('¿Qué significa mi reporte de estudio o biopsia?', 'Los reportes están escritos para médicos y pueden confundir o asustar si se leen a solas. Anote las palabras que no entienda y repáselas con su oncólogo. <a href="guides/{es:1104}.html">Qué pueden mostrar la PET, la TC y la RM</a>.'),
+         ('¿Los cuidados paliativos son lo mismo que el hospicio?', 'No. Los cuidados paliativos son apoyo extra para el dolor y los síntomas en cualquier etapa, incluso junto con un tratamiento para curar. El hospicio es atención centrada en la comodidad cuando el tratamiento ya no ayuda. <a href="guides/4824.html">Más sobre cuidados paliativos</a>.'),
+         ('¿Debo preguntar por los estudios clínicos?', 'Sí. Un estudio clínico puede ofrecer un tratamiento más nuevo con seguimiento cercano. Pregunte a su oncólogo si alguno es adecuado para su tipo y etapa de cáncer. También puede buscar en <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a> (en inglés).'),
+         ('¿Mi cáncer es hereditario?', 'La mayoría de los cánceres no se heredan, pero algunos se dan en familias. Si familiares cercanos tuvieron cáncer, sobre todo a una edad joven, pregunte por la consejería y las pruebas genéticas. <a href="cdh1-guide-es.html">Ejemplo: qué significa un resultado de CDH1</a>.')],
+    sched='<strong>Horario.</strong> El Dr. Ehsan atiende en persona en Downey (de lunes a jueves) y en Culver City (viernes) una semana sí y otra no, y por telemedicina desde Texas la semana intermedia. Su clínica confirma cada cita; este sitio no puede programar citas ni responder preguntas médicas personales.',
     legal='Este sitio es solo para educación general y no reemplaza el consejo de su propio médico. Es el sitio personal e independiente del Dr. Ehsan y no tiene ninguna relación con sus empleadores actuales o anteriores: no está afiliado, patrocinado, revisado ni respaldado por ellos, y las opiniones son suyas. Usarlo no crea una relación médico-paciente.',
     portrait_cap='Oncología médica, hematología y medicina interna',
     netlabel={},
@@ -221,6 +251,8 @@ def build(L):
     care = ''.join(f'<a href="{fix(h)}">{svg(I[i])}<h3>{t}</h3><span>{d}</span></a>' for i, h, t, d in s['care'])
     helps = ''.join(f'<a href="{fix(h)}">{svg(I[i])}<div><strong>{t}</strong><span>{d}</span></div></a>' for i, h, t, d in s['help'])
     spots = ''.join(f'''<div class="spot {k}"><span class="tag">{svg(I['pin'])}{when}</span><h3>{name}</h3><p style="margin:0">{note}</p></div>''' for k, when, name, note in s['clinics'])
+    faqs = ''.join(f'<details id="faq-{i}"><summary>{svg(I["chat"])}<span>{q}</span></summary><div class="ans">{fix(a)}</div></details>' for i, (q, a) in enumerate(s['faq'], 1))
+    qa_top = ''.join(f'<li><a href="#faq-{i}" data-open="faq-{i}">{s["faq"][i - 1][0]}</a></li>' for i in s['qa_top'])
     w, n, d = s['tx']
     spots += f'<div class="spot tx"><span class="tag">{svg(I["video"])}{w}</span><h3>{n}</h3><p style="color:#cfcbe8;margin:0">{d}</p></div>'
     vids = ''.join(f'<article class="video"><button type="button" data-yt="{v}" aria-label="{s["play"]} {t}"><img src="https://i.ytimg.com/vi/{v}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"></button><div><h3>{t}</h3><p>{d}</p></div></article>' for v, t, d in s['videos'])
@@ -275,7 +307,7 @@ def build(L):
 
 <section class="hero"><div class="wrap hero-in">
 <div>
-<p class="where">{svg(I['pin'])}{s['where']}</p>
+<p class="where">{svg(I['book'])}{s['where']}</p>
 <h1>{s['h1']}</h1>
 <p class="lead">{s['lead']}</p>
 <ul class="areas">{''.join(f'<li>{a}</li>' for a in s['areas'])}</ul>
@@ -287,11 +319,9 @@ def build(L):
 <div class="chips">{chips}</div>
 </div>
 <aside class="rhythm" aria-labelledby="rh-h">
-<div class="rh-top"><img src="dr-ehsan.jpg" alt="" width="64" height="64"><div><h2 id="rh-h">{s['rh_h']}</h2><p>{s['rh_p']}</p></div></div>
-<div class="week la"><h3>{svg(I['palm'])}{s['w1']}</h3><ul class="days">{days}</ul>
-<p class="key"><span><i class="d-downey"></i>{s['downey']}</span><span><i class="d-culver"></i>{s['culver']}</span></p></div>
-<div class="week tx"><h3>{svg(I['video'])}{s['w2']}</h3><ul class="days"><li class="d-tele" style="grid-column:1/-1;text-align:left;padding:12px 14px">{s['tele']}</li></ul></div>
-<p class="confirm">{svg(I['alert'])}<span>{s['confirm']}</span></p>
+<div class="rh-top"><img src="dr-ehsan.jpg" alt="" width="64" height="64"><div><h2 id="rh-h">{s['qa_h']}</h2><p>{s['qa_p']}</p></div></div>
+<ul class="qa-top">{qa_top}</ul>
+<a class="btn btn-gold qa-btn" href="{s['other_med']}">{svg(I['pill'])}{s['qa_more']}</a>
 </aside>
 </div>{SKY}</section>
 
@@ -306,12 +336,9 @@ def build(L):
 <div class="help">{helps}</div>
 </div></section>
 
-<section class="sec places" id="where" aria-labelledby="loc-h"><div class="wrap">
-<span id="appointments"></span>
-<div class="sec-head"><h2 id="loc-h">{s['loc_h']}</h2><p>{s['loc_p']}</p></div>
-<div class="loc">{spots}</div>
-<p class="fine">{s['fine']}</p>
-<p class="sos">{svg(I['alert'])}<strong>{s['sos']}</strong></p>
+<section class="sec faqs" id="faq" aria-labelledby="faq-h"><div class="wrap">
+<div class="sec-head"><h2 id="faq-h">{s['faq_h']}</h2><p>{s['faq_p']}</p></div>
+<div class="faq">{faqs}</div>
 </div></section>
 
 <section class="sec" id="latest" aria-labelledby="latest-h"><div class="wrap">
@@ -338,6 +365,7 @@ def build(L):
 <div><h2>{s['foot_h1']}</h2><ul>{fl(s['foot_l1'])}</ul></div>
 <div><h2>{s['foot_h2']}</h2><ul>{fl(s['foot_l2'])}</ul></div>
 </div>
+<p class="sched" id="schedule"><span id="where"></span><span id="appointments"></span>{s['sched']}</p>
 <p class="legal">{s['legal']} © <span id="yr">2026</span> Alex Ehsan.</p>
 </div></footer>
 <script src="home-search.js" defer></script>
