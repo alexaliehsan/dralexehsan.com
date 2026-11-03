@@ -94,10 +94,12 @@ S = {
           ('steth', 'health-guides.html', 'Internal medicine', 'Whole-person care, including blood pressure, diabetes and the health problems that come with cancer.'),
           ('hands', 'guides/4823.html', 'Palliative & hospice care', 'Relief from pain and symptoms at any stage, and support for families when it matters most.')],
     help_h='Start here', help_p='The most-used pages for patients and families.',
-    help=[('list', 'cancer-visit-guide.html', 'Prepare for a cancer appointment', 'A printable list of questions to bring'),
-          ('scan', 'guides/1104.html', 'Understand a scan or test result', 'What PET, CT and MRI can and can’t show'),
-          ('dna', 'genetics.html', 'Look up a genetic test result', 'BRCA1, CDH1 and 1,500 other genes'),
+    help=[('steth', 'second-opinion.html', 'Get a second opinion', 'What to bring and what to ask'),
+          ('list', 'cancer-visit-guide.html', 'Prepare for a cancer appointment', 'A printable list of questions to bring'),
           ('pill', 'medicines.html', 'Look up a cancer medicine', 'Rituxan, Keytruda, Revlimid and 60+ more, by brand or generic name'),
+          ('scan', 'guides/1104.html', 'Understand a scan or test result', 'What PET, CT and MRI can and can’t show'),
+          ('hands', 'help-with-costs.html', 'Help with costs and rides', 'Medi-Cal rides, medicine assistance and free support'),
+          ('dna', 'genetics.html', 'Look up a genetic test result', 'BRCA1, CDH1 and 1,500 other genes'),
           ('mind', 'all-resources.html#mental-health', 'Cope with stress and worry', 'Mental health support in English and Spanish'),
           ('book', 'patient-guides.html', 'Browse 2,000+ patient guides', 'Every condition and test, A to Z')],
     loc_h='Clinics and telemedicine', loc_p='Dr. Ehsan sees patients in person in Los Angeles every other week, and by video from Texas in between.',
@@ -107,7 +109,7 @@ S = {
     call_short='Call', directions='Directions', site='Clinic website',
     fine='To book, confirm, cancel or change a visit, call your clinic. This website and Dr. Ehsan’s social media can’t schedule appointments and aren’t monitored for medical questions. Please don’t send personal health information here.',
     sos='Medical emergency? Call 911 or go to the nearest emergency room.',
-    latest_h='Latest from Dr. Ehsan', latest_p='New explanations every week on video and social media.',
+    latest_h='Watch Dr. Ehsan explain', latest_p='Short videos in plain language.',
     posts_h='Recent posts', vids_h='Videos',
     videos=[('w0jY5PkpQN0', 'Prostate cancer', 'Warning signs, diagnosis, staging and treatment.'),
             ('5wM0f4E9UtA', 'Hairy cell leukemia', 'A rare but very treatable blood cancer.'),
@@ -125,8 +127,8 @@ S = {
           ('Los Angeles', 'Medical oncology and hematology, Downey and Culver City')],
     hosp='Fellow of the American College of Physicians (FACP). Hospital affiliations: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center and Henry Mayo Newhall Hospital.',
     foot_about='Free medical education in English and Spanish. No advertising.',
-    foot_h1='Patients', foot_l1=[('medicines.html', 'Cancer medicines A–Z'), ('#faq', 'Common questions'), ('cancer-visit-guide.html', 'Prepare for your visit'), ('patient-guides.html', 'Patient guide library'), ('all-resources.html#library', 'Search all health topics'), ('es.html', 'En español')],
-    foot_h2='More', foot_l2=[('genetics.html', 'Genes and genetic testing'), ('health-guides.html', 'Health explainers'), ('athlete-injury-center.html', 'Athletes and injury prevention'), ('social-updates.html', 'All social media posts'), ('all-resources.html', 'Everything on this site'), ('all-resources.html#editorial', 'Sources and review')],
+    foot_h1='Patients', foot_l1=[('medicines.html', 'Cancer medicines A–Z'), ('#faq', 'Common questions'), ('second-opinion.html', 'Second opinions'), ('help-with-costs.html', 'Help with costs and rides'), ('flyer.html', 'Printable flyer with QR code'), ('cancer-visit-guide.html', 'Prepare for your visit'), ('patient-guides.html', 'Patient guide library'), ('all-resources.html#library', 'Search all health topics'), ('es.html', 'En español')],
+    foot_h2='More', foot_l2=[('genetics.html', 'Genes and genetic testing'), ('health-guides.html', 'Health explainers'), ('social-updates.html', 'All social media posts'), ('all-resources.html', 'Everything on this site'), ('all-resources.html#editorial', 'Sources and review')],
     qa_h='Patients often ask', qa_p='Quick answers to the questions Dr. Ehsan hears most.', qa_more='Cancer medicines A to Z',
     qa_top=[1, 2, 4, 8],
     faq_h='Common questions', faq_p='Plain answers for patients and families. Your own care team knows your situation best.',
@@ -169,10 +171,12 @@ S = {
           ('steth', 'guides/1851.html', 'Medicina interna', 'Atención integral: presión arterial, diabetes y los problemas de salud que acompañan al cáncer.'),
           ('hands', 'guides/4824.html', 'Cuidados paliativos y hospicio', 'Alivio del dolor y los síntomas en cualquier etapa, y apoyo a la familia cuando más importa.')],
     help_h='Empiece aquí', help_p='Las páginas más usadas por pacientes y familias.',
-    help=[('list', 'cancer-visit-guide-es.html', 'Prepararse para una cita de cáncer', 'Una lista de preguntas para imprimir'),
-          ('scan', 'guides/{es:1104}.html', 'Entender un estudio o resultado', 'Qué pueden mostrar la PET, la TC y la RM'),
-          ('dna', 'cdh1-guide-es.html', 'Resultados genéticos', 'Qué significa un resultado de CDH1'),
+    help=[('steth', 'second-opinion-es.html', 'Pedir una segunda opinión', 'Qué llevar y qué preguntar'),
+          ('list', 'cancer-visit-guide-es.html', 'Prepararse para una cita de cáncer', 'Una lista de preguntas para imprimir'),
           ('pill', 'medicines-es.html', 'Buscar un medicamento', 'Rituxan, Keytruda, Revlimid y más de 60, por nombre comercial o genérico'),
+          ('scan', 'guides/{es:1104}.html', 'Entender un estudio o resultado', 'Qué pueden mostrar la PET, la TC y la RM'),
+          ('hands', 'help-with-costs-es.html', 'Ayuda con costos y transporte', 'Transporte de Medi-Cal, ayuda con medicamentos y apoyo gratuito'),
+          ('dna', 'cdh1-guide-es.html', 'Resultados genéticos', 'Qué significa un resultado de CDH1'),
           ('mind', 'all-resources.html?lang=es#mental-health', 'Estrés y preocupación', 'Apoyo de salud mental en español'),
           ('book', 'visit-guides-es.html', 'Todas las guías en español', 'Guías para su visita y más de 1,000 temas')],
     loc_h='Clínicas y telemedicina', loc_p='El Dr. Ehsan atiende en persona en Los Ángeles una semana sí y otra no, y por video desde Texas la semana intermedia.',
@@ -182,7 +186,7 @@ S = {
     call_short='Llamar', directions='Cómo llegar', site='Sitio de la clínica',
     fine='Para hacer, confirmar, cancelar o cambiar una cita, llame a su clínica. Este sitio y las redes sociales del Dr. Ehsan no pueden programar citas ni se revisan para preguntas médicas. No envíe información personal de salud por aquí.',
     sos='¿Emergencia médica? Llame al 911 o vaya a la sala de emergencias más cercana.',
-    latest_h='Lo más reciente del Dr. Ehsan', latest_p='Nuevas explicaciones cada semana en video y redes sociales (la mayoría en inglés).',
+    latest_h='Vea al Dr. Ehsan explicar', latest_p='Videos cortos en lenguaje sencillo (la mayoría en inglés).',
     posts_h='Publicaciones recientes', vids_h='Videos',
     videos=[('w0jY5PkpQN0', 'Cáncer de próstata', 'Señales, diagnóstico, etapas y tratamiento (en inglés).'),
             ('5wM0f4E9UtA', 'Leucemia de células pilosas', 'Un cáncer de la sangre raro pero muy tratable (en inglés).'),
@@ -200,8 +204,8 @@ S = {
           ('Los Ángeles', 'Oncología médica y hematología, Downey y Culver City')],
     hosp='Fellow del American College of Physicians (FACP). Afiliaciones hospitalarias: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center y Henry Mayo Newhall Hospital.',
     foot_about='Educación médica gratuita en español e inglés. Sin publicidad.',
-    foot_h1='Pacientes', foot_l1=[('medicines-es.html', 'Medicamentos de la A a la Z'), ('#faq', 'Preguntas frecuentes'), ('cancer-visit-guide-es.html', 'Prepare su consulta'), ('visit-guides-es.html', 'Guías en español'), ('patient-guides.html', 'Biblioteca de guías'), ('index.html', 'In English')],
-    foot_h2='Más', foot_l2=[('cdh1-guide-es.html', 'Genética: CDH1'), ('football-learning-guide-es.html', 'Fútbol americano y lesiones'), ('social-updates.html', 'Publicaciones en redes'), ('all-resources.html', 'Todo el sitio (inglés)')],
+    foot_h1='Pacientes', foot_l1=[('medicines-es.html', 'Medicamentos de la A a la Z'), ('#faq', 'Preguntas frecuentes'), ('second-opinion-es.html', 'Segunda opinión'), ('help-with-costs-es.html', 'Ayuda con costos y transporte'), ('flyer-es.html', 'Volante para imprimir con código QR'), ('cancer-visit-guide-es.html', 'Prepare su consulta'), ('visit-guides-es.html', 'Guías en español'), ('patient-guides.html', 'Biblioteca de guías'), ('index.html', 'In English')],
+    foot_h2='Más', foot_l2=[('cdh1-guide-es.html', 'Genética: CDH1'), ('social-updates.html', 'Publicaciones en redes'), ('all-resources.html', 'Todo el sitio (inglés)')],
     qa_h='Lo que más preguntan los pacientes', qa_p='Respuestas rápidas a las preguntas que más escucha el Dr. Ehsan.', qa_more='Medicamentos de la A a la Z',
     qa_top=[1, 2, 4, 8],
     faq_h='Preguntas frecuentes', faq_p='Respuestas sencillas para pacientes y familias. Su propio equipo médico conoce mejor su situación.',
@@ -344,9 +348,8 @@ def build(L):
 <section class="sec" id="latest" aria-labelledby="latest-h"><div class="wrap">
 <span id="videos"></span><span id="watch"></span>
 <div class="sec-head"><h2 id="latest-h">{s['latest_h']}</h2><p>{s['latest_p']}</p></div>
-<div class="latest">
-<div><h3>{s['posts_h']}</h3><div class="posts" id="posts" data-all="{s['all_posts']}"><p class="post-empty"><a href="social-updates.html">{s['all_posts']}</a></p></div></div>
-<div><h3>{s['vids_h']}</h3><div class="videos">{vids}</div><div class="follow">{follow}</div></div>
+<div class="latest" style="grid-template-columns:1fr">
+<div><div class="videos" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px">{vids}</div><div class="follow">{follow}</div></div>
 </div>
 </div></section>
 
@@ -369,6 +372,7 @@ def build(L):
 <p class="legal">{s['legal']} © <span id="yr">2026</span> Alex Ehsan.</p>
 </div></footer>
 <script src="home-search.js" defer></script>
+<script>try{{var k='dae-lang';document.querySelectorAll('a[hreflang]').forEach(function(a){{a.addEventListener('click',function(){{localStorage.setItem(k,a.getAttribute('hreflang'))}})}});if('{L}'==='en'&&!localStorage.getItem(k)&&/^es(-|_|$)/i.test(navigator.language||'')&&!/[?&]lang=en/.test(location.search))location.replace('es.html'+location.hash)}}catch(e){{}}</script>
 <script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
 </body>
 </html>
