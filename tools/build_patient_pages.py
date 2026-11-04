@@ -136,7 +136,49 @@ HC = {
 <p class="note">Consejo: avise pronto a su equipo médico si el dinero, el trabajo, el transporte o preocupaciones de inmigración le dificultan el tratamiento. Con frecuencia hay ayuda.</p>'''),
 }
 
-for spec in (SO, HC):
+# ---------------- lung cancer screening ----------------
+LS = {
+'en': dict(file='lung-screening.html', other=('lung-screening-es.html', 'Español'), home='index.html', back='Back to home',
+  title='Lung Cancer Screening: Am I Eligible? | Dr. Alex Ehsan, MD, PhD',
+  desc='Who should get a yearly low-dose CT scan for lung cancer, how to count pack-years, and what to ask your doctor, in plain English and Spanish.',
+  h1='Lung cancer screening: am I eligible?',
+  lead='A yearly low-dose CT scan can find lung cancer early, when it is much more treatable. Only about 1 in 5 people who qualify get screened.',
+  body='''<h2>Who should be screened</h2><ul class="cardlist">
+<li><strong>Age 50 to 80</strong>Adults in this age range with a heavy smoking history.</li>
+<li><strong>20 pack-years or more</strong>See below for how to count pack-years.</li>
+<li><strong>You smoke now, or you quit</strong>The U.S. Preventive Services Task Force (2021) includes people who quit within the past 15 years. The American Cancer Society (2023) includes former smokers no matter how long ago they quit.</li></ul>
+<h2>How to count pack-years</h2><p>Multiply the packs you smoked per day by the number of years you smoked. One pack a day for 20 years is 20 pack-years. Half a pack a day for 40 years is also 20 pack-years. If your smoking changed over time, add up each period.</p>
+<h2>What the test is like</h2><ul><li>It is a CT scan of the chest with a low dose of radiation. It takes a few minutes. No needles and no dye.</li>
+<li>It is repeated once a year while you still qualify.</li>
+<li>Many scans show small spots (nodules). Most are not cancer. Your doctor may recommend a repeat scan to watch them.</li></ul>
+<h2>Questions to ask your doctor</h2><ol><li>Based on my smoking history, do I qualify for screening?</li><li>Where will my scan be done, and who will explain the results?</li>
+<li>What happens if a spot is found?</li><li>What help can I get to quit smoking?</li></ol>
+<p class="note">Want to quit? Free, confidential help: <span class="ph">1-800-QUIT-NOW (1-800-784-8669)</span> · En español: <span class="ph">1-855-DÉJELO-YA (1-855-335-3569)</span></p>
+<h2>Sources</h2><ul><li><a href="https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening" target="_blank" rel="noopener">US Preventive Services Task Force, Screening for Lung Cancer (2021)</a></li>
+<li><a href="https://www.cancer.org/health-care-professionals/american-cancer-society-prevention-early-detection-guidelines/lung-cancer-screening-guidelines.html" target="_blank" rel="noopener">American Cancer Society lung cancer screening guideline (2023)</a></li>
+<li><a href="https://www.cdc.gov/tobacco/hcp/patient-care/quitlines-and-other-resources.html" target="_blank" rel="noopener">CDC quitlines</a></li></ul>'''),
+'es': dict(file='lung-screening-es.html', other=('lung-screening.html', 'English'), home='es.html', back='Volver al inicio',
+  title='Detección del cáncer de pulmón: ¿califico? | Dr. Alex Ehsan, MD, PhD',
+  desc='Quién debe hacerse cada año una tomografía de baja dosis para detectar el cáncer de pulmón, cómo contar los paquetes-año y qué preguntar a su médico, en español sencillo.',
+  h1='Detección del cáncer de pulmón: ¿califico?',
+  lead='Una tomografía de baja dosis cada año puede encontrar el cáncer de pulmón temprano, cuando es mucho más tratable. Solo alrededor de 1 de cada 5 personas que califican se hacen la prueba.',
+  body='''<h2>Quién debe hacerse la prueba</h2><ul class="cardlist">
+<li><strong>De 50 a 80 años</strong>Adultos en este rango de edad con un historial de fumar importante.</li>
+<li><strong>20 paquetes-año o más</strong>Vea abajo cómo contar los paquetes-año.</li>
+<li><strong>Fuma ahora o dejó de fumar</strong>El Grupo de Trabajo de Servicios Preventivos de EE. UU. (2021) incluye a quienes dejaron de fumar en los últimos 15 años. La Sociedad Americana Contra el Cáncer (2023) incluye a quienes dejaron de fumar sin importar hace cuánto tiempo.</li></ul>
+<h2>Cómo contar los paquetes-año</h2><p>Multiplique los paquetes que fumaba al día por los años que fumó. Un paquete al día por 20 años son 20 paquetes-año. Medio paquete al día por 40 años también son 20 paquetes-año. Si su forma de fumar cambió con el tiempo, sume cada periodo.</p>
+<h2>Cómo es la prueba</h2><ul><li>Es una tomografía del pecho con una dosis baja de radiación. Toma unos minutos. Sin agujas y sin tinte.</li>
+<li>Se repite una vez al año mientras usted siga calificando.</li>
+<li>Muchas tomografías muestran manchas pequeñas (nódulos). La mayoría no son cáncer. Su médico puede recomendar otra tomografía para vigilarlas.</li></ul>
+<h2>Preguntas para su médico</h2><ol><li>Según mi historial de fumar, ¿califico para la prueba?</li><li>¿Dónde me harán la tomografía y quién me explicará los resultados?</li>
+<li>¿Qué pasa si encuentran una mancha?</li><li>¿Qué ayuda puedo recibir para dejar de fumar?</li></ol>
+<p class="note">¿Quiere dejar de fumar? Ayuda gratis y confidencial en español: <span class="ph">1-855-DÉJELO-YA (1-855-335-3569)</span></p>
+<h2>Fuentes</h2><ul><li><a href="https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening" target="_blank" rel="noopener">US Preventive Services Task Force (2021, en inglés)</a></li>
+<li><a href="https://www.cancer.org/health-care-professionals/american-cancer-society-prevention-early-detection-guidelines/lung-cancer-screening-guidelines.html" target="_blank" rel="noopener">Sociedad Americana Contra el Cáncer (2023, en inglés)</a></li>
+<li><a href="https://www.cdc.gov/tobacco/hcp/patient-care/quitlines-and-other-resources.html" target="_blank" rel="noopener">CDC, líneas para dejar de fumar (en inglés)</a></li></ul>'''),
+}
+
+for spec in (SO, HC, LS):
     for L, s in spec.items():
         open(f"{D}/{s['file']}", 'w', encoding='utf-8').write(page(L, s['file'], s['other'], s['title'], s['desc'], s['h1'], s['lead'], s['body'], s['home'], s['back'], LEGAL[L]))
 
@@ -170,4 +212,4 @@ for L, url, file in (('en', SITE + '/', 'flyer.html'), ('es', SITE + '/es.html',
 <ul>{''.join(f'<li>{i}</li>' for i in items)}</ul><p style="font-size:1.2rem;margin:0">{foot}</p>
 <div class="qr">{svg[svg.index('<svg'):]}</div><div class="url">dralexehsan.com</div>
 <p class="fine">{'General education only. It does not replace your own care team. Medical emergency? Call 911.' if L == 'en' else 'Solo para educación general. No reemplaza a su equipo médico. ¿Emergencia médica? Llame al 911.'}</p></div></body></html>''')
-print('built second-opinion, help-with-costs and flyer pages (EN/ES)')
+print('built second-opinion, help-with-costs, lung-screening and flyer pages (EN/ES)')
