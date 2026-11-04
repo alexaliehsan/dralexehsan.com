@@ -45,3 +45,6 @@ Metricool brand 6951175 (free plan; CSV export locked) · Buffer free plan (X, T
 - Educational content only; keep disclaimers and the separation from his employer.
 - Don’t present template summaries or imported MedlinePlus pages as individually reviewed by Dr. Ehsan.
 - Never post, edit or delete anything on his social accounts without his explicit approval.
+
+## Site rule: images and thumbnails (owner, Nov 4, 2026)
+Every post and topic on the site gets a thumbnail. Thumbnails must be factual and code-drawn (text, topic, simple shapes) — no AI-generated images and no pictures of doctors. Video entries use title cards, not YouTube stills. The About section keeps the owner's real photo. Original AI .webp files stay in the repository but are no longer shown.

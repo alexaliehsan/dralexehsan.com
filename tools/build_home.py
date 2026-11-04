@@ -259,7 +259,7 @@ def build(L):
     qa_top = ''.join(f'<li><a href="#faq-{i}" data-open="faq-{i}">{s["faq"][i - 1][0]}</a></li>' for i in s['qa_top'])
     w, n, d = s['tx']
     spots += f'<div class="spot tx"><span class="tag">{svg(I["video"])}{w}</span><h3>{n}</h3><p style="color:#cfcbe8;margin:0">{d}</p></div>'
-    vids = ''.join(f'<article class="video"><button type="button" data-yt="{v}" aria-label="{s["play"]} {t}"><img src="https://i.ytimg.com/vi/{v}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"></button><div><h3>{t}</h3><p>{d}</p></div></article>' for v, t, d in s['videos'])
+    vids = ''.join(f'<article class="video"><button type="button" data-yt="{v}" aria-label="{s["play"]} {t}"><span class="vt" aria-hidden="true">{t}</span></button><div><h3>{t}</h3><p>{d}</p></div></article>' for v, t, d in s['videos'])
     follow = ''.join(f'<a href="{u}" target="_blank" rel="noopener">{nm}</a>' for nm, u in SOCIAL)
     creds = ''.join(f'<span>{c}</span>' for c in s['creds'])
     path = ''.join(f'<li><b>{a}</b><span>{b}</span></li>' for a, b in s['path'])

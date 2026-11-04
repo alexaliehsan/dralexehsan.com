@@ -235,3 +235,5 @@ p{margin:0 0 1em}
 .foot .sched{margin:30px 0 0;color:#cfcbe8;font-size:.95rem;max-width:90ch}
 .foot .sched strong{color:#fff}
 .foot .sched + .legal{margin-top:16px}
+
+.video button .vt{position:absolute;inset:0;display:flex;align-items:flex-end;padding:10px 12px;background:linear-gradient(150deg,#2a1d63,#5b3fa0 60%,#8a3c86);color:#fff;font:700 .95rem/1.15 "Bricolage Grotesque",system-ui,sans-serif;text-wrap:balance}
