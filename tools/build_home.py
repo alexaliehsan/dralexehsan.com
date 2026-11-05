@@ -74,12 +74,23 @@ S = {
     file='index.html', other='es.html', other_med='medicines.html', other_label='Español', other_lang='es',
     title='Dr. Alex Ehsan, MD, PhD | Cancer & Blood Doctor in Los Angeles',
     desc='Dr. Alex Ehsan, MD, PhD — board-certified oncologist, hematologist and internist. Free cancer and blood disorder education in English and Spanish.',
-    skip='Skip to main content', menu='Menu', tagline='Cancer & blood doctor, Los Angeles',
-    nav=[('#faq', 'Questions'), ('medicines.html', 'Medicines'), ('all-resources.html#library', 'Health topics'), ('#latest', 'Videos & posts'), ('#about', 'About')],
+    skip='Skip to main content', menu='Menu', tagline='Cancer & blood questions, answered',
+    nav=[('#faq', 'Questions'), ('medicines.html', 'Medicines'), ('all-resources.html#library', 'Health topics'), ('#latest', 'Videos'), ('#about', 'About')],
     call='Call clinic',
     where='Free cancer and blood education / English and Spanish',
-    h1='Your cancer and blood doctor in Los Angeles.',
-    lead='Clear answers, honest conversations, and care that treats you as a whole person — in English and Spanish.',
+    h1='Clear answers about cancer and blood disorders.',
+    lead='Free, plain-language answers for patients and families, written by a cancer and blood doctor, in English and Spanish.',
+    alt_lang=('es.html', 'es', '¿Prefiere español?', 'Toque aquí'),
+    stats=[(2000, '+', 'patient guides'), (60, '+', 'cancer medicines'), (1500, '+', 'genes explained'), (2, '', 'languages')],
+    myth_h='Myth or fact?', myth_p='Common cancer myths, answered.', myth_tag='Myth', fact_tag='Fact', myth_prev='Previous myth', myth_next='Next myth',
+    myth_src='Source: National Cancer Institute', myth_url='https://www.cancer.gov/about-cancer/causes-prevention/risk/myths',
+    myths=[('Eating sugar makes cancer grow faster.', 'No study shows that eating sugar makes cancer worse, or that cutting it out makes cancer shrink. A balanced diet helps you stay strong during treatment.'),
+           ('A biopsy or surgery can make cancer spread.', 'The chance is extremely low. Surgeons follow standard steps to keep cancer cells from spreading, and a biopsy is often the only way to know what you are treating.'),
+           ('Most cancer is inherited from your parents.', 'Only about 5 to 10 of every 100 cancers come from an inherited gene change. Most come from changes that build up over a lifetime.'),
+           ('A cancer diagnosis is a death sentence.', 'About 69 of every 100 people with cancer are alive five years later, and for some cancers, such as breast, prostate and thyroid, it is 90 or more.'),
+           ('Herbal products can cure cancer.', 'No herb has been shown to treat cancer, and some can interfere with chemotherapy or radiation. Tell your care team about everything you take.'),
+           ('Air exposure during surgery makes cancer spread.', 'No. Exposing a tumor to air during surgery does not make it grow faster or spread.')],
+    vid_more='More videos on YouTube', train_h='Training & background',
     areas=['Medical oncology', 'Hematology', 'Internal medicine', 'Palliative and hospice care'],
     search_label='Look up a diagnosis, test or medicine', search_ph='e.g. breast cancer, anemia, Rituxan', search_btn='Search',
     chips=[('3', 'Breast cancer'), ('5620', 'Leukemia'), ('117', 'Lymphoma'), ('332', 'Myeloma'), ('139', 'Anemia'), ('1104', 'Scans')],
@@ -94,14 +105,12 @@ S = {
           ('steth', 'health-guides.html', 'Internal medicine', 'Whole-person care, including blood pressure, diabetes and the health problems that come with cancer.'),
           ('hands', 'guides/4823.html', 'Palliative & hospice care', 'Relief from pain and symptoms at any stage, and support for families when it matters most.')],
     help_h='Start here', help_p='The most-used pages for patients and families.',
-    help=[('steth', 'second-opinion.html', 'Get a second opinion', 'What to bring and what to ask'),
-          ('list', 'cancer-visit-guide.html', 'Prepare for a cancer appointment', 'A printable list of questions to bring'),
-          ('pill', 'medicines.html', 'Look up a cancer medicine', 'Rituxan, Keytruda, Revlimid and 60+ more, by brand or generic name'),
-          ('scan', 'guides/1104.html', 'Understand a scan or test result', 'What PET, CT and MRI can and can’t show'),
-          ('hands', 'help-with-costs.html', 'Help with costs and rides', 'Medi-Cal rides, medicine assistance and free support'),
-          ('dna', 'genetics.html', 'Look up a genetic test result', 'BRCA1, CDH1 and 1,500 other genes'),
-          ('mind', 'all-resources.html#mental-health', 'Cope with stress and worry', 'Mental health support in English and Spanish'),
-          ('book', 'patient-guides.html', 'Browse 2,000+ patient guides', 'Every condition and test, A to Z')],
+    help=[('list', 'cancer-visit-guide.html', 'Prepare for an appointment', 'Printable questions to bring'),
+          ('pill', 'medicines.html', 'Look up a medicine', 'Rituxan, Keytruda and 60+ more'),
+          ('scan', 'guides/1104.html', 'Understand a scan', 'What PET, CT and MRI can show'),
+          ('hands', 'help-with-costs.html', 'Help with costs and rides', 'Medi-Cal rides and free support'),
+          ('dna', 'genetics.html', 'Look up a gene result', 'BRCA1, CDH1 and 1,500 more'),
+          ('book', 'patient-guides.html', 'All patient guides', '2,000+ topics, A to Z')],
     loc_h='Clinics and telemedicine', loc_p='Dr. Ehsan sees patients in person in Los Angeles every other week, and by video from Texas in between.',
     clinics=[('downey', 'Mon–Thu, week one', 'Downey', 'In-person visits, Monday through Thursday.'),
              ('culver', 'Friday, week one', 'Culver City', 'In-person visits on Friday.')],
@@ -128,7 +137,7 @@ S = {
     hosp='Fellow of the American College of Physicians (FACP). Hospital affiliations: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center and Henry Mayo Newhall Hospital.',
     foot_about='Free medical education in English and Spanish. No advertising.',
     foot_h1='Patients', foot_l1=[('medicines.html', 'Cancer medicines A–Z'), ('#faq', 'Common questions'), ('second-opinion.html', 'Second opinions'), ('help-with-costs.html', 'Help with costs and rides'), ('flyer.html', 'Printable flyer with QR code'), ('cancer-visit-guide.html', 'Prepare for your visit'), ('patient-guides.html', 'Patient guide library'), ('all-resources.html#library', 'Search all health topics'), ('es.html', 'En español')],
-    foot_h2='More', foot_l2=[('genetics.html', 'Genes and genetic testing'), ('health-guides.html', 'Health explainers'), ('social-updates.html', 'All social media posts'), ('all-resources.html', 'Everything on this site'), ('all-resources.html#editorial', 'Sources and review')],
+    foot_h2='More', foot_l2=[('genetics.html', 'Genes and genetic testing'), ('all-resources.html#mental-health', 'Coping with stress and worry'), ('health-guides.html', 'Health explainers'), ('social-updates.html', 'All social media posts'), ('all-resources.html', 'Everything on this site'), ('all-resources.html#editorial', 'Sources and review')],
     qa_h='Patients often ask', qa_p='Quick answers to the questions Dr. Ehsan hears most.', qa_more='Cancer medicines A to Z',
     qa_top=[1, 2, 4, 8],
     faq_h='Common questions', faq_p='Plain answers for patients and families. Your own care team knows your situation best.',
@@ -151,12 +160,23 @@ S = {
     file='es.html', other='index.html', other_med='medicines-es.html', other_label='English', other_lang='en',
     title='Dr. Alex Ehsan, MD, PhD | Médico de cáncer y de la sangre en Los Ángeles',
     desc='Dr. Alex Ehsan, MD, PhD — oncólogo, hematólogo e internista certificado. Educación gratuita sobre cáncer y enfermedades de la sangre en español e inglés.',
-    skip='Ir al contenido', menu='Menú', tagline='Cáncer y sangre, Los Ángeles',
+    skip='Ir al contenido', menu='Menú', tagline='Respuestas sobre cáncer y sangre',
     nav=[('#faq', 'Preguntas'), ('medicines-es.html', 'Medicamentos'), ('visit-guides-es.html', 'Guías'), ('#latest', 'Videos'), ('#about', 'Sobre el doctor')],
     call='Llamar',
     where='Educación gratuita / Español e inglés',
-    h1='Su médico de cáncer y de la sangre en Los Ángeles.',
-    lead='Respuestas claras, conversaciones honestas y una atención que lo ve como persona completa, en español y en inglés.',
+    h1='Respuestas claras sobre el cáncer y la sangre.',
+    lead='Respuestas gratuitas y en palabras sencillas para pacientes y familias, escritas por un médico de cáncer y de la sangre, en español y en inglés.',
+    alt_lang=('index.html', 'en', 'Prefer English?', 'Tap here'),
+    stats=[(2000, '+', 'guías para pacientes'), (60, '+', 'medicamentos contra el cáncer'), (1500, '+', 'genes explicados'), (2, '', 'idiomas')],
+    myth_h='¿Mito o realidad?', myth_p='Mitos comunes sobre el cáncer, respondidos.', myth_tag='Mito', fact_tag='Realidad', myth_prev='Mito anterior', myth_next='Siguiente mito',
+    myth_src='Fuente: Instituto Nacional del Cáncer (en inglés)', myth_url='https://www.cancer.gov/about-cancer/causes-prevention/risk/myths',
+    myths=[('Comer azúcar hace que el cáncer crezca más rápido.', 'Ningún estudio muestra que comer azúcar empeore el cáncer, ni que dejar de comerla lo haga encoger. Una dieta equilibrada le ayuda a mantenerse fuerte durante el tratamiento.'),
+           ('Una biopsia o una cirugía puede hacer que el cáncer se extienda.', 'La probabilidad es muy baja. Los cirujanos siguen pasos estándar para evitar que las células se extiendan, y a menudo la biopsia es la única forma de saber qué se va a tratar.'),
+           ('La mayoría de los cánceres se heredan de los padres.', 'Solo unos 5 a 10 de cada 100 cánceres vienen de un cambio genético heredado. La mayoría se deben a cambios que se acumulan a lo largo de la vida.'),
+           ('Un diagnóstico de cáncer es una sentencia de muerte.', 'Unas 69 de cada 100 personas con cáncer siguen vivas cinco años después, y en algunos cánceres, como el de mama, próstata y tiroides, son 90 o más.'),
+           ('Los productos de hierbas pueden curar el cáncer.', 'Ninguna hierba ha demostrado tratar el cáncer, y algunas pueden interferir con la quimioterapia o la radiación. Dígale a su equipo todo lo que toma.'),
+           ('Si el tumor toca el aire en la cirugía, el cáncer se extiende.', 'No. Que el tumor quede expuesto al aire durante la cirugía no hace que crezca más rápido ni que se extienda.')],
+    vid_more='Más videos en YouTube', train_h='Formación y trayectoria',
     areas=['Oncología médica', 'Hematología', 'Medicina interna', 'Cuidados paliativos y hospicio'],
     search_label='Busque un diagnóstico, prueba o medicamento', search_ph='p. ej. cáncer de mama, anemia, Rituxan', search_btn='Buscar',
     chips=[('3', 'Cáncer de mama'), ('5620', 'Leucemia'), ('117', 'Linfoma'), ('332', 'Mieloma'), ('139', 'Anemia'), ('1104', 'Estudios de imagen')],
@@ -171,14 +191,12 @@ S = {
           ('steth', 'guides/1851.html', 'Medicina interna', 'Atención integral: presión arterial, diabetes y los problemas de salud que acompañan al cáncer.'),
           ('hands', 'guides/4824.html', 'Cuidados paliativos y hospicio', 'Alivio del dolor y los síntomas en cualquier etapa, y apoyo a la familia cuando más importa.')],
     help_h='Empiece aquí', help_p='Las páginas más usadas por pacientes y familias.',
-    help=[('steth', 'second-opinion-es.html', 'Pedir una segunda opinión', 'Qué llevar y qué preguntar'),
-          ('list', 'cancer-visit-guide-es.html', 'Prepararse para una cita de cáncer', 'Una lista de preguntas para imprimir'),
-          ('pill', 'medicines-es.html', 'Buscar un medicamento', 'Rituxan, Keytruda, Revlimid y más de 60, por nombre comercial o genérico'),
-          ('scan', 'guides/{es:1104}.html', 'Entender un estudio o resultado', 'Qué pueden mostrar la PET, la TC y la RM'),
-          ('hands', 'help-with-costs-es.html', 'Ayuda con costos y transporte', 'Transporte de Medi-Cal, ayuda con medicamentos y apoyo gratuito'),
+    help=[('list', 'cancer-visit-guide-es.html', 'Prepararse para una cita', 'Preguntas para imprimir'),
+          ('pill', 'medicines-es.html', 'Buscar un medicamento', 'Rituxan, Keytruda y más de 60'),
+          ('scan', 'guides/{es:1104}.html', 'Entender un estudio', 'Qué muestran la PET, la TC y la RM'),
+          ('hands', 'help-with-costs-es.html', 'Ayuda con costos y transporte', 'Transporte de Medi-Cal y apoyo gratuito'),
           ('dna', 'cdh1-guide-es.html', 'Resultados genéticos', 'Qué significa un resultado de CDH1'),
-          ('mind', 'all-resources.html?lang=es#mental-health', 'Estrés y preocupación', 'Apoyo de salud mental en español'),
-          ('book', 'visit-guides-es.html', 'Todas las guías en español', 'Guías para su visita y más de 1,000 temas')],
+          ('book', 'visit-guides-es.html', 'Todas las guías en español', 'Más de 1,000 temas')],
     loc_h='Clínicas y telemedicina', loc_p='El Dr. Ehsan atiende en persona en Los Ángeles una semana sí y otra no, y por video desde Texas la semana intermedia.',
     clinics=[('downey', 'Lun a jue, semana uno', 'Downey', 'Citas en persona, de lunes a jueves.'),
              ('culver', 'Viernes, semana uno', 'Culver City', 'Citas en persona el viernes.')],
@@ -205,7 +223,7 @@ S = {
     hosp='Fellow del American College of Physicians (FACP). Afiliaciones hospitalarias: Palmdale Regional Medical Center, PIH Health Downey Hospital, PIH Health Whittier Hospital, Providence Holy Cross Medical Center, Northridge Hospital Medical Center y Henry Mayo Newhall Hospital.',
     foot_about='Educación médica gratuita en español e inglés. Sin publicidad.',
     foot_h1='Pacientes', foot_l1=[('medicines-es.html', 'Medicamentos de la A a la Z'), ('#faq', 'Preguntas frecuentes'), ('second-opinion-es.html', 'Segunda opinión'), ('help-with-costs-es.html', 'Ayuda con costos y transporte'), ('flyer-es.html', 'Volante para imprimir con código QR'), ('cancer-visit-guide-es.html', 'Prepare su consulta'), ('visit-guides-es.html', 'Guías en español'), ('patient-guides.html', 'Biblioteca de guías'), ('index.html', 'In English')],
-    foot_h2='Más', foot_l2=[('cdh1-guide-es.html', 'Genética: CDH1'), ('social-updates.html', 'Publicaciones en redes'), ('all-resources.html', 'Todo el sitio (inglés)')],
+    foot_h2='Más', foot_l2=[('cdh1-guide-es.html', 'Genética: CDH1'), ('all-resources.html?lang=es#mental-health', 'Estrés y preocupación'), ('social-updates.html', 'Publicaciones en redes'), ('all-resources.html', 'Todo el sitio (inglés)')],
     qa_h='Lo que más preguntan los pacientes', qa_p='Respuestas rápidas a las preguntas que más escucha el Dr. Ehsan.', qa_more='Medicamentos de la A a la Z',
     qa_top=[1, 2, 4, 8],
     faq_h='Preguntas frecuentes', faq_p='Respuestas sencillas para pacientes y familias. Su propio equipo médico conoce mejor su situación.',
@@ -253,13 +271,18 @@ def build(L):
     chips = ''.join(f'<a href="guides/{gid(g)}.html">{n}</a>' for g, n in s['chips'])
     days = ''.join(f'<li class="{"d-culver" if i == 4 else "d-downey"}"><b>{d}</b>{s["culver"] if i == 4 else s["downey"]}</li>' for i, d in enumerate(s['days']))
     care = ''.join(f'<a href="{fix(h)}">{svg(I[i])}<h3>{t}</h3><span>{d}</span></a>' for i, h, t, d in s['care'])
-    helps = ''.join(f'<a href="{fix(h)}">{svg(I[i])}<div><strong>{t}</strong><span>{d}</span></div></a>' for i, h, t, d in s['help'])
+    helps = ''.join(f'<a href="{fix(h)}"><i class="tb">{svg(I[i])}</i><div><strong>{t}</strong><span>{d}</span></div></a>' for i, h, t, d in s['help'])
     spots = ''.join(f'''<div class="spot {k}"><span class="tag">{svg(I['pin'])}{when}</span><h3>{name}</h3><p style="margin:0">{note}</p></div>''' for k, when, name, note in s['clinics'])
     faqs = ''.join(f'<details id="faq-{i}"><summary>{svg(I["chat"])}<span>{q}</span></summary><div class="ans">{fix(a)}</div></details>' for i, (q, a) in enumerate(s['faq'], 1))
     qa_top = ''.join(f'<li><a href="#faq-{i}" data-open="faq-{i}">{s["faq"][i - 1][0]}</a></li>' for i in s['qa_top'])
     w, n, d = s['tx']
     spots += f'<div class="spot tx"><span class="tag">{svg(I["video"])}{w}</span><h3>{n}</h3><p style="color:#cfcbe8;margin:0">{d}</p></div>'
-    vids = ''.join(f'<article class="video"><button type="button" data-yt="{v}" aria-label="{s["play"]} {t}"><img src="https://i.ytimg.com/vi/{v}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"></button><div><h3>{t}</h3><p>{d}</p></div></article>' for v, t, d in s['videos'])
+    # Typographic, non-AI thumbnails: topic name on a brand colour, no photos of people.
+    vicons = ['ribbon', 'drop', 'scan', 'pill', 'dna']
+    vids = ''.join(f'<article class="video v{k % 4}"><button type="button" data-yt="{v}" aria-label="{s["play"]} {t}"><span class="thumb" aria-hidden="true">{svg(I[vicons[k % len(vicons)]])}<b>{t}</b></span></button><div><h3 class="sr">{t}</h3><p>{d}</p></div></article>' for k, (v, t, d) in enumerate(s['videos']))
+    stats = ''.join(f'<li><b data-count="{n}" data-suffix="{suf}">{n:,}{suf}</b><span>{lab}</span></li>' for n, suf, lab in s['stats'])
+    myths = ''.join(f'<li class="myth"{"" if k == 0 else " hidden"}><p class="m"><span class="tag t-myth">{s["myth_tag"]}</span>{m}</p><p class="f"><span class="tag t-fact">{s["fact_tag"]}</span>{f}</p></li>' for k, (m, f) in enumerate(s['myths']))
+    al_href, al_lang, al_q, al_tap = s['alt_lang']
     follow = ''.join(f'<a href="{u}" target="_blank" rel="noopener">{nm}</a>' for nm, u in SOCIAL)
     creds = ''.join(f'<span>{c}</span>' for c in s['creds'])
     path = ''.join(f'<li><b>{a}</b><span>{b}</span></li>' for a, b in s['path'])
@@ -314,7 +337,7 @@ def build(L):
 <p class="where">{svg(I['book'])}{s['where']}</p>
 <h1>{s['h1']}</h1>
 <p class="lead">{s['lead']}</p>
-<ul class="areas">{''.join(f'<li>{a}</li>' for a in s['areas'])}</ul>
+<a class="alt-lang" href="{al_href}" lang="{al_lang}" hreflang="{al_lang}"><b>{al_q}</b> {al_tap} →</a>
 <form class="search" id="find" role="search">
 <label for="find-q">{s['search_label']}</label>
 <div class="row"><input id="find-q" type="search" placeholder="{s['search_ph']}" autocomplete="off" enterkeyhint="search" aria-controls="find-results"><button type="submit">{s['search_btn']}</button></div>
@@ -322,43 +345,42 @@ def build(L):
 </form>
 <div class="chips">{chips}</div>
 </div>
-<aside class="rhythm" aria-labelledby="rh-h">
-<div class="rh-top"><img src="dr-ehsan.jpg" alt="" width="64" height="64"><div><h2 id="rh-h">{s['qa_h']}</h2><p>{s['qa_p']}</p></div></div>
-<ul class="qa-top">{qa_top}</ul>
-<a class="btn btn-gold qa-btn" href="{s['other_med']}">{svg(I['pill'])}{s['qa_more']}</a>
+<aside class="mythcard" aria-labelledby="myth-h" aria-live="polite">
+<div class="mc-top"><h2 id="myth-h">{s['myth_h']}</h2><p>{s['myth_p']}</p></div>
+<ul class="myths">{myths}</ul>
+<div class="mc-nav"><button type="button" class="mc-prev" aria-label="{s['myth_prev']}">←</button><span class="mc-dots" aria-hidden="true"></span><button type="button" class="mc-next" aria-label="{s['myth_next']}">→</button></div>
+<a class="mc-src" href="{s['myth_url']}" target="_blank" rel="noopener">{s['myth_src']}</a>
 </aside>
 </div>{SKY}</section>
 
+<section class="stats" aria-label="{s['where']}"><div class="wrap"><ul>{stats}</ul></div></section>
+
 <main id="main">
-<section class="sec" id="care" aria-labelledby="care-h" style="padding-top:40px"><div class="wrap">
-<div class="sec-head"><h2 id="care-h">{s['care_h']}</h2><p>{s['care_p']}</p></div>
-<div class="care">{care}</div>
-</div></section>
-
-<section class="sec" id="help" aria-labelledby="help-h" style="padding-top:0"><div class="wrap">
+<section class="sec" id="help" aria-labelledby="help-h"><div class="wrap">
+<span id="care"></span>
 <div class="sec-head"><h2 id="help-h">{s['help_h']}</h2><p>{s['help_p']}</p></div>
-<div class="help">{helps}</div>
+<div class="tiles">{helps}</div>
 </div></section>
 
-<section class="sec faqs" id="faq" aria-labelledby="faq-h"><div class="wrap">
+<section class="sec faqs" id="faq" aria-labelledby="faq-h" style="padding-top:0"><div class="wrap">
 <div class="sec-head"><h2 id="faq-h">{s['faq_h']}</h2><p>{s['faq_p']}</p></div>
 <div class="faq">{faqs}</div>
 </div></section>
 
-<section class="sec" id="latest" aria-labelledby="latest-h"><div class="wrap">
+<section class="sec" id="latest" aria-labelledby="latest-h" style="padding-top:0"><div class="wrap">
 <span id="videos"></span><span id="watch"></span>
 <div class="sec-head"><h2 id="latest-h">{s['latest_h']}</h2><p>{s['latest_p']}</p></div>
-<div class="latest" style="grid-template-columns:1fr">
-<div><div class="videos" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px">{vids}</div><div class="follow">{follow}</div></div>
-</div>
+<div class="vrow">{vids}</div>
+<div class="follow">{follow}</div>
 </div></section>
 
 <section class="sec about" id="about" aria-labelledby="about-h"><div class="wrap about-grid">
 <div class="portrait{' has-photo' if photo else ''}">{photo}<div class="cap-box"><div class="cap-name">Dr. Alex Ehsan, MD, PhD</div><div class="cap">{s['portrait_cap']}</div></div></div>
 <div><h2 id="about-h">{s['about_h']}</h2>{''.join(f'<p>{p}</p>' for p in s['about'])}
 <div class="creds">{creds}</div>
-<h3>{s['path_h']}</h3><ol class="path">{path}</ol>
-<p class="hosp">{s['hosp']}</p></div>
+<details class="train"><summary>{s['train_h']}</summary>
+<ol class="path">{path}</ol>
+<p class="hosp">{s['hosp']}</p></details></div>
 </div></section>
 </main>
 
@@ -373,6 +395,7 @@ def build(L):
 </div></footer>
 <script src="home-search.js" defer></script>
 <script>try{{var k='dae-lang';document.querySelectorAll('a[hreflang]').forEach(function(a){{a.addEventListener('click',function(){{localStorage.setItem(k,a.getAttribute('hreflang'))}})}});if('{L}'==='en'&&!localStorage.getItem(k)&&/^es(-|_|$)/i.test(navigator.language||'')&&!/[?&]lang=en/.test(location.search))location.replace('es.html'+location.hash)}}catch(e){{}}</script>
+<script src="home-myths.js" defer></script>
 <script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
 </body>
 </html>
