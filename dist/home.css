@@ -217,3 +217,4 @@ p{margin:0 0 1em}
 .vrow .video p{color:var(--text)}
 @media (max-width:860px){.vrow{scroll-padding-inline:16px}.about .portrait{max-width:240px;aspect-ratio:1/1;padding:16px}.portrait .cap-name{font-size:1.1rem}.portrait .cap{font-size:.85rem}}
 .vrow .video{position:relative}
+@media (min-width:1000px){#help .tiles{grid-template-columns:repeat(4,1fr)}}
