@@ -3,15 +3,15 @@
   var form = document.getElementById('find'), input = document.getElementById('find-q'), box = document.getElementById('find-results');
   if (!form || !input || !box) return;
   var es = document.documentElement.lang === 'es';
-  var T = es ? { all: 'Ver todos los resultados para', none: 'Sin guías con ese nombre. Buscar en toda la biblioteca:', en: 'Inglés', sp: 'Español', med: 'Medicamento' }
-             : { all: 'See all results for', none: 'No guide with that name. Search the full library for', en: 'English', sp: 'Spanish', med: 'Medicine' };
+  var T = es ? { all: 'Ver todos los resultados para', none: 'Sin guías con ese nombre. Buscar en toda la biblioteca:', en: 'Inglés', sp: 'Español', med: 'Medicamento', sh: 'Empiece aquí' }
+             : { all: 'See all results for', none: 'No guide with that name. Search the full library for', en: 'English', sp: 'Spanish', med: 'Medicine', sh: 'Start here' };
   var data = null, loading = null;
   var norm = function (s) { return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(); };
   function load() {
     var get = function (u) { return fetch(u).then(function (r) { return r.json(); }).catch(function () { return []; }); };
-    return loading || (loading = Promise.all([get('medicines-index.json'), get('patient-guide-index.json')]).then(function (all) {
-      data = all[0].concat(all[1]).map(function (g) {
-        return { id: g.id, url: g.url, med: g.kind === 'med', title: g.title, lang: g.language, t: norm(g.title), k: norm(g.title + ' ' + (g.terms || '')) };
+    return loading || (loading = Promise.all([get('medicines-index.json'), get('patient-guide-index.json'), get('start-here-index.json')]).then(function (all) {
+      data = all[2].concat(all[0], all[1]).map(function (g) {
+        return { id: g.id, url: g.url, med: g.kind === 'med' || g.kind === 'sh', sh: g.kind === 'sh', title: g.title, lang: g.language, t: norm(g.title), k: norm(g.title + ' ' + (g.terms || '')) };
       });
     }));
   }
@@ -26,13 +26,13 @@
     var hits = data.filter(function (g) { return !(g.med && g.lang !== want) && words.every(function (w) { return g.k.indexOf(w) > -1; }); })
       .map(function (g) {
         var s = g.t === nq ? 0 : g.t.indexOf(nq) === 0 ? 1 : g.t.indexOf(nq) > -1 ? 2 : 3;
-        if (g.med) s = Math.min(s, 1) - 0.5;
+        if (g.med) s = Math.min(s, 1) - (g.sh ? 1 : 0.5);
         return { g: g, s: s + (g.lang === want ? 0 : (g.med ? 5 : 0.5)) };
       })
       .sort(function (a, b) { return a.s - b.s || a.g.title.length - b.g.title.length; })
       .slice(0, 7);
     var html = hits.map(function (h) {
-      return '<a href="' + (h.g.url || 'guides/' + h.g.id + '.html') + '"><strong>' + esc(h.g.title) + '</strong><span>' + (h.g.med ? T.med : h.g.lang === 'Spanish' ? T.sp : T.en) + '</span></a>';
+      return '<a href="' + (h.g.url || 'guides/' + h.g.id + '.html') + '"><strong>' + esc(h.g.title) + '</strong><span>' + (h.g.sh ? T.sh : h.g.med ? T.med : h.g.lang === 'Spanish' ? T.sp : T.en) + '</span></a>';
     }).join('');
     html += '<a class="all" href="' + libraryUrl(q) + '">' + (hits.length ? T.all : T.none) + ' “' + esc(q) + '” →</a>';
     box.innerHTML = html; box.hidden = false;

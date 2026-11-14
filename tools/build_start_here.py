@@ -32,9 +32,9 @@ ol.num{counter-reset:n}ol.num li{position:relative;padding-left:56px}ol.num li::
 LEGAL = {'en': 'General education only; it does not replace advice from your own care team. In an emergency, call 911. This is Dr. Ehsan’s personal, independent website and has no connection to any of his current or former employers.',
          'es': 'Solo para educación general; no reemplaza el consejo de su propio equipo médico. En una emergencia, llame al 911. Este es el sitio personal e independiente del Dr. Ehsan y no tiene ninguna relación con sus empleadores actuales o anteriores.'}
 T = {'en': dict(home='index.html', back='Back to home', other='Español', start='Start here', step='Step', prev='Previous', next='Next',
-                src='Sources (checked November 14, 2026)', upd='Written November 2026.'),
+                src='Sources (checked November 14, 2026)', upd='Status: source-checked November 14, 2026. Not yet individually reviewed by Dr. Ehsan.'),
      'es': dict(home='es.html', back='Volver al inicio', other='English', start='Empiece aquí', step='Paso', prev='Anterior', next='Siguiente',
-                src='Fuentes (revisadas el 14 de noviembre de 2026; la mayoría en inglés)', upd='Escrito en noviembre de 2026.')}
+                src='Fuentes (revisadas el 14 de noviembre de 2026; la mayoría en inglés)', upd='Estado: fuentes verificadas el 14 de noviembre de 2026. Aún no revisado individualmente por el Dr. Ehsan.')}
 
 
 def other_file(L, f):
@@ -76,7 +76,7 @@ def ld_page(L, file, title, desc, crumbs):
     return {"@context": "https://schema.org", "@graph": [
         {"@type": "MedicalWebPage", "name": title, "description": desc, "url": f"{SITE}/{file}", "inLanguage": L,
          "audience": {"@type": "PeopleAudience", "audienceType": "Patients and families"},
-         "lastReviewed": CHECKED, "dateModified": CHECKED,
+         "dateModified": CHECKED,
          "author": {"@type": "Physician", "@id": f"{SITE}/#alex-ehsan", "name": "Dr. Alex Ehsan, MD, PhD"},
          "publisher": {"@id": f"{SITE}/#alex-ehsan"}},
         {"@type": "BreadcrumbList", "itemListElement": [
@@ -123,6 +123,14 @@ def build():
         ld = ld_page(L, hub['file'], hub['title'], hub['desc'], [('Home' if L == 'en' else 'Inicio', '' if L == 'en' else 'es.html'), (hub['h1'], hub['file'])])
         open(f"{D}/{hub['file']}", 'w', encoding='utf-8').write(shell(L, hub['file'], hub['title'], hub['desc'], '', hub['h1'], hub['lead'], body, ld))
         written.append(hub['file'])
+    idx = []
+    for key, P in PAGES.items():
+        for L, lang in (('en', 'English'), ('es', 'Spanish')):
+            q = P[L]
+            idx.append({'title': q['h1'], 'url': q['file'], 'language': lang, 'kind': 'sh', 'terms': q['nav'] + ' ' + q['sub'] + ' ' + q['desc']})
+    for L, lang in (('en', 'English'), ('es', 'Spanish')):
+        idx.append({'title': HUB[L]['h1'] + (': patient guide' if L == 'en' else ': guía para pacientes'), 'url': HUB[L]['file'], 'language': lang, 'kind': 'sh', 'terms': ('start here new diagnosis just diagnosed where do I start' if L == 'en' else 'empiece aqui nuevo diagnostico por donde empiezo')})
+    json.dump(idx, open(f'{D}/start-here-index.json', 'w', encoding='utf-8'), ensure_ascii=False)
     return written
 
 
