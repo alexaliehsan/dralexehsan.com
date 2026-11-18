@@ -15,3 +15,8 @@ Google Analytics: G-W67KPLQPDR (every page). Domain DNS: Porkbun.
 **Automatic checks on every publish** (`.github/workflows/deploy.yml`): `tools/privacy_check.py` blocks the
 deploy if any page looks like it holds patient or private information (record numbers, birth dates, SSNs,
 the private cell number), and `scripts/validate-release.py` checks pages, links and sitemaps.
+
+**Social media files** in `dist/social/` stay in the repository (posting runs use their raw.githubusercontent.com
+URLs) but are not published on the website, which keeps the site small.
+**Daily site check** (`.github/workflows/site-monitor.yml`): loads the key pages every morning; GitHub emails the
+owner if any page is down or loses its analytics tag.

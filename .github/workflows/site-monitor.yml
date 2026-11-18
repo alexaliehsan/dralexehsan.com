@@ -1,0 +1,21 @@
+name: Daily site check
+on:
+  schedule:
+    - cron: '37 14 * * *'   # daily, ~7:37 AM Pacific
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check that key pages load
+        run: |
+          fail=0
+          for path in / /es.html /medicines.html /patient-guides.html /cancer-visit-guide.html /help-with-costs.html /second-opinion.html /genetics.html /sitemap.xml; do
+            code=$(curl -s -o page.html -w '%{http_code}' --max-time 30 -L "https://dralexehsan.com$path")
+            if [ "$code" != "200" ]; then echo "FAIL $path -> HTTP $code"; fail=1; continue; fi
+            case "$path" in *.html|/) grep -q 'G-W67KPLQPDR' page.html || { echo "FAIL $path -> analytics tag missing"; fail=1; };; esac
+            echo "OK   $path"
+          done
+          exit $fail
