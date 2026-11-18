@@ -11,3 +11,7 @@ unified sitemap, favicon and app icons, on-demand loading of the gene directory 
 After adding pages, re-run: `python3 tools/thumbs.py dist && python3 tools/thumbs768.py dist && python3 tools/optimize.py dist`.
 
 Google Analytics: G-W67KPLQPDR (every page). Domain DNS: Porkbun.
+
+**Automatic checks on every publish** (`.github/workflows/deploy.yml`): `tools/privacy_check.py` blocks the
+deploy if any page looks like it holds patient or private information (record numbers, birth dates, SSNs,
+the private cell number), and `scripts/validate-release.py` checks pages, links and sitemaps.

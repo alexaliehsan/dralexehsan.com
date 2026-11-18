@@ -18,6 +18,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Privacy check (no patient or private information)
+        run: python3 tools/privacy_check.py dist
+      - name: Site check (pages, links, sitemaps)
+        run: pip install --quiet pillow && python3 scripts/validate-release.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
