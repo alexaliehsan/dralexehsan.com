@@ -22,9 +22,11 @@ jobs:
         run: python3 tools/privacy_check.py dist
       - name: Site check (pages, links, sitemaps)
         run: pip install --quiet pillow && python3 scripts/validate-release.py
+      - name: Build site folder (social media files stay in the repo, not on the website)
+        run: cp -a dist _site && rm -rf _site/social
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
