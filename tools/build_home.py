@@ -75,7 +75,7 @@ S = {
     title='Dr. Alex Ehsan, MD, PhD | Cancer & Blood Doctor in Los Angeles',
     desc='Dr. Alex Ehsan, MD, PhD — board-certified oncologist, hematologist and internist. Free cancer and blood disorder education in English and Spanish.',
     skip='Skip to main content', menu='Menu', tagline='Cancer & blood questions, answered',
-    nav=[('#faq', 'Questions'), ('medicines.html', 'Medicines'), ('all-resources.html#library', 'Health topics'), ('#latest', 'Videos'), ('#about', 'About')],
+    nav=[('#faq', 'Questions'), ('medicines.html', 'Medicines'), ('all-resources.html#library', 'Health topics'), ('#latest', 'Videos'), ('books.html', 'Books'), ('#about', 'About')],
     call='Call clinic',
     where='Free cancer and blood education / English and Spanish',
     h1='Clear answers about cancer and blood disorders.',
